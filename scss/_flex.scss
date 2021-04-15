@@ -1,0 +1,515 @@
+.flex-wrap,
+.flex-wrap\@phone {
+  flex-wrap: wrap;
+}
+
+.flex-row,
+.flex-row\@phone {
+  flex-direction: row;
+}
+
+.flex-column,
+.flex-column\@phone {
+  flex-direction: column;
+}
+
+.flex-wrap-reverse,
+.flex-wrap-reverse\@phone {
+  flex-wrap: wrap reverse;
+}
+
+.flex-row-reverse,
+.flex-row-reverse\@phone {
+  flex-direction: row reverse;
+}
+
+.flex-column-reverse,
+.flex-column-reverse\@phone {
+  flex-direction: column reverse;
+}
+
+.justify-content-auto,
+.justify-content-auto\@phone {
+  justify-content: space-auto;
+}
+
+.justify-content-start,
+.justify-content-start\@phone {
+  justify-content: flex-start;
+}
+
+.justify-content-center,
+.justify-content-center\@phone {
+  justify-content: center;
+}
+
+.justify-content-end,
+.justify-content-end\@phone {
+  justify-content: flex-end;
+}
+
+.justify-content-between,
+.justify-content-between\@phone {
+  justify-content: space-between;
+}
+
+.justify-content-around,
+.justify-content-around\@phone {
+  justify-content: space-around;
+}
+
+.justify-content-evenly,
+.justify-content-evenly\@phone {
+  justify-content: space-evenly;
+}
+
+.justify-self-auto,
+.justify-self-auto\@phone {
+  justify-self: auto;
+}
+
+.justify-self-start,
+.justify-self-start\@phone {
+  justify-self: start;
+}
+
+.justify-self-center,
+.justify-self-center\@phone {
+  justify-self: center;
+}
+
+.justify-self-end,
+.justify-self-end\@phone {
+  justify-self: end;
+}
+
+.justify-self-stretch,
+.justify-self-stretch\@phone {
+  justify-self: stretch;
+}
+
+.appear-1,
+.appear-1\@phone {
+  order: 1;
+}
+
+.appear-2,
+.appear-2\@phone {
+  order: 2;
+}
+
+.appear-3,
+.appear-3\@phone {
+  order: 3;
+}
+
+.appear-4,
+.appear-4\@phone {
+  order: 4;
+}
+
+.appear-5,
+.appear-5\@phone {
+  order: 5;
+}
+
+.appear-6,
+.appear-6\@phone {
+  order: 6;
+}
+
+.appear-7,
+.appear-7\@phone {
+  order: 7;
+}
+
+.appear-8,
+.appear-8\@phone {
+  order: 8;
+}
+
+.appear-9,
+.appear-9\@phone {
+  order: 9;
+}
+
+.appear-10,
+.appear-10\@phone {
+  order: 10;
+}
+
+.appear-11,
+.appear-11\@phone {
+  order: 11;
+}
+
+.appear-12,
+.appear-12\@phone {
+  order: 12;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .flex-wrap\@small-phone {
+    flex-wrap: wrap;
+  }
+
+  .flex-row\@small-phone {
+    flex-direction: row;
+  }
+
+  .flex-column\@small-phone {
+    flex-direction: column;
+  }
+
+  .flex-wrap-reverse\@small-phone {
+    flex-wrap: wrap reverse;
+  }
+
+  .flex-row-reverse\@small-phone {
+    flex-direction: row reverse;
+  }
+
+  .flex-column-reverse\@small-phone {
+    flex-direction: column reverse;
+  }
+
+  .justify-content-auto\@small-phone {
+    justify-content: space-auto;
+  }
+
+  .justify-content-start\@small-phone {
+    justify-content: flex-start;
+  }
+
+  .justify-content-center\@small-phone {
+    justify-content: center;
+  }
+
+  .justify-content-end\@small-phone {
+    justify-content: flex-end;
+  }
+
+  .justify-content-between\@small-phone {
+    justify-content: space-between;
+  }
+
+  .justify-content-around\@small-phone {
+    justify-content: space-around;
+  }
+
+  .justify-content-evenly\@small-phone {
+    justify-content: space-evenly;
+  }
+
+  .justify-self-auto\@small-phone {
+    justify-self: auto;
+  }
+
+  .justify-self-start\@small-phone {
+    justify-self: start;
+  }
+
+  .justify-self-center\@small-phone {
+    justify-self: center;
+  }
+
+  .justify-self-end\@small-phone {
+    justify-self: end;
+  }
+
+  .justify-self-stretch\@small-phone {
+    justify-self: stretch;
+  }
+
+  .appear-1\@small-phone {
+    order: 1;
+  }
+
+  .appear-2\@small-phone {
+    order: 2;
+  }
+
+  .appear-3\@small-phone {
+    order: 3;
+  }
+
+  .appear-4\@small-phone {
+    order: 4;
+  }
+
+  .appear-5\@small-phone {
+    order: 5;
+  }
+
+  .appear-6\@small-phone {
+    order: 6;
+  }
+
+  .appear-7\@small-phone {
+    order: 7;
+  }
+
+  .appear-8\@small-phone {
+    order: 8;
+  }
+
+  .appear-9\@small-phone {
+    order: 9;
+  }
+
+  .appear-10\@small-phone {
+    order: 10;
+  }
+
+  .appear-11\@small-phone {
+    order: 11;
+  }
+
+  .appear-12\@small-phone {
+    order: 12;
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .flex-wrap\@tablet {
+    flex-wrap: wrap;
+  }
+
+  .flex-row\@tablet {
+    flex-direction: row;
+  }
+
+  .flex-column\@tablet {
+    flex-direction: column;
+  }
+
+  .flex-wrap-reverse\@tablet {
+    flex-wrap: wrap reverse;
+  }
+
+  .flex-row-reverse\@tablet {
+    flex-direction: row reverse;
+  }
+
+  .flex-column-reverse\@tablet {
+    flex-direction: column reverse;
+  }
+
+  .justify-content-auto\@tablet {
+    justify-content: space-auto;
+  }
+
+  .justify-content-start\@tablet {
+    justify-content: flex-start;
+  }
+
+  .justify-content-center\@tablet {
+    justify-content: center;
+  }
+
+  .justify-content-end\@tablet {
+    justify-content: flex-end;
+  }
+
+  .justify-content-between\@tablet {
+    justify-content: space-between;
+  }
+
+  .justify-content-around\@tablet {
+    justify-content: space-around;
+  }
+
+  .justify-content-evenly\@tablet {
+    justify-content: space-evenly;
+  }
+
+  .justify-self-auto\@tablet {
+    justify-self: auto;
+  }
+
+  .justify-self-start\@tablet {
+    justify-self: start;
+  }
+
+  .justify-self-center\@tablet {
+    justify-self: center;
+  }
+
+  .justify-self-end\@tablet {
+    justify-self: end;
+  }
+
+  .justify-self-stretch\@tablet {
+    justify-self: stretch;
+  }
+
+  .appear-1\@tablet {
+    order: 1;
+  }
+
+  .appear-2\@tablet {
+    order: 2;
+  }
+
+  .appear-3\@tablet {
+    order: 3;
+  }
+
+  .appear-4\@tablet {
+    order: 4;
+  }
+
+  .appear-5\@tablet {
+    order: 5;
+  }
+
+  .appear-6\@tablet {
+    order: 6;
+  }
+
+  .appear-7\@tablet {
+    order: 7;
+  }
+
+  .appear-8\@tablet {
+    order: 8;
+  }
+
+  .appear-9\@tablet {
+    order: 9;
+  }
+
+  .appear-10\@tablet {
+    order: 10;
+  }
+
+  .appear-11\@tablet {
+    order: 11;
+  }
+
+  .appear-12\@tablet {
+    order: 12;
+  }
+}
+
+@media (min-width: $laptop-min-width) {
+  .flex-wrap\@laptop {
+    flex-wrap: wrap;
+  }
+
+  .flex-row\@laptop {
+    flex-direction: row;
+  }
+
+  .flex-column\@laptop {
+    flex-direction: column;
+  }
+
+  .flex-wrap-reverse\@laptop {
+    flex-wrap: wrap reverse;
+  }
+
+  .flex-row-reverse\@laptop {
+    flex-direction: row reverse;
+  }
+
+  .flex-column-reverse\@laptop {
+    flex-direction: column reverse;
+  }
+
+  .justify-content-auto\@laptop {
+    justify-content: space-auto;
+  }
+
+  .justify-content-start\@laptop {
+    justify-content: flex-start;
+  }
+
+  .justify-content-center\@laptop {
+    justify-content: center;
+  }
+
+  .justify-content-end\@laptop {
+    justify-content: flex-end;
+  }
+
+  .justify-content-between\@laptop {
+    justify-content: space-between;
+  }
+
+  .justify-content-around\@laptop {
+    justify-content: space-around;
+  }
+
+  .justify-content-evenly\@tablet {
+    justify-content: space-evenly;
+  }
+
+  .justify-self-auto\@laptop {
+    justify-self: auto;
+  }
+
+  .justify-self-start\@laptop {
+    justify-self: start;
+  }
+
+  .justify-self-center\@laptop {
+    justify-self: center;
+  }
+
+  .justify-self-end\@laptop {
+    justify-self: end;
+  }
+
+  .justify-self-stretch\@laptop {
+    justify-self: stretch;
+  }
+
+  .appear-1\@laptop {
+    order: 1;
+  }
+
+  .appear-2\@laptop {
+    order: 2;
+  }
+
+  .appear-3\@laptop {
+    order: 3;
+  }
+
+  .appear-4\@laptop {
+    order: 4;
+  }
+
+  .appear-5\@laptop {
+    order: 5;
+  }
+
+  .appear-6\@laptop {
+    order: 6;
+  }
+
+  .appear-7\@laptop {
+    order: 7;
+  }
+
+  .appear-8\@laptop {
+    order: 8;
+  }
+
+  .appear-9\@laptop {
+    order: 9;
+  }
+
+  .appear-10\@laptop {
+    order: 10;
+  }
+
+  .appear-11\@laptop {
+    order: 11;
+  }
+
+  .appear-12\@laptop {
+    order: 12;
+  }
+}

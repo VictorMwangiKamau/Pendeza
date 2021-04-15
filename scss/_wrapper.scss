@@ -1,0 +1,77 @@
+@mixin wrapper-defaults {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative
+}
+
+.wrapper,
+.wrapper-responsive,
+.wrapper-xxs,
+.wrapper-xs,
+.wrapper-xs,
+.wrapper-sm,
+.wrapper-lg,
+.wrapper-xl,
+.wrapper-xxl {
+  @include wrapper-defaults;
+}
+
+@media (min-width: 36rem) {
+  .wrapper {
+    max-width: 33.75rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .wrapper {
+    max-width: 45rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .wrapper {
+    max-width: 60rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .wrapper {
+    max-width: 71.25rem;
+  }
+}
+
+@media (min-width: 87.5rem) {
+  .wrapper {
+    max-width: 82.5rem;
+  }
+}
+
+.wrapper-xxs {
+  max-width: 30rem;
+}
+
+.wrapper-xs {
+  max-width: 35rem;
+}
+
+.wrapper-sm {
+  max-width: 40rem;
+}
+
+.wrapper-md {
+  max-width: 50rem;
+}
+
+.wrapper-lg {
+  max-width: 60rem;
+}
+
+.wrapper-xl {
+  max-width: 70rem;
+}
+
+.wrapper-xxl {
+  max-width: 80rem;
+}

@@ -1,0 +1,62 @@
+table,
+.table {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+  caption {
+    padding: 0.5rem 0rem;
+  }
+
+  thead th {
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    text-align: left;
+  }
+
+  tr {
+    margin-bottom: 0.5rem;
+
+    th:not(last-child),
+    td:not(last-child) {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      padding: 16px;
+      vertical-align: inherit;
+    }
+
+    tr:last-child {
+      th {
+        border-bottom: 0;
+      }
+
+      tr {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  tfoot tr {
+    text-align: left;
+  }
+
+  tfoot td {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 4px;
+  }
+}
+
+table:last-child,
+.table:last-child {
+  border-bottom: 0;
+}
+
+table tr:hover {
+  opacity: 90%;
+}
+
+table.striped tr:nth-of-type(odd) {
+  background-color: lighten(darkgrey, 28%);
+}
+
+.table,
+.responsive {
+  width: 100%;
+}

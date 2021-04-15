@@ -1,0 +1,99 @@
+.shadow {
+  box-shadow: var(--pendeza-shadow);
+}
+
+.shadow-xs {
+  box-shadow: var(--pendeza-shadow-1);
+}
+
+.shadow-sm {
+  box-shadow: var(--pendeza-shadow-2);
+}
+
+.shadow-md {
+  box-shadow: var(--pendeza-shadow-3);
+}
+
+.shadow-lg {
+  box-shadow: var(--pendeza-shadow-4);
+}
+
+.shadow-xl {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-xxl {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+.shadow\:hover:hover {
+  box-shadow: var(--pendeza-shadow);
+}
+
+.shadow-xs\:hover:hover {
+  box-shadow: var(--pendeza-shadow-1);
+}
+
+.shadow-sm\:hover:hover {
+  box-shadow: var(--pendeza-shadow-2);
+}
+
+.shadow-md\:hover:hover {
+  box-shadow: var(--pendeza-shadow-3);
+}
+
+.shadow-lg\:hover:hover {
+  box-shadow: var(--pendeza-shadow-4);
+}
+
+.shadow-xl\:hover:hover {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-xxl\:hover:hover {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-none\:hover:hover {
+  box-shadow: none !important;
+}
+
+.shadow\:focus:focus {
+  box-shadow: var(--pendeza-shadow);
+}
+
+.shadow-xxs\:focus:focus {
+  box-shadow: var(--pendeza-shadow-1);
+}
+
+.shadow-xs\:focus:focus {
+  box-shadow: var(--pendeza-shadow-1);
+}
+
+.shadow-sm\:focus:focus {
+  box-shadow: var(--pendeza-shadow-2);
+}
+
+.shadow-md\:focus:focus {
+  box-shadow: var(--pendeza-shadow-3);
+}
+
+.shadow-lg\:focus:focus {
+  box-shadow: var(--pendeza-shadow-4);
+}
+
+.shadow-xl\:focus:focus {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-xxl\:focus:focus {
+  box-shadow: var(--pendeza-shadow-5);
+}
+
+.shadow-none\:focus:focus {
+  box-shadow: none !important;
+}

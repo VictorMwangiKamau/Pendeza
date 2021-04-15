@@ -1,0 +1,209 @@
+.overflow-scroll,
+ .overflow-scroll\@phone {
+  overflow: scroll;
+}
+
+.overflow-hidden,
+ .overflow-hidden\@phone {
+  overflow: hidden;
+}
+
+.overflow-visible,
+ .overflow-visible\@phone {
+  overflow: visible;
+}
+
+.overflow-auto,
+ .overflow-auto\@phone {
+  overflow: auto;
+}
+
+.overflow-x-scroll,
+ .overflow-x-scroll\@phone {
+  overflow-x: scroll;
+}
+
+.overflow-x-hidden,
+ .overflow-x-hidden\@phone {
+  overflow-x: hidden;
+}
+
+.overflow-x-visible,
+ .overflow-x-visible\@phone {
+  overflow-x: visible;
+}
+
+.overflow-x-auto,
+ .overflow-x-auto\@phone {
+  overflow-x: auto;
+}
+
+.overflow-y-scroll,
+ .overflow-y-scroll\@phone {
+  overflow-y: scroll;
+}
+
+.overflow-y-hidden,
+ .overflow-y-hidden\@phone {
+  overflow-y: hidden;
+}
+
+.overflow-y-visible,
+ .overflow-y-visible\@phone {
+  overflow-y: visible;
+}
+
+.overflow-y-auto,
+ .overflow-y-auto\@phone {
+  overflow-y: auto;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .overflow-scroll\@small-phone {
+    overflow: scroll;
+  }
+
+  .overflow-hidden\@small-phone {
+    overflow: hidden;
+  }
+
+  .overflow-visible\@small-phone {
+    overflow: visible;
+  }
+
+  .overflow-auto\@small-phone {
+    overflow: auto;
+  }
+
+  .overflow-x-scroll\@small-phone {
+    overflow-x: scroll;
+  }
+
+  .overflow-x-hidden\@small-phone {
+    overflow-x: hidden;
+  }
+
+  .overflow-x-visible\@small-phone {
+    overflow-x: visible;
+  }
+
+  .overflow-x-auto\@small-phone {
+    overflow-x: auto;
+  }
+
+  .overflow-y-scroll\@small-phone {
+    overflow-y: scroll;
+  }
+
+  .overflow-y-hidden\@small-phone {
+    overflow-y: hidden;
+  }
+
+  .overflow-y-visible\@small-phone {
+    overflow-y: visible;
+  }
+
+  .overflow-y-auto\@small-phone {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .overflow-scroll\@tablet {
+    overflow: scroll;
+  }
+
+  .overflow-hidden\@tablet {
+    overflow: hidden;
+  }
+
+  .overflow-visible\@tablet {
+    overflow: visible;
+  }
+
+  .overflow-auto\@tablet {
+    overflow: auto;
+  }
+
+  .overflow-x-scroll\@tablet {
+    overflow-x: scroll;
+  }
+
+  .overflow-x-hidden\@tablet {
+    overflow-x: hidden;
+  }
+
+  .overflow-x-visible\@tablet {
+    overflow-x: visible;
+  }
+
+  .overflow-x-auto\@tablet {
+    overflow-x: auto;
+  }
+
+  .overflow-y-scroll\@tablet {
+    overflow-y: scroll;
+  }
+
+  .overflow-y-hidden\@tablet {
+    overflow-y: hidden;
+  }
+
+  .overflow-y-visible\@tablet {
+    overflow-y: visible;
+  }
+
+  .overflow-y-auto\@tablet {
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: $laptop-min-width) {
+  .overflow-scroll\@laptop {
+    overflow: scroll;
+  }
+
+  .overflow-hidden\@laptop {
+    overflow: hidden;
+  }
+
+  .overflow-visible\@laptop {
+    overflow: visible;
+  }
+
+  .overflow-auto\@laptop {
+    overflow: auto;
+  }
+
+  .overflow-x-scroll\@laptop {
+    overflow-x: scroll;
+  }
+
+  .overflow-x-hidden\@laptop {
+    overflow-x: hidden;
+  }
+
+  .overflow-x-visible\@laptop {
+    overflow-x: visible;
+  }
+
+  .overflow-x-auto\@laptop {
+    overflow-x: auto;
+  }
+
+  .overflow-y-scroll\@laptop {
+    overflow-y: scroll;
+  }
+
+  .overflow-y-hidden\@laptop {
+    overflow-y: hidden;
+  }
+
+  .overflow-y-visible\@laptop {
+    overflow-y: visible;
+  }
+
+  .overflow-y-auto\@laptop {
+    overflow-y: auto;
+  }
+}

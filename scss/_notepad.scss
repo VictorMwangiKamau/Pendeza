@@ -1,0 +1,95 @@
+.notepad {
+  border-left: 0.6rem solid lighten(black, 10%);
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+  padding: 1rem .8rem;
+  min-height: 3em;
+
+  .notepad-text {
+    font-weight: inherit;
+  }
+}
+
+.notepad-primary {
+  border-color: var(--pendeza-primary);
+}
+
+.notepad-secondary {
+  border-color: var(--pendeza-secondary);
+}
+
+.notepad-success {
+  border-color: var(--pendeza-success);
+}
+
+.notepad-danger {
+  border-color: var(--pendeza-danger);
+}
+
+.notepad-warning {
+  border-color: var(--pendeza-warning);
+}
+
+.notepad-muted {
+  border-color: var(--pendeza-muted);
+}
+
+.notepad-dark {
+  border-color: var(--pendeza-dark);
+}
+
+.notepad-light {
+  border-color: var(--pendeza-light);
+}
+
+.notepad-blue {
+  border-color: var(--pendeza-blue);
+}
+
+.notepad-green {
+  border-color: var(--pendeza-green);
+}
+
+.notepad-yellow {
+  border-color: var(--pendeza-yellow);
+}
+
+.notepad-orange {
+  border-color: var(--pendeza-orange);
+}
+
+.notepad-pink {
+  border-color: var(--pendeza-pink);
+}
+
+.notepad-red {
+  border-color: var(--pendeza-red);
+}
+
+.notepad-purple {
+  border-color: var(--pendeza-purple);
+}
+
+.notepad-teal {
+  border-color: var(--pendeza-teal);
+}
+
+.notepad-indigo {
+  border-color: var(--pendeza-indigo);
+}
+
+.notepad-brown {
+  border-color: var(--pendeza-brown);
+}
+
+.notepad-violet {
+  border-color: var(--pendeza-violet);
+}
+
+.notepad-grey {
+  border-color: var(--pendeza-grey);
+}
+
+.notepad-black {
+  border-color: var(--pendeza-black);
+}

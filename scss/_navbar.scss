@@ -1,0 +1,58 @@
+.navbar {
+  .navbar-body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    span.navbar-brand {
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    span.navbar-button {
+      cursor: pointer;
+      margin-bottom: 0;
+    }
+
+    span.navbar-button:hover {
+      opacity: 90%;
+    }
+
+    .navbar-button.muted {
+      color: var(--pendeza-light);
+    }
+
+    .navbar-button.dark {
+      color: var(--pendeza-light);
+    }
+
+    .navbar-input {
+      margin-bottom: 0;
+      border-color: lighten(black, 15%);
+    }
+
+    nav {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          cursor: pointer;
+        }
+
+        li:not(first-child) {
+          margin-left: 0.4rem;
+        }
+      }
+    }
+  }
+}
+
+.navbar.muted {
+  color: var(--pendeza-light);
+}
+
+.navbar.dark {
+  color: var(--pendeza-light);
+}

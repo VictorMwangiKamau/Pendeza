@@ -1,0 +1,63 @@
+.label {
+  font-size: bold;
+  margin-bottom: 1rem;
+}
+
+.input {
+  border: 2px solid lighten(black, 15%);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.dorminant-input {
+  display: block;
+  width: 100%;
+}
+
+.input-success {
+  border: 2px solid var(--pendeza-success);
+}
+
+.input-error {
+  border: 2px solid var(--pendeza-danger);
+}
+
+.input-warning {
+  border: 2px solid var(--pendeza-warning);
+}
+
+.message-success {
+  position: absolute;
+  display: none;
+  color: var(--pendeza-success);
+  visibility: hidden;
+}
+
+.message-error {
+  position: absolute;
+  display: none;
+  color: var(--pendeza-danger-lighten-2);
+  visibility: hidden;
+}
+
+.message-warning {
+  position: absolute;
+  display: none;
+  color: var(--pendeza-warning);
+  visibility: hidden;
+}
+
+.message-success.message-success-show {
+  display: block;
+  visibility: visible;
+}
+
+.message-success.message-error-show {
+  display: block;
+  visibility: visible;
+}
+
+.message-warning.message-warning-show {
+  display: block;
+  visibility: visible;
+}

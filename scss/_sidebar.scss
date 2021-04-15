@@ -1,0 +1,47 @@
+  .sidebar {
+    position: absolute;
+    max-width: 45%;
+    min-width: 20%;
+    min-height: 100vh;
+    left: -90%;
+    z-index: 1000;
+    transition: left 0.7s ease-in;
+
+  .sidebar-title {
+    font-weight: inherit;
+    font-size: 1.15rem;
+  }
+
+  .sidebar-subtitle {
+    font-weight: inherit;
+    font-size: 1rem;
+  }
+
+  .sidebar-toggler {
+    position: absolute;
+    font-weight: 900;
+    font-size: 3rem;
+    right: 10px;
+    top: 7px;
+    font-size: 24px;
+    cursor: pointer;
+    content: "x";
+    color: lighten(black, 15%);
+  }
+
+  .sidebar-toggler:hover {
+    color: darken(red, 40);
+  }
+}
+
+.sidebar.sidebar-show {
+  left: 2px;
+}
+
+.sidebar.muted {
+  color: var(--pendeza-light);
+}
+
+.sidebar.dark {
+  color: var(--pendeza-light);
+}

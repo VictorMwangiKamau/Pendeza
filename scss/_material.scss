@@ -1,0 +1,60 @@
+@mixin shadow {
+  box-shadow: var(--pendeza-shadow-3);
+  transition: box-shadow 1000ms linear;
+}
+
+@mixin shadow-hovered {
+  box-shadow: var(--pendeza-shadow-4);
+}
+
+button,
+input,
+textarea,
+img,
+video,
+.image-responsive,
+.video-responsive,
+.navbar,
+.notepad,
+.notification,
+.modal,
+.card,
+.table,
+.list,
+.alert,
+.form,
+.form-group,
+.jumbotron,
+.progress-bar {
+  @include shadow;
+}
+
+button:hover,
+input:hover,
+textarea:hover,
+img:hover,
+video:hover,
+.image-responsive:hover,
+.video-responsive:hover,
+.navbar:hover,
+.notepad:hover,
+.notification:hover,
+.modal:hover,
+.card:hover,
+.table:hover,
+.list:hover,
+.alert:hover,
+.form:hover,
+.form-group:hover,
+.jumbotron:hover,
+.progress-bar:hover {
+  @include shadow-hovered;
+}
+
+.pagination {
+  box-shadow: var(--pendeza-shadow);
+
+  button {
+    box-shadow: none;
+  }
+}

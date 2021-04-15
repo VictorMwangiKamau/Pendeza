@@ -1,0 +1,195 @@
+.fade {
+  animation: fade-animation 2s ease-out;
+}
+
+@keyframes fade-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.spin-clockwise {
+  animation: spin-clockwise-animation 2s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin-clockwise-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-anticlockwise {
+  animation: spin-anticlockwise-animation 2s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin-anticlockwise-animation {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.slide-up {
+  animation: slide-up-animation 2.5s linear;
+  position: absolute;
+}
+
+@keyframes slide-up-animation {
+  from {
+    transform: translateY(80rem);
+  }
+  to {
+    transform: translateY(5rem);
+  }
+}
+
+.slide-down {
+  animation: slide-down-animation 2.5s linear;
+  position: absolute;
+}
+
+@keyframes slide-down-animation {
+  from {
+    transform: translateY(5rem);
+  }
+  to {
+    transform: translateY(80rem);
+  }
+}
+
+.slide-left {
+  animation: slide-left-animation 2.5s linear;
+  position: absolute;
+}
+
+@keyframes slide-left-animation {
+  from {
+    transform: translateX(5rem);
+  }
+  to {
+    transform: translateX(60rem);
+  }
+}
+
+.slide-right {
+  animation: slide-right-animation 2.5s linear;
+  position: absolute;
+}
+
+@keyframes slide-right-animation {
+  from {
+    transform: translateX(60rem);
+  }
+  to {
+    transform: translateX(5rem);
+  }
+}
+
+.bounce {
+  animation: bounce-animation 0.5s ease infinite;
+  position: absolute;
+}
+
+@keyframes bounce-animation {
+  from {
+    transform: translateY(1rem);
+  }
+  to {
+    transform: translateY(0.5rem);
+  }
+}
+
+.pulse {
+  animation: pulse-animation 0.5s ease infinite;
+}
+
+@keyframes pulse-animation {
+  from {
+    font-size: 130%;
+  }
+  to {
+    font-size: 110%;
+  }
+}
+
+.x2 {
+  animation-iteration-count: 2;
+}
+
+.x3 {
+  animation-iteration-count: 3;
+}
+
+.x4 {
+  animation-iteration-count: 4;
+}
+
+.x5 {
+  animation-iteration-count: 5;
+}
+
+.x6 {
+  animation-iteration-count: 6;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+.last-1s {
+  animation-duration: 1s;
+}
+
+.last-2s {
+  animation-duration: 2s;
+}
+
+.last-3s {
+  animation-duration: 2s;
+}
+
+.last-4s {
+  animation-duration: 2s;
+}
+
+.last-5s {
+  animation-duration: 2s;
+}
+
+.last-6s {
+  animation-duration: 2s;
+}
+
+.delay-1s {
+  animation-delay: 1s;
+}
+
+.delay-2s {
+  animation-delay: 2s;
+}
+
+.delay-3s {
+  animation-delay: 2s;
+}
+
+.delay-4s {
+  animation-delay: 2s;
+}
+
+.delay-5s {
+  animation-delay: 2s;
+}
+
+.delay-6s {
+  animation-delay: 2s;
+}

@@ -1,0 +1,198 @@
+@mixin outline-animation-hover {
+  transition: background-color 1500ms ease;
+}
+
+.outlined-primary:hover, .outlined-secondary:hover, .outlined-success:hover, .outlined-danger:hover, .outlined-warning:hover, .outlined-muted:hover, .outlined-dark:hover, .outlined-light:hover, .outlined-blue:hover, .outlined-green:hover, .outlined-yellow:hover, .outlined-orange:hover, .outlined-pink:hover,
+ .outlined-red:hover, .outlined-purple:hover, .outlined-teal:hover, .outlined-indigo:hover, .outlined-brown:hover, .outlined-violet:hover, .outlined-grey:hover, .outlined-black:hover {
+  @include outline-animation-hover;
+}
+
+.outlined-primary {
+  border: 1px solid var(--pendeza-primary);
+}
+
+.outlined-primary:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-primary);
+}
+
+.outlined-secondary {
+  border: 1px solid var(--pendeza-secondary);
+}
+
+.outlined-secondary:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-secondary);
+}
+
+.outlined-success {
+  border: 1px solid var(--pendeza-success);
+}
+
+.outlined-success:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-success);
+}
+
+.outlined-danger {
+  border: 1px solid var(--pendeza-danger);
+}
+
+.outlined-danger:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-danger);
+}
+
+.outlined-warning {
+  border: 1px solid var(--pendeza-warning);
+}
+
+.outlined-warning:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-warning);
+}
+
+.outlined-muted {
+  border: 1px solid var(--pendeza-muted);
+  cursor: not-allowed;
+}
+
+.outlined-muted:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-muted);
+}
+
+.outlined-dark {
+  border: 1px solid var(--pendeza-dark);
+}
+
+.outlined-dark:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-dark);
+}
+
+.outlined-light {
+  border: 1px solid var(--pendeza-light);
+}
+
+.outlined-light:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-light);
+}
+
+.outlined-blue {
+  border: 1px solid var(--pendeza-blue);
+}
+
+.outlined-blue:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-blue);
+}
+
+.outlined-green {
+  border: 1px solid var(--pendeza-green);
+}
+
+.outlined-green:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-green);
+}
+
+.outlined-yellow {
+  border: 1px solid var(--pendeza-yellow);
+}
+
+.outlined-yellow:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-yellow);
+}
+
+.outlined-orange {
+  border: 1px solid var(--pendeza-orange);
+}
+
+.outlined-orange:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-orange);
+}
+
+.outlined-pink {
+  border: 1px solid var(--pendeza-pink);
+}
+
+.outlined-pink:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-pink);
+}
+
+.outlined-red {
+  border: 1px solid var(--pendeza-red);
+}
+
+.outlined-red:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-red);
+}
+
+.outlined-purple {
+  border: 1px solid var(--pendeza-purple);
+}
+
+.outlined-purple:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-purple);
+}
+
+.outlined-teal {
+  border: 1px solid var(--pendeza-teal);
+}
+
+.outlined-teal:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-teal);
+}
+
+.outlined-indigo {
+  border: 1px solid var(--pendeza-indigo);
+}
+
+.outlined-indigo:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-indigo);
+}
+
+.outlined-brown {
+  border: 1px solid var(--pendeza-brown);
+}
+
+.outlined-brown:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-brown);
+}
+
+.outlined-violet {
+  border: 1px solid var(--pendeza-violet);
+}
+
+.outlined-violet:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-violet);
+}
+
+.outlined-grey {
+  border: 1px solid var(--pendeza-grey);
+}
+
+.outlined-grey:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-grey);
+}
+
+.outlined-black {
+  border: 1px solid var(--pendeza-black);
+}
+
+.outlined-black:hover {
+  border: 0.7px solid var(--pendeza-dark);
+  background-color: var(--pendeza-black);
+}

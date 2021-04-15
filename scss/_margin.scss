@@ -1,0 +1,7913 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+canvas,
+button,
+table,
+input,
+label,
+textarea,
+.title,
+.subtitle,
+.video-responsive,
+.image-responsive,
+.list,
+.pagination,
+.navbar,
+.card,
+.card-group,
+.jumbotron,
+.notepad,
+.notification,
+.alert,
+.modal,
+.progress-bar {
+  margin-bottom: var(--pendeza-margin-bottom);
+}
+
+.m-0,
+.m-0\@phone {
+  margin: 0;
+}
+
+.m-0\.5,
+.m-0\.5\@phone {
+  margin: 0.25rem;
+}
+
+.m-1,
+.m-1\@phone {
+  margin: 0.5rem;
+}
+
+.m-1\.5,
+.m-1\.5\@phone {
+  margin: 0.75rem;
+}
+
+.m-2,
+.m-2\@phone {
+  margin: 1rem;
+}
+
+.m-2\.5,
+.m-2\.5\@phone {
+  margin: 1.25rem;
+}
+
+.m-3,
+.m-3\@phone {
+  margin: 1.5rem;
+}
+
+.m-3\.5,
+.m-3\.5\@phone {
+  margin: 1.75rem;
+}
+
+.m-4,
+.m-4\@phone {
+  margin: 2rem;
+}
+
+.m-4\.5,
+.m-4\.5\@phone {
+  margin: 2.25rem;
+}
+
+.m-5,
+.m-5\@phone {
+  margin: 2.5rem;
+}
+
+.m-5\.5,
+.m-5\.5\@phone {
+  margin: 2.75rem;
+}
+
+.m-6,
+.m-6\@phone {
+  margin: 3rem;
+}
+
+.m-6\.5,
+.m-6\.5\@phone {
+  margin: 3.25rem;
+}
+
+.m-7,
+.m-7\@phone {
+  margin: 3.5rem;
+}
+
+.m-7\.5,
+.m-7\.5\@phone {
+  margin: 3.75rem;
+}
+
+.m-8,
+.m-8\@phone {
+  margin: 4rem;
+}
+
+.m-8\.5,
+.m-8\.5\@phone {
+  margin: 4.25rem;
+}
+
+.m-9,
+.m-9\@phone {
+  margin: 4.5rem;
+}
+
+.m-9\.5,
+.m-9\.5\@phone {
+  margin: 4.75rem;
+}
+
+.m-10,
+.m-10\@phone {
+  margin: 5rem;
+}
+
+.m-10\.5,
+.m-10\.5\@phone {
+  margin: 5.25rem;
+}
+
+.m-11,
+.m-11\@phone {
+  margin: 5.5rem;
+}
+
+.m-11\.5,
+.m-11\.5\@phone {
+  margin: 5.75rem;
+}
+
+.m-12,
+.m-12\@phone {
+  margin: 6rem;
+}
+
+
+.m-12\.5,
+.m-12\.5\@phone {
+  margin: 6.25rem;
+}
+
+.m-13,
+.m-13\@phone {
+  margin: 6.5rem;
+}
+
+.m-13\.5,
+.m-13\.5\@phone {
+  margin: 6.75rem;
+}
+
+.m-14,
+.m-14\@phone {
+  margin: 7rem;
+}
+
+.m-14\.5,
+.m-14\.5\@phone {
+  margin: 7.25rem;
+}
+
+.m-15,
+.m-15\@phone {
+  margin: 7.5rem;
+}
+
+.m-15\.5,
+.m-15\.5\@phone {
+  margin: 7.75rem;
+}
+
+.m-16,
+.m-16\@phone {
+  margin: 8rem;
+}
+
+.m-16\.5,
+.m-16\.5\@phone {
+  margin: 8.25rem;
+}
+
+.m-17,
+.m-17\@phone {
+  margin: 8.5rem;
+}
+
+.m-17\.5,
+.m-17\.5\@phone {
+  margin: 8.75rem;
+}
+
+.m-18,
+.m-18\@phone {
+  margin: 9rem;
+}
+
+.m-18\.5,
+.m-18\.5\@phone {
+  margin: 9.25rem;
+}
+
+.m-19,
+.m-19\@phone {
+  margin: 9.5rem;
+}
+
+.m-19\.5,
+.m-19\.5\@phone {
+  margin: 9.75rem;
+}
+
+.m-20,
+.m-20\@phone {
+  margin: 10rem;
+}
+
+.m-20\.5,
+.m-20\.5\@phone {
+  margin: 10.25rem;
+}
+
+.m-21,
+.m-21\@phone {
+  margin: 10.5rem;
+}
+
+.m-21\.5,
+.m-21\.5\@phone {
+  margin: 10.75rem;
+}
+
+.m-22,
+.m-22\@phone {
+  margin: 11rem;
+}
+
+.m-22\.5,
+.m-22\.5\@phone {
+  margin: 11.25rem;
+}
+
+.m-23,
+.m-23\@phone {
+  margin: 11.5rem;
+}
+
+.m-23\.5,
+.m-23\.5\@phone {
+  margin: 11.75rem;
+}
+
+.m-24,
+.m-24\@phone {
+  margin: 12rem;
+}
+
+.m-24\.5,
+.m-24\.5\@phone {
+  margin: 12.25rem;
+}
+
+.m-25,
+.m-25\@phone {
+  margin: 12.5rem;
+}
+
+.m-25\.5,
+.m-25\.5\@phone {
+  margin: 12.75rem;
+}
+
+.m-26,
+.m-26\@phone {
+  margin: 13rem;
+}
+
+.m-26\.5,
+.m-26\.5\@phone {
+  margin: 13.25rem;
+}
+
+.m-27,
+.m-27\@phone {
+  margin: 13.5rem;
+}
+
+.m-27\.5,
+.m-27\.5\@phone {
+  margin: 13.75rem;
+}
+
+.m-28,
+.m-28\@phone {
+  margin: 14rem;
+}
+
+.m-28\.5,
+.m-28\.5\@phone {
+  margin: 14.25rem;
+}
+
+.m-29,
+.m-29\@phone {
+  margin: 14.5rem;
+}
+
+.m-29\.5,
+.m-29\.5\@phone {
+  margin: 14.75rem;
+}
+
+.m-30,
+.m-30\@phone {
+  margin: 15rem;
+}
+
+.m-auto,
+.m-auto\@phone {
+  margin: auto;
+}
+
+.mt-0,
+.mt-0\@phone {
+  margin-top: 0;
+}
+
+.mt-0\.5,
+.mt-0\.5\@phone {
+  margin-top: 0.25rem;
+}
+
+.mt-1,
+.mt-1\@phone {
+  margin-top: 0.5rem;
+}
+
+.mt-1\.5,
+.mt-1\.5\@phone {
+  margin-top: 0.75rem;
+}
+
+.mt-2,
+.mt-2\@phone {
+  margin-top: 1rem;
+}
+
+.mt-2\.5,
+.mt-2\.5\@phone {
+  margin-top: 1.25rem;
+}
+
+.mt-3,
+.mt-3\@phone {
+  margin-top: 1.5rem;
+}
+
+.mt-3\.5,
+.mt-3\.5\@phone {
+  margin-top: 1.75rem;
+}
+
+.mt-4,
+.mt-4\@phone {
+  margin-top: 2rem;
+}
+
+.mt-4\.5,
+.mt-4\.5\@phone {
+  margin-top: 2.25rem;
+}
+
+.mt-5,
+.mt-5\@phone {
+  margin-top: 2.5rem;
+}
+
+.mt-5\.5,
+.mt-5\.5\@phone {
+  margin-top: 2.75rem;
+}
+
+.mt-6,
+.mt-6\@phone {
+  margin-top: 3rem;
+}
+
+.mt-6\.5,
+.mt-6\.5\@phone {
+  margin-top: 3.25rem;
+}
+
+.mt-7,
+.mt-7\@phone {
+  margin-top: 3.5rem;
+}
+
+.mt-7\.5,
+.mt-7\.5\@phone {
+  margin-top: 3.75rem;
+}
+
+.mt-8,
+.mt-8\@phone {
+  margin-top: 4rem;
+}
+
+.mt-8\.5,
+.mt-8\.5\@phone {
+  margin-top: 4.25rem;
+}
+
+.mt-9,
+.mt-9\@phone {
+  margin-top: 4.5rem;
+}
+
+.mt-9\.5,
+.mt-9\.5\@phone {
+  margin-top: 4.75rem;
+}
+
+.mt-10,
+.mt-10\@phone {
+  margin-top: 5rem;
+}
+
+.mt-10\.5,
+.mt-10\.5\@phone {
+  margin-top: 5.25rem;
+}
+
+.mt-11,
+.mt-11\@phone {
+  margin-top: 5.5rem;
+}
+
+.mt-11\.5,
+.mt-11\.5\@phone {
+  margin-top: 5.75rem;
+}
+
+.mt-12,
+.mt-12\@phone {
+  margin-top: 6rem;
+}
+
+.mt-12\.5,
+.mt-12\.5\@phone {
+  margin-top: 6.25rem;
+}
+
+.mt-13,
+.mt-13\@phone {
+  margin-top: 6.5rem;
+}
+
+.mt-13\.5,
+.mt-13\.5\@phone {
+  margin-top: 6.75rem;
+}
+
+.mt-14,
+.mt-14\@phone {
+  margin-top: 7rem;
+}
+
+.mt-14\.5,
+.mt-14\.5\@phone {
+  margin-top: 7.25rem;
+}
+
+.mt-15,
+.mt-15\@phone {
+  margin-top: 7.5rem;
+}
+
+.mt-15\.5,
+.mt-15\.5\@phone {
+  margin-top: 7.75rem;
+}
+
+.mt-16,
+.mt-16\@phone {
+  margin-top: 8rem;
+}
+
+.mt-16\.5,
+.mt-16\.5\@phone {
+  margin-top: 8.25rem;
+}
+
+.mt-17,
+.mt-17\@phone {
+  margin-top: 8.5rem;
+}
+
+.mt-17\.5,
+.mt-17\.5\@phone {
+  margin-top: 8.75rem;
+}
+
+.mt-18,
+.mt-18\@phone {
+  margin-top: 9rem;
+}
+
+.mt-18\.5,
+.mt-18\.5\@phone {
+  margin-top: 9.25rem;
+}
+
+.mt-19,
+.mt-19\@phone {
+  margin-top: 9.5rem;
+}
+
+.mt-19\.5,
+.mt-19\.5\@phone {
+  margin-top: 9.75rem;
+}
+
+.mt-20,
+.mt-20\@phone {
+  margin-top: 10rem;
+}
+
+.mt-20\.5,
+.mt-20\.5\@phone {
+  margin-top: 10.25rem;
+}
+
+.mt-21,
+.mt-21\@phone {
+  margin-top: 10.5rem;
+}
+
+.mt-21\.5,
+.mt-21\.5\@phone {
+  margin-top: 10.75rem;
+}
+
+.mt-22,
+.mt-22\@phone {
+  margin-top: 11rem;
+}
+
+.mt-22\.5,
+.mt-22\.5\@phone {
+  margin-top: 11.25rem;
+}
+
+.mt-23,
+.mt-23\@phone {
+  margin-top: 11.5rem;
+}
+
+.mt-23\.5,
+.mt-23\.5\@phone {
+  margin-top: 11.75rem;
+}
+
+.mt-24,
+.mt-24\@phone {
+  margin-top: 12rem;
+}
+
+.mt-24\.5,
+.mt-24\.5\@phone {
+  margin-top: 12.25rem;
+}
+
+.mt-25,
+.mt-25\@phone {
+  margin-top: 12.5rem;
+}
+
+.mt-25\.5,
+.mt-25\.5\@phone {
+  margin-top: 12.75rem;
+}
+
+.mt-26,
+.mt-26\@phone {
+  margin-top: 13rem;
+}
+
+.mt-26\.5,
+.mt-26\.5\@phone {
+  margin-top: 13.25rem;
+}
+
+.mt-27,
+.mt-27\@phone {
+  margin-top: 13.5rem;
+}
+
+.mt-27\.5,
+.mt-27\.5\@phone {
+  margin-top: 13.75rem;
+}
+
+.mt-28,
+.mt-28\@phone {
+  margin-top: 14rem;
+}
+
+.mt-28\.5,
+.mt-28\.5\@phone {
+  margin-top: 14.25rem;
+}
+
+.mt-29,
+.mt-29\@phone {
+  margin-top: 14.5rem;
+}
+
+.mt-29\.5,
+.mt-29\.5\@phone {
+  margin-top: 14.75rem;
+}
+
+.mt-30,
+.mt-30\@phone {
+  margin-top: 15rem;
+}
+
+.mt-auto,
+.mt-auto\@phone {
+  margin-top: auto;
+}
+
+.mr-0,
+.mr-0\@phone {
+  margin-right: 0;
+}
+
+.mr-0\.5,
+.mr-0\.5\@phone {
+  margin-right: 0.25rem;
+}
+
+.mr-1,
+.mr-1\@phone {
+  margin-right: 0.5rem;
+}
+
+.mr-1\.5,
+.mr-1\.5\@phone {
+  margin-right: 0.75rem;
+}
+
+.mr-2,
+.mr-2\@phone {
+  margin-right: 1rem;
+}
+
+.mr-2\.5,
+.mr-2\.5\@phone {
+  margin-right: 1.25rem;
+}
+
+.mr-3,
+.mr-3\@phone {
+  margin-right: 1.5rem;
+}
+
+.mr-3\.5,
+.mr-3\.5\@phone {
+  margin-right: 1.75rem;
+}
+
+.mr-4,
+.mr-4\@phone {
+  margin-right: 2rem;
+}
+
+.mr-4\.5,
+.mr-4\.5\@phone {
+  margin-right: 2.25rem;
+}
+
+.mr-5,
+.mr-5\@phone {
+  margin-right: 2.5rem;
+}
+
+.mr-5\.5,
+.mr-5\.5\@phone {
+  margin-right: 2.75rem;
+}
+
+.mr-6,
+.mr-6\@phone {
+  margin-right: 3rem;
+}
+
+.mr-6\.5,
+.mr-6\.5\@phone {
+  margin-right: 3.25rem;
+}
+
+.mr-7,
+.mr-7\@phone {
+  margin-right: 3.5rem;
+}
+
+.mr-7\.5,
+.mr-7\.5\@phone {
+  margin-right: 3.75rem;
+}
+
+.mr-8,
+.mr-8\@phone {
+  margin-right: 4rem;
+}
+
+.mr-8\.5,
+.mr-8\.5\@phone {
+  margin-right: 4.25rem;
+}
+
+.mr-9,
+.mr-9\@phone {
+  margin-right: 4.5rem;
+}
+
+.mr-9\.5,
+.mr-9\.5\@phone {
+  margin-right: 4.75rem;
+}
+
+.mr-10,
+.mr-10\@phone {
+  margin-right: 5rem;
+}
+
+.mr-10\.5,
+.mr-10\.5\@phone {
+  margin-right: 5.25rem;
+}
+
+.mr-11,
+.mr-11\@phone {
+  margin-right: 5.5rem;
+}
+
+.mr-11\.5,
+.mr-11\.5\@phone {
+  margin-right: 5.75rem;
+}
+
+.mr-12,
+.mr-12\@phone {
+  margin-right: 6rem;
+}
+
+.mr-12\.5,
+.mr-12\.5\@phone {
+  margin-right: 6.25rem;
+}
+
+.mr-13,
+.mr-13\@phone {
+  margin-right: 6.5rem;
+}
+
+.mr-13\.5,
+.mr-13\.5\@phone {
+  margin-right: 6.75rem;
+}
+
+.mr-14,
+.mr-14\@phone {
+  margin-right: 7rem;
+}
+
+.mr-14\.5,
+.mr-14\.5\@phone {
+  margin-right: 7.25rem;
+}
+
+.mr-15,
+.mr-15\@phone {
+  margin-right: 7.5rem;
+}
+
+.mr-15\.5,
+.mr-15\.5\@phone {
+  margin-right: 7.75rem;
+}
+
+.mr-16,
+.mr-16\@phone {
+  margin-right: 8rem;
+}
+
+.mr-16\.5,
+.mr-16\.5\@phone {
+  margin-right: 8.25rem;
+}
+
+.mr-17,
+.mr-17\@phone {
+  margin-right: 8.5rem;
+}
+
+.mr-17\.5,
+.mr-17\.5\@phone {
+  margin-right: 8.75rem;
+}
+
+.mr-18,
+.mr-18\@phone {
+  margin-right: 9rem;
+}
+
+.mr-18\.5,
+.mr-18\.5\@phone {
+  margin-right: 9.25rem;
+}
+
+.mr-19,
+.mr-19\@phone {
+  margin-right: 9.5rem;
+}
+
+.mr-19\.5,
+.mr-19\.5\@phone {
+  margin-right: 9.75rem;
+}
+
+.mr-20,
+.mr-20\@phone {
+  margin-right: 10rem;
+}
+
+.mr-20\.5,
+.mr-20\.5\@phone {
+  margin-right: 10.25rem;
+}
+
+.mr-21,
+.mr-21\@phone {
+  margin-right: 10.5rem;
+}
+
+.mr-21\.5,
+.mr-21\.5\@phone {
+  margin-right: 10.75rem;
+}
+
+.mr-22,
+.mr-22\@phone {
+  margin-right: 11rem;
+}
+
+.mr-22\.5,
+.mr-22\.5\@phone {
+  margin-right: 11.25rem;
+}
+
+.mr-23,
+.mr-23\@phone {
+  margin-right: 11.5rem;
+}
+
+.mr-23\.5,
+.mr-23\.5\@phone {
+  margin-right: 11.75rem;
+}
+
+.mr-24,
+.mr-24\@phone {
+  margin-right: 12rem;
+}
+
+.mr-24\.5,
+.mr-24\.5\@phone {
+  margin-right: 12.25rem;
+}
+
+.mr-25,
+.mr-25\@phone {
+  margin-right: 12.5rem;
+}
+
+.mr-25\.5,
+.mr-25\.5\@phone {
+  margin-right: 12.75rem;
+}
+
+.mr-26,
+.mr-26\@phone {
+  margin-right: 13rem;
+}
+
+.mr-26\.5,
+.mr-26\.5\@phone {
+  margin-right: 13.25rem;
+}
+
+.mr-27,
+.mr-27\@phone {
+  margin-right: 13.5rem;
+}
+
+.mr-27\.5,
+.mr-27\.5\@phone {
+  margin-right: 13.75rem;
+}
+
+.mr-28,
+.mr-28\@phone {
+  margin-right: 14rem;
+}
+
+.mr-28\.5,
+.mr-28\.5\@phone {
+  margin-right: 14.25rem;
+}
+
+.mr-29,
+.mr-29\@phone {
+  margin-right: 14.5rem;
+}
+
+.mr-29\.5,
+.mr-29\.5\@phone {
+  margin-right: 14.75rem;
+}
+
+.mr-30,
+.mr-30\@phone {
+  margin-right: 15rem;
+}
+
+.mr-auto,
+.mr-auto\@phone {
+  margin-right: auto;
+}
+
+.mb-0,
+.mb-0\@phone {
+  margin-bottom: 0;
+}
+
+.mb-0\.5,
+.mb-0\.5\@phone {
+  margin-bottom: 0.25rem;
+}
+
+.mb-1,
+.mb-1\@phone {
+  margin-bottom: 0.5rem;
+}
+
+.mb-1\.5,
+.mb-1\.5\@phone {
+  margin-bottom: 0.75rem;
+}
+
+.mb-2,
+.mb-2\@phone {
+  margin-bottom: 1rem;
+}
+
+.mb-2\.5,
+.mb-2\.5\@phone {
+  margin-bottom: 1.25rem;
+}
+
+.mb-3,
+.mb-3\@phone {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3\.5,
+.mb-3\.5\@phone {
+  margin-bottom: 1.75rem;
+}
+
+.mb-4,
+.mb-4\@phone {
+  margin-bottom: 2rem;
+}
+
+.mb-4\.5,
+.mb-4\.5\@phone {
+  margin-bottom: 2.25rem;
+}
+
+.mb-5,
+.mb-5\@phone {
+  margin-bottom: 2.5rem;
+}
+
+.mb-5\.5,
+.mb-5\.5\@phone {
+  margin-bottom: 2.75rem;
+}
+
+.mb-6,
+.mb-6\@phone {
+  margin-bottom: 3rem;
+}
+
+.mb-6\.5,
+.mb-6\.5\@phone {
+  margin-bottom: 3.25rem;
+}
+
+.mb-7,
+.mb-7\@phone {
+  margin-bottom: 3.5rem;
+}
+
+.mb-7\.5,
+.mb-7\.5\@phone {
+  margin-bottom: 3.75rem;
+}
+
+.mb-8,
+.mb-8\@phone {
+  margin-bottom: 4rem;
+}
+
+.mb-8\.5,
+.mb-8\.5\@phone {
+  margin-bottom: 4.25rem;
+}
+
+.mb-9,
+.mb-9\@phone {
+  margin-bottom: 4.5rem;
+}
+
+.mb-9\.5,
+.mb-9\.5\@phone {
+  margin-bottom: 4.75rem;
+}
+
+.mb-10,
+.mb-10\@phone {
+  margin-bottom: 5rem;
+}
+
+.mb-10\.5,
+.mb-10\.5\@phone {
+  margin-bottom: 5.25rem;
+}
+
+.mb-11,
+.mb-11\@phone {
+  margin-bottom: 5.5rem;
+}
+
+.mb-11\.5,
+.mb-11\.5\@phone {
+  margin-bottom: 5.75rem;
+}
+
+.mb-12,
+.mb-12\@phone {
+  margin-bottom: 6rem;
+}
+
+.mb-12\.5,
+.mb-12\.5\@phone {
+  margin-bottom: 6.25rem;
+}
+
+.mb-13,
+.mb-13\@phone {
+  margin-bottom: 6.5rem;
+}
+
+.mb-13\.5,
+.mb-13\.5\@phone {
+  margin-bottom: 6.75rem;
+}
+
+.mb-14,
+.mb-14\@phone {
+  margin-bottom: 7rem;
+}
+
+.mb-14\.5,
+.mb-14\.5\@phone {
+  margin-bottom: 7.25rem;
+}
+
+.mb-15,
+.mb-15\@phone {
+  margin-bottom: 7.5rem;
+}
+
+.mb-15\.5,
+.mb-15\.5\@phone {
+  margin-bottom: 7.75rem;
+}
+
+.mb-16,
+.mb-16\@phone {
+  margin-bottom: 8rem;
+}
+
+.mb-16\.5,
+.mb-16\.5\@phone {
+  margin-bottom: 8.25rem;
+}
+
+.mb-17,
+.mb-17\@phone {
+  margin-bottom: 8.5rem;
+}
+
+.mb-17\.5,
+.mb-17\.5\@phone {
+  margin-bottom: 8.75rem;
+}
+
+.mb-18,
+.mb-18\@phone {
+  margin-bottom: 9rem;
+}
+
+.mb-18\.5,
+.mb-18\.5\@phone {
+  margin-bottom: 9.25rem;
+}
+
+.mb-19,
+.mb-19\@phone {
+  margin-bottom: 9.5rem;
+}
+
+.mb-19\.5,
+.mb-19\.5\@phone {
+  margin-bottom: 9.75rem;
+}
+
+.mb-20,
+.mb-20\@phone {
+  margin-bottom: 10rem;
+}
+
+.mb-20\.5,
+.mb-20\.5\@phone {
+  margin-bottom: 10.25rem;
+}
+
+.mb-21,
+.mb-21\@phone {
+  margin-bottom: 10.5rem;
+}
+
+.mb-21\.5,
+.mb-21\.5\@phone {
+  margin-bottom: 10.75rem;
+}
+
+.mb-22,
+.mb-22\@phone {
+  margin-bottom: 11rem;
+}
+
+.mb-22\.5,
+.mb-22\.5\@phone {
+  margin-bottom: 11.25rem;
+}
+
+.mb-23,
+.mb-23\@phone {
+  margin-bottom: 11.5rem;
+}
+
+.mb-23\.5,
+.mb-23\.5\@phone {
+  margin-bottom: 11.75rem;
+}
+
+.mb-24,
+.mb-24\@phone {
+  margin-bottom: 12rem;
+}
+
+.mb-24\.5,
+.mb-24\.5\@phone {
+  margin-bottom: 12.25rem;
+}
+
+.mb-25,
+.mb-25\@phone {
+  margin-bottom: 12.5rem;
+}
+
+.mb-25\.5,
+.mb-25\.5\@phone {
+  margin-bottom: 12.75rem;
+}
+
+.mb-26,
+.mb-26\@phone {
+  margin-bottom: 13rem;
+}
+
+.mb-26\.5,
+.mb-26\.5\@phone {
+  margin-bottom: 13.25rem;
+}
+
+.mb-27,
+.mb-27\@phone {
+  margin-bottom: 13.5rem;
+}
+
+.mb-27\.5,
+.mb-27\.5\@phone {
+  margin-bottom: 13.75rem;
+}
+
+.mb-28,
+.mb-28\@phone {
+  margin-bottom: 14rem;
+}
+
+.mb-28\.5,
+.mb-28\.5\@phone {
+  margin-bottom: 14.25rem;
+}
+
+.mb-29,
+.mb-29\@phone {
+  margin-bottom: 14.5rem;
+}
+
+.mb-29\.5,
+.mb-29\.5\@phone {
+  margin-bottom: 14.75rem;
+}
+
+.mb-30,
+.mb-30\@phone {
+  margin-bottom: 15rem;
+}
+
+.mb-auto,
+.mb-auto\@phone {
+  margin-bottom: auto;
+}
+
+.ml-0,
+.ml-0\@phone {
+  margin-left: 0;
+}
+
+.ml-0\.5,
+.ml-0\.5\@phone {
+  margin-left: 0.25rem;
+}
+
+.ml-1,
+.ml-1\@phone {
+  margin-left: 0.5rem;
+}
+
+.ml-1\.5,
+.ml-1\.5\@phone {
+  margin-left: 0.75rem;
+}
+
+.ml-2,
+.ml-2\@phone {
+  margin-left: 1rem;
+}
+
+.ml-2\.5,
+.ml-2\.5\@phone {
+  margin-left: 1.25rem;
+}
+
+.ml-3,
+.ml-3\@phone {
+  margin-left: 1.5rem;
+}
+
+.ml-3\.5,
+.ml-3\.5\@phone {
+  margin-left: 1.75rem;
+}
+
+.ml-4,
+.ml-4\@phone {
+  margin-left: 2rem;
+}
+
+.ml-4\.5,
+.ml-4\.5\@phone {
+  margin-left: 2.25rem;
+}
+
+.ml-5,
+.ml-5\@phone {
+  margin-left: 2.5rem;
+}
+
+.ml-5\.5,
+.ml-5\.5\@phone {
+  margin-left: 2.75rem;
+}
+
+.ml-6,
+.ml-6\@phone {
+  margin-left: 3rem;
+}
+
+.ml-6\.5,
+.ml-6\.5\@phone {
+  margin-left: 3.25rem;
+}
+
+.ml-7,
+.ml-7\@phone {
+  margin-left: 3.5rem;
+}
+
+.ml-7\.5,
+.ml-7\.5\@phone {
+  margin-left: 3.75rem;
+}
+
+.ml-8,
+.ml-8\@phone {
+  margin-left: 4rem;
+}
+
+.ml-8\.5,
+.ml-8\.5\@phone {
+  margin-left: 4.25rem;
+}
+
+.ml-9,
+.ml-9\@phone {
+  margin-left: 4.5rem;
+}
+
+.ml-9\.5,
+.ml-9\.5\@phone {
+  margin-left: 4.75rem;
+}
+
+.ml-10,
+.ml-10\@phone {
+  margin-left: 5rem;
+}
+
+.ml-10\.5,
+.ml-10\.5\@phone {
+  margin-left: 5.25rem;
+}
+
+.ml-11,
+.ml-11\@phone {
+  margin-left: 5.5rem;
+}
+
+.ml-11\.5,
+.ml-11\.5\@phone {
+  margin-left: 5.75rem;
+}
+
+.ml-12,
+.ml-12\@phone {
+  margin-left: 6rem;
+}
+
+.ml-12\.5,
+.ml-12\.5\@phone {
+  margin-left: 6.25rem;
+}
+
+.ml-13,
+.ml-13\@phone {
+  margin-left: 6.5rem;
+}
+
+.ml-13\.5,
+.ml-13\.5\@phone {
+  margin-left: 6.75rem;
+}
+
+.ml-14,
+.ml-14\@phone {
+  margin-left: 7rem;
+}
+
+.ml-14\.5,
+.ml-14\.5\@phone {
+  margin-left: 7.25rem;
+}
+
+.ml-15,
+.ml-15\@phone {
+  margin-left: 7.5rem;
+}
+
+.ml-15\.5,
+.ml-15\.5\@phone {
+  margin-left: 7.75rem;
+}
+
+.ml-16,
+.ml-16\@phone {
+  margin-left: 8rem;
+}
+
+.ml-16\.5,
+.ml-16\.5\@phone {
+  margin-left: 8.25rem;
+}
+
+.ml-17,
+.ml-17\@phone {
+  margin-left: 8.5rem;
+}
+
+.ml-17\.5,
+.ml-17\.5\@left {
+  margin-bottom: 8.75rem;
+}
+
+.ml-18,
+.ml-18\@phone {
+  margin-left: 9rem;
+}
+
+.ml-18\.5,
+.ml-18\.5\@phone {
+  margin-left: 9.25rem;
+}
+
+.ml-19,
+.ml-19\@phone {
+  margin-left: 9.5rem;
+}
+
+.ml-19\.5,
+.ml-19\.5\@phone {
+  margin-left: 9.75rem;
+}
+
+.ml-20,
+.ml-20\@phone {
+  margin-left: 10rem;
+}
+
+.ml-20\.5,
+.ml-20\.5\@phone {
+  margin-left: 10.25rem;
+}
+
+.ml-21,
+.ml-21\@phone {
+  margin-left: 10.5rem;
+}
+
+.ml-21\.5,
+.ml-21\.5\@phone {
+  margin-left: 10.75rem;
+}
+
+.ml-22,
+.ml-22\@phone {
+  margin-left: 11rem;
+}
+
+.ml-22\.5,
+.ml-22\.5\@phone {
+  margin-left: 11.25rem;
+}
+
+.ml-23,
+.ml-23\@phone {
+  margin-left: 11.5rem;
+}
+
+.ml-23\.5,
+.ml-23\.5\@phone {
+  margin-left: 11.75rem;
+}
+
+.ml-24,
+.ml-24\@phone {
+  margin-left: 12rem;
+}
+
+.ml-24\.5,
+.ml-24\.5\@phone {
+  margin-left: 12.25rem;
+}
+
+.ml-25,
+.ml-25\@phone {
+  margin-left: 12.5rem;
+}
+
+.ml-25\.5,
+.ml-25\.5\@phone {
+  margin-left: 12.75rem;
+}
+
+.ml-26,
+.ml-26\@phone {
+  margin-left: 13rem;
+}
+
+.ml-26\.5,
+.ml-26\.5\@phone {
+  margin-left: 13.25rem;
+}
+
+.ml-27,
+.ml-27\@phone {
+  margin-left: 13.5rem;
+}
+
+.ml-27\.5,
+.ml-27\.5\@phone {
+  margin-left: 13.75rem;
+}
+
+.ml-28,
+.ml-28\@phone {
+  margin-left: 14rem;
+}
+
+.ml-28\.5,
+.ml-28\.5\@phone {
+  margin-left: 14.25rem;
+}
+
+.ml-29,
+.ml-29\@phone {
+  margin-left: 14.5rem;
+}
+
+.ml-29\.5,
+.ml-29\.5\@phone {
+  margin-left: 14.75rem;
+}
+
+.ml-30,
+.ml-30\@phone {
+  margin-left: 15rem;
+}
+
+.ml-auto,
+.ml-auto\@phone {
+  margin-left: auto;
+}
+
+.my-0,
+.my-0\@phone {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.my-0\.5,
+.my-0\.5\@phone {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-1,
+.my-1\@phone {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-1\.5,
+.my-1\.5\@phone {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-2,
+.my-2\@phone {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-2\.5,
+.my-2\.5\@phone {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-3,
+.my-3\@phone {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-3\.5,
+.my-3\.5\@phone {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.my-4,
+.my-4\@phone {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-4\.5,
+.my-4\.5\@phone {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.my-5,
+.my-5\@phone {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-5\.5,
+.my-5\.5\@phone {
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+
+.my-6,
+.my-6\@phone {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-6\.5,
+.my-6\.5\@phone {
+  margin-top: 3.25rem;
+  margin-bottom: 3.25rem;
+}
+
+.my-7,
+.my-7\@phone {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.my-7\.5,
+.my-7\.5\@phone {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.my-8,
+.my-8\@phone {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-8\.5,
+.my-8\.5\@phone {
+  margin-top: 4.25rem;
+  margin-bottom: 4.25rem;
+}
+
+.my-9,
+.my-9\@phone {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.my-9\.5,
+.my-9\.5\@phone {
+  margin-top: 4.75rem;
+  margin-bottom: 4.75rem;
+}
+
+.my-10,
+.my-10\@phone {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-10\.5,
+.my-10\.5\@phone {
+  margin-top: 5.25rem;
+  margin-bottom: 5.25rem;
+}
+
+.my-11,
+.my-11\@phone {
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+}
+
+.my-11\.5,
+.my-11\.5\@phone {
+  margin-top: 5.75rem;
+  margin-bottom: 5.75rem;
+}
+
+.my-12,
+.my-12\@phone {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-12\.5,
+.my-12\.5\@phone {
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+
+.my-13,
+.my-13\@phone {
+  margin-top: 6.55rem;
+  margin-bottom: 6.55rem;
+}
+
+.my-13\.5,
+.my-13\.5\@phone {
+  margin-top: 6.75rem;
+  margin-bottom: 6.75rem;
+}
+
+.my-14,
+.my-14\@phone {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.my-14\.5,
+.my-14\.5\@phone {
+  margin-top: 7.25rem;
+  margin-bottom: 7.25rem;
+}
+
+.my-15,
+.my-15\@phone {
+  margin-top: 7.25rem;
+  margin-bottom: 7.25rem;
+}
+
+.my-15\.5,
+.my-15\.5\@phone {
+  margin-top: 7.75rem;
+  margin-bottom: 7.75rem;
+}
+
+.my-16,
+.my-16\@phone {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.my-16\.5,
+.my-16\.5\@phone {
+  margin-top: 8.25rem;
+  margin-bottom: 8.25rem;
+}
+
+.my-17,
+.my-17\@phone {
+  margin-top: 8.5rem;
+  margin-bottom: 8.5rem;
+}
+
+.my-17\.5,
+.my-17\.5\@phone {
+  margin-top: 8.75rem;
+  margin-bottom: 8.75rem;
+}
+
+.my-18,
+.my-18\@phone {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
+}
+
+.my-18\.5,
+.my-18\.5\@phone {
+  margin-top: 9.25rem;
+  margin-bottom: 9.25rem;
+}
+
+
+.my-19,
+.my-19\@phone {
+  margin-top: 9.5rem;
+  margin-bottom: 9.5rem;
+}
+
+.my-19\.5,
+.my-19\.5\@phone {
+  margin-top: 9.75rem;
+  margin-bottom: 9.75rem;
+}
+
+.my-20,
+.my-20\@phone {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.my-20\.5,
+.my-20\.5\@phone {
+  margin-top: 10.25rem;
+  margin-bottom: 10.25rem;
+}
+
+.my-21,
+.my-21\@phone {
+  margin-top: 10.5rem;
+  margin-bottom: 10.5rem;
+}
+
+.my-21\.5,
+.my-21\.5\@phone {
+  margin-top: 10.75rem;
+  margin-bottom: 10.75rem;
+}
+
+.my-22,
+.my-22\@phone {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+}
+
+.my-22\.5,
+.my-22\.5\@phone {
+  margin-top: 11.25rem;
+  margin-bottom: 11.25rem;
+}
+
+.my-23,
+.my-23\@phone {
+  margin-top: 11.5rem;
+  margin-bottom: 11.5rem;
+}
+
+.my-23\.5,
+.my-23\.5\@phone {
+  margin-top: 11.75rem;
+  margin-bottom: 11.75rem;
+}
+
+.my-24,
+.my-24\@phone {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.my-24\.5,
+.my-24\.5\@phone {
+  margin-top: 12.25rem;
+  margin-bottom: 12.25rem;
+}
+
+.my-25,
+.my-25\@phone {
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
+}
+
+.my-25\.5,
+.my-25\.5\@phone {
+  margin-top: 12.75rem;
+  margin-bottom: 12.75rem;
+}
+
+.my-26,
+.my-26\@phone {
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+}
+
+.my-26\.5,
+.my-26\.5\@phone {
+  margin-top: 13.25rem;
+  margin-bottom: 13.25rem;
+}
+
+.my-27,
+.my-27\@phone {
+  margin-top: 13.5rem;
+  margin-bottom: 13.5rem;
+}
+
+.my-28\.5,
+.my-28\.5\@phone {
+  margin-top: 13.75rem;
+  margin-bottom: 13.75rem;
+}
+
+.my-28,
+.my-28\@phone {
+  margin-top: 14rem;
+  margin-bottom: 14rem;
+}
+
+.my-28\.5,
+.my-28\.5\@phone {
+  margin-top: 14.25rem;
+  margin-bottom: 14.25rem;
+}
+
+.my-29,
+.my-29\@phone {
+  margin-top: 14.5rem;
+  margin-bottom: 14.5rem;
+}
+
+.my-29\.5,
+.my-29\.5\@phone {
+  margin-top: 14.75rem;
+  margin-bottom: 14.75rem;
+}
+
+.my-30,
+.my-30\@phone {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
+.my-auto,
+.my-auto\@phone {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mx-0,
+.mx-0\@phone {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mx-0\.5,
+.mx-0\.5\@phone {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.mx-1,
+.mx-1\@phone {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.mx-1\.5,
+.mx-1\.5\@phone {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.mx-2,
+.mx-2\@phone {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.mx-2\.5,
+.mx-2\.5\@phone {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+.mx-3,
+.mx-3\@phone {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.mx-3\.5,
+.mx-3\.5\@phone {
+  margin-right: 1.75rem;
+  margin-left: 1.75rem;
+}
+
+.mx-4,
+.mx-4\@phone {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.mx-4\.5,
+.mx-4\.5\@phone {
+  margin-right: 2.25rem;
+  margin-left: 2.25rem;
+}
+
+.mx-5,
+.mx-5\@phone {
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.mx-5\.5,
+.mx-5\.5\@phone {
+  margin-right: 2.75rem;
+  margin-left: 2.75rem;
+}
+
+.mx-6,
+.mx-6\@phone {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.mx-6\.5,
+.mx-6\.5\@phone {
+  margin-right: 3.25rem;
+  margin-left: 3.25rem;
+}
+
+.mx-7,
+.mx-7\@phone {
+  margin-right: 3.5rem;
+  margin-left: 3.5rem;
+}
+
+.mx-7\.5,
+.mx-7\.5\@phone {
+  margin-right: 3.75rem;
+  margin-left: 3.75rem;
+}
+
+.mx-8,
+.mx-8\@phone {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.mx-8\.5,
+.mx-8\.5\@phone {
+  margin-right: 4.25rem;
+  margin-left: 4.25rem;
+}
+
+.mx-9,
+.mx-9\@phone {
+  margin-right: 4.5rem;
+  margin-left: 4.5rem;
+}
+
+.mx-9\.5,
+.mx-9\.5\@phone {
+  margin-right: 4.75rem;
+  margin-left: 4.75rem;
+}
+
+.mx-10,
+.mx-10\@phone {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.mx-10\.5,
+.mx-10\.5\@phone {
+  margin-right: 5.25rem;
+  margin-left: 5.25rem;
+}
+
+.mx-11,
+.mx-11\@phone {
+  margin-right: 5.5rem;
+  margin-left: 5.5rem;
+}
+
+.mx-11\.5,
+.mx-11\.5\@phone {
+  margin-right: 5.75rem;
+  margin-left: 5.75rem;
+}
+
+.mx-12,
+.mx-12\@phone {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.mx-12\.5,
+.mx-12\.5\@phone {
+  margin-right: 6.25rem;
+  margin-left: 6.25rem;
+}
+
+.mx-13,
+.mx-13\@phone {
+  margin-right: 6.55rem;
+  margin-left: 6.55rem;
+}
+
+.mx-13\.5,
+.mx-13\.5\@phone {
+  margin-right: 6.75rem;
+  margin-left: 6.75rem;
+}
+
+.mx-14,
+.mx-14\@phone {
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
+
+.mx-14\.5,
+.mx-14\.5\@phone {
+  margin-right: 7.25rem;
+  margin-left: 7.25rem;
+}
+
+.mx-15,
+.mx-15\@phone {
+  margin-right: 7.25rem;
+  margin-left: 7.25rem;
+}
+
+.mx-15\.5,
+.mx-15\.5\@phone {
+  margin-right: 7.75rem;
+  margin-left: 7.75rem;
+}
+
+.mx-16,
+.mx-16\@phone {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.mx-16\.5,
+.mx-16\.5\@phone {
+  margin-right: 8.25rem;
+  margin-left: 8.25rem;
+}
+
+.mx-17,
+.mx-17\@phone {
+  margin-right: 8.5rem;
+  margin-left: 8.5rem;
+}
+
+.mx-17\.5,
+.mx-17\.5\@phone {
+  margin-right: 8.75rem;
+  margin-left: 8.75rem;
+}
+
+.mx-18,
+.mx-18\@phone {
+  margin-right: 9rem;
+  margin-left: 9rem;
+}
+
+.mx-18\.5,
+.mx-18\.5\@phone {
+  margin-right: 9.25rem;
+  margin-left: 9.25rem;
+}
+
+.mx-19,
+.mx-19\@phone {
+  margin-right: 9.5rem;
+  margin-left: 9.5rem;
+}
+
+.mx-19\.5,
+.mx-19\.5\@phone {
+  margin-right: 9.75rem;
+  margin-left: 9.75rem;
+}
+
+.mx-20,
+.mx-20\@phone {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.mx-20\.5,
+.mx-20\.5\@phone {
+  margin-right: 10.25rem;
+  margin-left: 10.25rem;
+}
+
+.mx-21,
+.mx-21\@phone {
+  margin-right: 10.5rem;
+  margin-left: 10.5rem;
+}
+
+.mx-21\.5,
+.mx-21\.5\@phone {
+  margin-right: 10.75rem;
+  margin-left: 10.75rem;
+}
+
+.mx-22,
+.mx-22\@phone {
+  margin-right: 11rem;
+  margin-left: 11rem;
+}
+
+.mx-22\.5,
+.mx-22\.5\@phone {
+  margin-right: 11.25rem;
+  margin-left: 11.25rem;
+}
+
+.mx-23,
+.mx-23\@phone {
+  margin-right: 11.5rem;
+  margin-left: 11.5rem;
+}
+
+.mx-23\.5,
+.mx-23\.5\@phone {
+  margin-right: 11.75rem;
+  margin-left: 11.75rem;
+}
+
+.mx-24,
+.mx-24\@phone {
+  margin-right: 12rem;
+  margin-left: 12rem;
+}
+
+.mx-24\.5,
+.mx-24\.5\@phone {
+  margin-right: 12.25rem;
+  margin-left: 12.25rem;
+}
+
+.mx-25,
+.mx-25\@phone {
+  margin-right: 12.5rem;
+  margin-left: 12.5rem;
+}
+
+.mx-25\.5,
+.mx-25\.5\@phone {
+  margin-right: 12.75rem;
+  margin-left: 12.75rem;
+}
+
+.mx-26,
+.mx-26\@phone {
+  margin-right: 13rem;
+  margin-left: 13rem;
+}
+
+.mx-26\.5,
+.mx-26\.5\@phone {
+  margin-right: 13.25rem;
+  margin-left: 13.25rem;
+}
+
+.mx-27,
+.mx-27\@phone {
+  margin-right: 13.5rem;
+  margin-left: 13.5rem;
+}
+
+.mx-28\.5,
+.mx-28\.5\@phone {
+  margin-right: 13.75rem;
+  margin-left: 13.75rem;
+}
+
+.mx-28,
+.mx-28\@phone {
+  margin-right: 14rem;
+  margin-left: 14rem;
+}
+
+.mx-28\.5,
+.mx-28\.5\@phone {
+  margin-right: 14.25rem;
+  margin-left: 14.25rem;
+}
+
+.mx-29,
+.mx-29\@phone {
+  margin-right: 14.5rem;
+  margin-left: 14.5rem;
+}
+
+.mx-29\.5,
+.mx-29\.5\@phone {
+  margin-right: 14.75rem;
+  margin-left: 14.75rem;
+}
+
+.mx-30,
+.mx-30\@phone {
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+.mx-auto,
+.mx-auto\@phone {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .m-0\@small-phone {
+    margin: 0;
+  }
+
+  .m-0\.5\@small-phone {
+    margin: 0.25rem;
+  }
+
+  .m-1\@small-phone {
+    margin: 0.5rem;
+  }
+
+  .m-1\.5\@small-phone {
+    margin: 0.75rem;
+  }
+
+  .m-2\@small-phone {
+    margin: 1rem;
+  }
+
+  .m-2\.5\@small-phone {
+    margin: 1.25rem;
+  }
+
+  .m-3\@small-phone {
+    margin: 1.5rem;
+  }
+
+  .m-3\.5\@small-phone {
+    margin: 1.75rem;
+  }
+
+  .m-4\@small-phone {
+    margin: 2rem;
+  }
+
+  .m-4\.5\@small-phone {
+    margin: 2.25rem;
+  }
+
+  .m-5\@small-phone {
+    margin: 2.5rem;
+  }
+
+  .m-5\.5\@small-phone {
+    margin: 2.75rem;
+  }
+
+  .m-6\@small-phone {
+    margin: 3rem;
+  }
+
+  .m-6\.5\@small-phone {
+    margin: 3.25rem;
+  }
+
+  .m-7\@small-phone {
+    margin: 3.5rem;
+  }
+
+  .m-7\.5\@small-phone {
+    margin: 3.75rem;
+  }
+
+  .m-8\@small-phone {
+    margin: 4rem;
+  }
+
+  .m-8\.5\@small-phone {
+    margin: 4.25rem;
+  }
+
+  .m-9\@small-phone {
+    margin: 4.5rem;
+  }
+
+  .m-9\.5\@small-phone {
+    margin: 4.75rem;
+  }
+
+  .m-10\@small-phone {
+    margin: 5rem;
+  }
+
+  .m-10\.5\@small-phone {
+    margin: 5.25rem;
+  }
+
+  .m-11\@small-phone {
+    margin: 5.5rem;
+  }
+
+  .m-11\.5\@small-phone {
+    margin: 5.75rem;
+  }
+
+  .m-12\@small-phone {
+    margin: 6rem;
+  }
+
+  .m-12\.5\@small-phone {
+    margin: 6.25rem;
+  }
+
+  .m-13\@small-phone {
+    margin: 6.5rem;
+  }
+
+  .m-13\.5\@small-phone {
+    margin: 6.75rem;
+  }
+
+  .m-14\@small-phone {
+    margin: 7rem;
+  }
+
+  .m-14\.5\@small-phone {
+    margin: 7.25rem;
+  }
+
+  .m-15\@small-phone {
+    margin: 7.5rem;
+  }
+
+  .m-15\.5\@small-phone {
+    margin: 7.75rem;
+  }
+
+  .m-16\@small-phone {
+    margin: 8rem;
+  }
+
+  .m-16\.5\@small-phone {
+    margin: 8.25rem;
+  }
+
+  .m-17\@small-phone {
+    margin: 8.5rem;
+  }
+
+  .m-17\.5\@small-phone {
+    margin: 8.75rem;
+  }
+
+  .m-18\@small-phone {
+    margin: 9rem;
+  }
+
+  .m-18\.5\@small-phone {
+    margin: 9.25rem;
+  }
+
+  .m-19\@small-phone {
+    margin: 9.5rem;
+  }
+
+  .m-19\.5\@small-phone {
+    margin: 9.75rem;
+  }
+
+  .m-20\@small-phone {
+    margin: 10rem;
+  }
+
+  .m-20\.5\@small-phone {
+    margin: 10.25rem;
+  }
+
+  .m-21\@small-phone {
+    margin: 10.5rem;
+  }
+
+  .m-21\.5\@small-phone {
+    margin: 10.75rem;
+  }
+
+  .m-22\@small-phone {
+    margin: 11rem;
+  }
+
+  .m-22\.5\@small-phone {
+    margin: 11.25rem;
+  }
+
+  .m-23\@small-phone {
+    margin: 11.5rem;
+  }
+
+  .m-23\.5\@small-phone {
+    margin: 11.75rem;
+  }
+
+  .m-24\@small-phone {
+    margin: 12rem;
+  }
+
+  .m-24\.5\@small-phone {
+    margin: 12.25rem;
+  }
+
+  .m-25\@small-phone {
+    margin: 12.5rem;
+  }
+
+  .m-25\.5\@small-phone {
+    margin: 12.75rem;
+  }
+
+  .m-26\@small-phone {
+    margin: 13rem;
+  }
+
+  .m-26\.5\@small-phone {
+    margin: 13.25rem;
+  }
+
+  .m-27\@small-phone {
+    margin: 13.5rem;
+  }
+
+  .m-27\.5\@small-phone {
+    margin: 13.75rem;
+  }
+
+  .m-28\@small-phone {
+    margin: 14rem;
+  }
+
+  .m-28\.5\@small-phone {
+    margin: 14.25rem;
+  }
+
+  .m-29\@small-phone {
+    margin: 14.5rem;
+  }
+
+  .m-29\.5\@small-phone {
+    margin: 14.75rem;
+  }
+
+  .m-30\@small-phone {
+    margin: 15rem;
+  }
+
+  .m-auto\@small-phone {
+    margin: auto;
+  }
+
+  .mt-0\@small-phone {
+    margin-top: 0;
+  }
+
+  .mt-0\.5\@small-phone {
+    margin-top: 0.25rem;
+  }
+
+  .mt-1\@small-phone {
+    margin-top: 0.5rem;
+  }
+
+  .mt-1\.5\@small-phone {
+    margin-top: 0.75rem;
+  }
+
+  .mt-2\@small-phone {
+    margin-top: 1rem;
+  }
+
+  .mt-2\.5\@small-phone {
+    margin-top: 1.25rem;
+  }
+
+  .mt-3\@small-phone {
+    margin-top: 1.5rem;
+  }
+
+  .mt-3\.5\@small-phone {
+    margin-top: 1.75rem;
+  }
+
+  .mt-4\@small-phone {
+    margin-top: 2rem;
+  }
+
+  .mt-4\.5\@small-phone {
+    margin-top: 2.25rem;
+  }
+
+  .mt-5\@small-phone {
+    margin-top: 2.5rem;
+  }
+
+  .mt-5\.5\@small-phone {
+    margin-top: 2.75rem;
+  }
+
+  .mt-6\@small-phone {
+    margin-top: 3rem;
+  }
+
+  .mt-6\.5\@small-phone {
+    margin-top: 3.25rem;
+  }
+
+  .mt-7\@small-phone {
+    margin-top: 3.5rem;
+  }
+
+  .mt-7\.5\@small-phone {
+    margin-top: 3.75rem;
+  }
+
+  .mt-8\@small-phone {
+    margin-top: 4rem;
+  }
+
+  .mt-8\.5\@small-phone {
+    margin-top: 4.25rem;
+  }
+
+  .mt-9\@small-phone {
+    margin-top: 4.5rem;
+  }
+
+  .mt-9\.5\@small-phone {
+    margin-top: 4.75rem;
+  }
+
+  .mt-10\@small-phone {
+    margin-top: 5rem;
+  }
+
+  .mt-10\.5\@small-phone {
+    margin-top: 5.25rem;
+  }
+
+  .mt-11\@small-phone {
+    margin-top: 5.5rem;
+  }
+
+  .mt-11\.5\@small-phone {
+    margin-top: 5.75rem;
+  }
+
+  .mt-12\@small-phone {
+    margin-top: 6rem;
+  }
+
+  .mt-12\.5\@small-phone {
+    margin-top: 6.25rem;
+  }
+
+  .mt-13\@small-phone {
+    margin-top: 6.5rem;
+  }
+
+  .mt-13\.5\@small-phone {
+    margin-top: 6.75rem;
+  }
+
+  .mt-14\@small-phone {
+    margin-top: 7rem;
+  }
+
+  .mt-14\.5\@small-phone {
+    margin-top: 7.25rem;
+  }
+
+  .mt-15\@small-phone {
+    margin-top: 7.5rem;
+  }
+
+  .mt-15\.5\@small-phone {
+    margin-top: 7.75rem;
+  }
+
+  .mt-16\@small-phone {
+    margin-top: 8rem;
+  }
+
+  .mt-16\.5\@small-phone {
+    margin-top: 8.25rem;
+  }
+
+  .mt-17\@small-phone {
+    margin-top: 8.5rem;
+  }
+
+  .mt-17\.5\@small-phone {
+    margin-top: 8.75rem;
+  }
+
+  .mt-18\@small-phone {
+    margin-top: 9rem;
+  }
+
+  .mt-18\.5\@small-phone {
+    margin-top: 9.25rem;
+  }
+
+  .mt-19\@small-phone {
+    margin-top: 9.5rem;
+  }
+
+  .mt-19\.5\@small-phone {
+    margin-top: 9.75rem;
+  }
+
+  .mt-20\@small-phone {
+    margin-top: 10rem;
+  }
+
+  .mt-20\.5\@small-phone {
+    margin-top: 10.25rem;
+  }
+
+  .mt-21\@small-phone {
+    margin-top: 10.5rem;
+  }
+
+  .mt-21\.5\@small-phone {
+    margin-top: 10.75rem;
+  }
+
+  .mt-22\@small-phone {
+    margin-top: 11rem;
+  }
+
+  .mt-22\.5\@small-phone {
+    margin-top: 11.25rem;
+  }
+
+  .mt-23\@small-phone {
+    margin-top: 11.5rem;
+  }
+
+  .mt-23\.5\@small-phone {
+    margin-top: 11.75rem;
+  }
+
+  .mt-24\@small-phone {
+    margin-top: 12rem;
+  }
+
+  .mt-24\.5\@small-phone {
+    margin-top: 12.25rem;
+  }
+
+  .mt-25\@small-phone {
+    margin-top: 12.5rem;
+  }
+
+  .mt-25\.5\@small-phone {
+    margin-top: 12.75rem;
+  }
+
+  .mt-26\@small-phone {
+    margin-top: 13rem;
+  }
+
+  .mt-26\.5\@small-phone {
+    margin-top: 13.25rem;
+  }
+
+  .mt-27\@small-phone {
+    margin-top: 13.5rem;
+  }
+
+  .mt-27\.5\@small-phone {
+    margin-top: 13.75rem;
+  }
+
+  .mt-28\@small-phone {
+    margin-top: 14rem;
+  }
+
+  .mt-28\.5\@small-phone {
+    margin-top: 14.25rem;
+  }
+
+  .mt-29\@small-phone {
+    margin-top: 14.5rem;
+  }
+
+  .mt-29\.5\@small-phone {
+    margin-top: 14.75rem;
+  }
+
+  .mt-30\@small-phone {
+    margin-top: 15rem;
+  }
+
+  .mt-auto\@small-phone {
+    margin-top: auto;
+  }
+
+  .mr-0\@small-phone {
+    margin-right: 0;
+  }
+
+  .mr-0\.5\@small-phone {
+    margin-right: 0.25rem;
+  }
+
+  .mr-1\@small-phone {
+    margin-right: 0.5rem;
+  }
+
+  .mr-1\.5\@small-phone {
+    margin-right: 0.75rem;
+  }
+
+  .mr-2\@small-phone {
+    margin-right: 1rem;
+  }
+
+  .mr-2\.5\@small-phone {
+    margin-right: 1.25rem;
+  }
+
+  .mr-3\@small-phone {
+    margin-right: 1.5rem;
+  }
+
+  .mr-3\.5\@small-phone {
+    margin-right: 1.75rem;
+  }
+
+  .mr-4\@small-phone {
+    margin-right: 2rem;
+  }
+
+  .mr-4\.5\@small-phone {
+    margin-right: 2.25rem;
+  }
+
+  .mr-5\@small-phone {
+    margin-right: 2.5rem;
+  }
+
+  .mr-5\.5\@small-phone {
+    margin-right: 2.75rem;
+  }
+
+  .mr-6\@small-phone {
+    margin-right: 3rem;
+  }
+
+  .mr-6\.5\@small-phone {
+    margin-right: 3.25rem;
+  }
+
+  .mr-7\@small-phone {
+    margin-right: 3.5rem;
+  }
+
+  .mr-7\.5\@small-phone {
+    margin-right: 3.75rem;
+  }
+
+  .mr-8\@small-phone {
+    margin-right: 4rem;
+  }
+
+  .mr-8\.5\@small-phone {
+    margin-right: 4.25rem;
+  }
+
+  .mr-9\@small-phone {
+    margin-right: 4.5rem;
+  }
+
+  .mr-9\.5\@small-phone {
+    margin-right: 4.75rem;
+  }
+
+  .mr-10\@small-phone {
+    margin-right: 5rem;
+  }
+
+  .mr-10\.5\@small-phone {
+    margin-right: 5.25rem;
+  }
+
+  .mr-11\@small-phone {
+    margin-right: 5.5rem;
+  }
+
+  .mr-11\.5\@small-phone {
+    margin-right: 5.75rem;
+  }
+
+  .mr-12\@small-phone {
+    margin-right: 6rem;
+  }
+
+  .mr-12\.5\@small-phone {
+    margin-right: 6.25rem;
+  }
+
+  .mr-13\@small-phone {
+    margin-right: 6.5rem;
+  }
+
+  .mr-13\.5\@small-phone {
+    margin-right: 6.75rem;
+  }
+
+  .mr-14\@small-phone {
+    margin-right: 7rem;
+  }
+
+  .mr-14\.5\@small-phone {
+    margin-right: 7.25rem;
+  }
+
+  .mr-15\@small-phone {
+    margin-right: 7.5rem;
+  }
+
+  .mr-15\.5\@small-phone {
+    margin-right: 7.75rem;
+  }
+
+  .mr-16\@small-phone {
+    margin-right: 8rem;
+  }
+
+  .mr-16\.5\@small-phone {
+    margin-right: 8.25rem;
+  }
+
+  .mr-17\@small-phone {
+    margin-right: 8.5rem;
+  }
+
+  .mr-17\.5\@small-phone {
+    margin-right: 8.75rem;
+  }
+
+  .mr-18\@small-phone {
+    margin-right: 9rem;
+  }
+
+  .mr-18\.5\@small-phone {
+    margin-right: 9.25rem;
+  }
+
+  .mr-19\@small-phone {
+    margin-right: 9.5rem;
+  }
+
+  .mr-19\.5\@small-phone {
+    margin-right: 9.75rem;
+  }
+
+  .mr-20\@small-phone {
+    margin-right: 10rem;
+  }
+
+  .mr-20\.5\@small-phone {
+    margin-right: 10.25rem;
+  }
+
+  .mr-21\@small-phone {
+    margin-right: 10.5rem;
+  }
+
+  .mr-21\.5\@small-phone {
+    margin-right: 10.75rem;
+  }
+
+  .mr-22\@small-phone {
+    margin-right: 11rem;
+  }
+
+  .mr-22\.5\@small-phone {
+    margin-right: 11.25rem;
+  }
+
+  .mr-23\@small-phone {
+    margin-right: 11.5rem;
+  }
+
+  .mr-23\.5\@small-phone {
+    margin-right: 11.75rem;
+  }
+
+  .mr-24\@small-phone {
+    margin-right: 12rem;
+  }
+
+  .mr-24\.5\@small-phone {
+    margin-right: 12.25rem;
+  }
+
+  .mr-25\@small-phone {
+    margin-right: 12.5rem;
+  }
+
+  .mr-25\.5\@small-phone {
+    margin-right: 12.75rem;
+  }
+
+  .mr-26\@small-phone {
+    margin-right: 13rem;
+  }
+
+  .mr-26\.5\@small-phone {
+    margin-right: 13.25rem;
+  }
+
+  .mr-27\@small-phone {
+    margin-right: 13.5rem;
+  }
+
+  .mr-27\.5\@small-phone {
+    margin-right: 13.75rem;
+  }
+
+  .mr-28\@small-phone {
+    margin-right: 14rem;
+  }
+
+  .mr-28\.5\@small-phone {
+    margin-right: 14.25rem;
+  }
+
+  .mr-29\@small-phone {
+    margin-right: 14.5rem;
+  }
+
+  .mr-29\.5\@small-phone {
+    margin-right: 14.75rem;
+  }
+
+  .mr-30\@small-phone {
+    margin-right: 15rem;
+  }
+
+  .mr-auto\@small-phone {
+    margin-right: auto;
+  }
+
+  .mb-0\@small-small-phone {
+    margin-bottom: 0;
+  }
+
+  .mb-0\.5\@small-phone {
+    margin-bottom: 0.25rem;
+  }
+
+  .mb-1\@small-phone {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-1\.5\@small-phone {
+    margin-bottom: 0.75rem;
+  }
+
+  .mb-2\@small-phone {
+    margin-bottom: 1rem;
+  }
+
+  .mb-2\.5\@small-phone {
+    margin-bottom: 1.25rem;
+  }
+
+  .mb-3\@small-phone {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-3\.5\@small-phone {
+    margin-bottom: 1.75rem;
+  }
+
+  .mb-4\@small-phone {
+    margin-bottom: 2rem;
+  }
+
+  .mb-4\.5\@small-phone {
+    margin-bottom: 2.25rem;
+  }
+
+  .mb-5\@small-phone {
+    margin-bottom: 2.5rem;
+  }
+
+  .mb-5\.5\@small-phone {
+    margin-bottom: 2.75rem;
+  }
+
+  .mb-6\@small-phone {
+    margin-bottom: 3rem;
+  }
+
+  .mb-6\.5\@small-phone {
+    margin-bottom: 3.25rem;
+  }
+
+  .mb-7\@small-phone {
+    margin-bottom: 3.5rem;
+  }
+
+  .mb-7\.5\@small-phone {
+    margin-bottom: 3.75rem;
+  }
+
+  .mb-8\@small-phone {
+    margin-bottom: 4rem;
+  }
+
+  .mb-8\.5\@small-phone {
+    margin-bottom: 4.25rem;
+  }
+
+  .mb-9\@small-phone {
+    margin-bottom: 4.5rem;
+  }
+
+  .mb-9\.5\@small-phone {
+    margin-bottom: 4.75rem;
+  }
+
+  .mb-10\@small-phone {
+    margin-bottom: 5rem;
+  }
+
+  .mb-10\.5\@small-phone {
+    margin-bottom: 5.25rem;
+  }
+
+  .mb-11\@small-phone {
+    margin-bottom: 5.5rem;
+  }
+
+  .mb-11\.5\@small-phone {
+    margin-bottom: 5.75rem;
+  }
+
+  .mb-12\@small-phone {
+    margin-bottom: 6rem;
+  }
+
+  .mb-12\.5\@small-phone {
+    margin-bottom: 6.25rem;
+  }
+
+  .mb-13\@small-phone {
+    margin-bottom: 6.5rem;
+  }
+
+  .mb-13\.5\@small-phone {
+    margin-bottom: 6.75rem;
+  }
+
+  .mb-14\@small-phone {
+    margin-bottom: 7rem;
+  }
+
+  .mb-14\.5\@small-phone {
+    margin-bottom: 7.25rem;
+  }
+
+  .mb-15\@small-phone {
+    margin-bottom: 7.5rem;
+  }
+
+  .mb-15\.5\@small-phone {
+    margin-bottom: 7.75rem;
+  }
+
+  .mb-16\@small-phone {
+    margin-bottom: 8rem;
+  }
+
+  .mb-16\.5\@small-phone {
+    margin-bottom: 8.25rem;
+  }
+
+  .mb-17\@small-phone {
+    margin-bottom: 8.5rem;
+  }
+
+  .mb-17\.5\@small-phone {
+    margin-bottom: 8.75rem;
+  }
+
+  .mb-18\@small-phone {
+    margin-bottom: 9rem;
+  }
+
+  .mb-18\.5\@small-phone {
+    margin-bottom: 9.25rem;
+  }
+
+  .mb-19\@small-phone {
+    margin-bottom: 9.5rem;
+  }
+
+  .mb-19\.5\@small-phone {
+    margin-bottom: 9.75rem;
+  }
+
+  .mb-20\@small-phone {
+    margin-bottom: 10rem;
+  }
+
+  .mb-20\.5\@small-phone {
+    margin-bottom: 10.25rem;
+  }
+
+  .mb-21\@small-phone {
+    margin-bottom: 10.5rem;
+  }
+
+  .mb-21\.5\@small-phone {
+    margin-bottom: 10.75rem;
+  }
+
+  .mb-22\@small-phone {
+    margin-bottom: 11rem;
+  }
+
+  .mb-22\.5\@small-phone {
+    margin-bottom: 11.25rem;
+  }
+
+  .mb-23\@small-phone {
+    margin-bottom: 11.5rem;
+  }
+
+  .mb-23\.5\@small-phone {
+    margin-bottom: 11.75rem;
+  }
+
+  .mb-24\@small-phone {
+    margin-bottom: 12rem;
+  }
+
+  .mb-24\.5\@small-phone {
+    margin-bottom: 12.25rem;
+  }
+
+  .mb-25\@small-phone {
+    margin-bottom: 12.5rem;
+  }
+
+  .mb-25\.5\@small-phone {
+    margin-bottom: 12.75rem;
+  }
+
+  .mb-26\@small-phone {
+    margin-bottom: 13rem;
+  }
+
+  .mb-26\.5\@small-phone {
+    margin-bottom: 13.25rem;
+  }
+
+  .mb-27\@small-phone {
+    margin-bottom: 13.5rem;
+  }
+
+  .mb-27\.5\@small-phone {
+    margin-bottom: 13.75rem;
+  }
+
+  .mb-28\@small-phone {
+    margin-bottom: 14rem;
+  }
+
+  .mb-28\.5\@small-phone {
+    margin-bottom: 14.25rem;
+  }
+
+  .mb-29\@small-phone {
+    margin-bottom: 14.5rem;
+  }
+
+  .mb-29\.5\@small-phone {
+    margin-bottom: 14.75rem;
+  }
+
+  .mb-30\@small-phone {
+    margin-bottom: 15rem;
+  }
+
+  .mb-auto\@small-phone {
+    margin-bottom: auto;
+  }
+
+  .ml-0\@small-phone {
+    margin-left: 0;
+  }
+
+  .ml-0\.5\@small-phone {
+    margin-left: 0.25rem;
+  }
+
+  .ml-1\@small-phone {
+    margin-left: 0.5rem;
+  }
+
+  .ml-1\.5\@small-phone {
+    margin-left: 0.75rem;
+  }
+
+  .ml-2\@small-phone {
+    margin-left: 1rem;
+  }
+
+  .ml-2\.5\@small-phone {
+    margin-left: 1.25rem;
+  }
+
+  .ml-3\@small-phone {
+    margin-left: 1.5rem;
+  }
+
+  .ml-3\.5\@small-phone {
+    margin-left: 1.75rem;
+  }
+
+  .ml-4\@small-phone {
+    margin-left: 2rem;
+  }
+
+  .ml-4\.5\@small-phone {
+    margin-left: 2.25rem;
+  }
+
+  .ml-5\@small-phone {
+    margin-left: 2.5rem;
+  }
+
+  .ml-5\.5\@small-phone {
+    margin-left: 2.75rem;
+  }
+
+  .ml-6\@small-phone {
+    margin-left: 3rem;
+  }
+
+  .ml-6\.5\@small-phone {
+    margin-left: 3.25rem;
+  }
+
+  .ml-7\@small-phone {
+    margin-left: 3.5rem;
+  }
+
+  .ml-7\.5\@small-phone {
+    margin-left: 3.75rem;
+  }
+
+  .ml-8\@small-phone {
+    margin-left: 4rem;
+  }
+
+  .ml-8\.5\@small-phone {
+    margin-left: 4.25rem;
+  }
+
+  .ml-9\@small-phone {
+    margin-left: 4.5rem;
+  }
+
+  .ml-9\.5\@small-phone {
+    margin-left: 4.75rem;
+  }
+
+  .ml-10\@small-phone {
+    margin-left: 5rem;
+  }
+
+  .ml-10\.5\@small-phone {
+    margin-left: 5.25rem;
+  }
+
+  .ml-11\@small-phone {
+    margin-left: 5.5rem;
+  }
+
+  .ml-11\.5\@small-phone {
+    margin-left: 5.75rem;
+  }
+
+  .ml-12\@small-phone {
+    margin-left: 6rem;
+  }
+
+  .ml-12\.5\@small-phone {
+    margin-left: 6.25rem;
+  }
+
+  .ml-13\@small-phone {
+    margin-left: 6.5rem;
+  }
+
+  .ml-13\.5\@small-phone {
+    margin-left: 6.75rem;
+  }
+
+  .ml-14\@small-phone {
+    margin-left: 7rem;
+  }
+
+  .ml-14\.5\@small-phone {
+    margin-left: 7.25rem;
+  }
+
+  .ml-15\@small-phone {
+    margin-left: 7.5rem;
+  }
+
+  .ml-15\.5\@small-phone {
+    margin-left: 7.75rem;
+  }
+
+  .ml-16\@small-phone {
+    margin-left: 8rem;
+  }
+
+  .ml-16\.5\@small-phone {
+    margin-left: 8.25rem;
+  }
+
+  .ml-17\@small-phone {
+    margin-left: 8.5rem;
+  }
+
+  .ml-17\.5\@small-phone {
+    margin-left: 8.75rem;
+  }
+
+  .ml-18\@small-phone {
+    margin-left: 9rem;
+  }
+
+  .ml-18\.5\@small-phone {
+    margin-left: 9.25rem;
+  }
+
+  .ml-19\@small-phone {
+    margin-left: 9.5rem;
+  }
+
+  .ml-19\.5\@small-phone {
+    margin-left: 9.75rem;
+  }
+
+  .ml-20\@small-phone {
+    margin-left: 10rem;
+  }
+
+  .ml-20\.5\@small-phone {
+    margin-left: 10.25rem;
+  }
+
+  .ml-21\@small-phone {
+    margin-left: 10.5rem;
+  }
+
+  .ml-21\.5\@small-phone {
+    margin-left: 10.75rem;
+  }
+
+  .ml-22\@small-phone {
+    margin-bottom: 11rem;
+  }
+
+  .ml-22\.5\@small-phone {
+    margin-left: 11.25rem;
+  }
+
+  .ml-23\@small-phone {
+    margin-left: 11.5rem;
+  }
+
+  .ml-23\.5\@small-phone {
+    margin-left: 11.75rem;
+  }
+
+  .ml-24\@small-phone {
+    margin-left: 12rem;
+  }
+
+  .ml-24\.5\@small-phone {
+    margin-left: 12.25rem;
+  }
+
+  .ml-25\@small-phone {
+    margin-left: 12.5rem;
+  }
+
+  .ml-25\.5\@small-phone {
+    margin-left: 12.75rem;
+  }
+
+  .ml-26\@small-phone {
+    margin-left: 13rem;
+  }
+
+  .ml-26\.5\@small-phone {
+    margin-left: 13.25rem;
+  }
+
+  .ml-27\@small-phone {
+    margin-left: 13.5rem;
+  }
+
+  .ml-27\.5\@small-phone {
+    margin-left: 13.75rem;
+  }
+
+  .ml-28\@small-phone {
+    margin-left: 14rem;
+  }
+
+  .ml-28\.5\@small-phone {
+    margin-left: 14.25rem;
+  }
+
+  .ml-29\@small-phone {
+    margin-left: 14.5rem;
+  }
+
+  .ml-29\.5\@small-phone {
+    margin-left: 14.75rem;
+  }
+
+  .ml-30\@small-phone {
+    margin-left: 15rem;
+  }
+
+  .ml-auto\@small-phone {
+    margin-left: auto;
+  }
+
+  .my-0\@small-phone {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .my-0\.5\@small-phone {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .my-1\@small-phone {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .my-1\.5\@phone {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .my-2\@small-phone {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .my-2\.5\@small-phone {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .my-3\@small-phone {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .my-3\.5\@small-phone {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .my-4\@small-phone {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .my-4\.5\@small-phone {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .my-5\@small-phone {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .my-5\.5\@small-phone {
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .my-6\@small-phone {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .my-6\.5\@small-phone {
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
+  }
+
+  .my-7\@small-phone {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .my-7\.5\@small-phone {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+  }
+
+  .my-8\@small-phone {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .my-8\.5\@small-phone {
+    margin-top: 4.25rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .my-9\@small-phone {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .my-9\.5\@small-phone {
+    margin-top: 4.75rem;
+    margin-bottom: 4.75rem;
+  }
+
+  .my-10\@small-phone {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .my-10\.5\@small-phone {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .my-11\@small-phone {
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .my-11\.5\@small-phone {
+    margin-top: 5.75rem;
+    margin-bottom: 5.75rem;
+  }
+
+  .my-12\@small-phone {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .my-12\.5\@small-phone {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
+
+  .my-13\@small-phone {
+    margin-top: 6.55rem;
+    margin-bottom: 6.55rem;
+  }
+
+  .my-13\.5\@small-phone {
+    margin-top: 6.75rem;
+    margin-bottom: 6.75rem;
+  }
+
+  .my-14\@small-phone {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .my-14\.5\@small-phone {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\@small-phone {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\.5\@small-phone {
+    margin-top: 7.75rem;
+    margin-bottom: 7.75rem;
+  }
+
+  .my-16\@small-phone {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .my-16\.5\@small-phone {
+    margin-top: 8.25rem;
+    margin-bottom: 8.25rem;
+  }
+
+  .my-17\@small-phone {
+    margin-top: 8.5rem;
+    margin-bottom: 8.5rem;
+  }
+
+  .my-17\.5\@small-phone {
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+  }
+
+  .my-18\@small-phone {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .my-18\.5\@phone {
+    margin-top: 9.25rem;
+    margin-bottom: 9.25rem;
+  }
+
+  .my-19\@small-phone {
+    margin-top: 9.5rem;
+    margin-bottom: 9.5rem;
+  }
+
+  .my-19\.5\@small-phone {
+    margin-top: 9.75rem;
+    margin-bottom: 9.75rem;
+  }
+
+  .my-20\@small-phone {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .my-20\.5\@small-phone {
+    margin-top: 10.25rem;
+    margin-bottom: 10.25rem;
+  }
+
+  .my-21\@small-phone {
+    margin-top: 10.5rem;
+    margin-bottom: 10.5rem;
+  }
+
+  .my-21\.5\@small-phone {
+    margin-top: 10.75rem;
+    margin-bottom: 10.75rem;
+  }
+
+  .my-22\@small-phone {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
+
+  .my-22\.5\@small-phone {
+    margin-top: 11.25rem;
+    margin-bottom: 11.25rem;
+  }
+
+  .my-23\@small-phone {
+    margin-top: 11.5rem;
+    margin-bottom: 11.5rem;
+  }
+
+  .my-23\.5\@small-phone {
+    margin-top: 11.75rem;
+    margin-bottom: 11.75rem;
+  }
+
+  .my-24\@small-phone {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .my-24\.5\@small-phone {
+    margin-top: 12.25rem;
+    margin-bottom: 12.25rem;
+  }
+
+  .my-25\@small-phone {
+    margin-top: 12.5rem;
+    margin-bottom: 12.5rem;
+  }
+
+  .my-25\.5\@small-phone {
+    margin-top: 12.75rem;
+    margin-bottom: 12.75rem;
+  }
+
+  .my-26\@small-phone {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
+
+  .my-26\.5\@small-phone {
+    margin-top: 13.25rem;
+    margin-bottom: 13.25rem;
+  }
+
+  .my-27\@small-phone {
+    margin-top: 13.5rem;
+    margin-bottom: 13.5rem;
+  }
+
+  .my-28\.5\@small-phone {
+    margin-top: 13.75rem;
+    margin-bottom: 13.75rem;
+  }
+
+  .my-28\@small-phone {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .my-28\.5\@small-phone {
+    margin-top: 14.25rem;
+    margin-bottom: 14.25rem;
+  }
+
+  .my-29\@small-phone {
+    margin-top: 14.5rem;
+    margin-bottom: 14.5rem;
+  }
+
+  .my-29\.5\@small-hone {
+    margin-top: 14.75rem;
+    margin-bottom: 14.75rem;
+  }
+
+  .my-30\@small-phone {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+
+  .my-auto\@small-phone {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .mx-0\@small-phone {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mx-0\.5\@small-phone {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .mx-1\@small-phone {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .mx-1\.5\@small-phone {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  .mx-2\@small-phone {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .mx-2\.5\@small-phone {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+  }
+
+  .mx-3\@small-phone {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .mx-3\.5\@small-phone {
+    margin-right: 1.75rem;
+    margin-left: 1.75rem;
+  }
+
+  .mx-4\@small-phone {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .mx-4\.5\@small-phone {
+    margin-right: 2.25rem;
+    margin-left: 2.25rem;
+  }
+
+  .mx-5\@small-phone {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .mx-5\.5\@small-phone {
+    margin-right: 2.75rem;
+    margin-left: 2.75rem;
+  }
+
+  .mx-6\@small-phone {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .mx-6\.5\@small-phone {
+    margin-right: 3.25rem;
+    margin-left: 3.25rem;
+  }
+
+  .mx-7\@small-phone {
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+  }
+
+  .mx-7\.5\@small-phone {
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
+  }
+
+  .mx-8\@small-phone {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .mx-8\.5\@small-phone {
+    margin-right: 4.25rem;
+    margin-left: 4.25rem;
+  }
+
+  .mx-9\@small-phone {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .mx-9\.5\@small-phone {
+    margin-right: 4.75rem;
+    margin-left: 4.75rem;
+  }
+
+  .mx-10\@small-phone {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .mx-10\.5\@small-phone {
+    margin-right: 5.25rem;
+    margin-left: 5.25rem;
+  }
+
+  .mx-11\@small-phone {
+    margin-right: 5.5rem;
+    margin-left: 5.5rem;
+  }
+
+  .mx-11\.5\@small-phone {
+    margin-right: 5.75rem;
+    margin-left: 5.75rem;
+  }
+
+  .mx-12\@small-phone {
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+
+  .mx-12\.5\@small-phone {
+    margin-right: 6.25rem;
+    margin-left: 6.25rem;
+  }
+
+  .mx-13\@small-phone {
+    margin-right: 6.55rem;
+    margin-left: 6.55rem;
+  }
+
+  .mx-13\.5\@small-phone {
+    margin-right: 6.75rem;
+    margin-left: 6.75rem;
+  }
+
+  .mx-14\@small-phone {
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+
+  .mx-14\.5\@small-phone {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\@small-phone {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\.5\@small-phone {
+    margin-right: 7.75rem;
+    margin-left: 7.75rem;
+  }
+
+  .mx-16\@small-phone {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+
+  .mx-16\.5\@small-phone {
+    margin-right: 8.25rem;
+    margin-left: 8.25rem;
+  }
+
+  .mx-17\@small-phone {
+    margin-right: 8.5rem;
+    margin-left: 8.5rem;
+  }
+
+  .mx-17\.5\@small-phone {
+    margin-right: 8.75rem;
+    margin-left: 8.75rem;
+  }
+
+  .mx-18\@small-phone {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+
+  .mx-18\.5\@small-phone {
+    margin-right: 9.25rem;
+    margin-left: 9.25rem;
+  }
+
+  .mx-19\@small-phone {
+    margin-right: 9.5rem;
+    margin-left: 9.5rem;
+  }
+
+  .mx-19\.5\@small-phone {
+    margin-right: 9.75rem;
+    margin-left: 9.75rem;
+  }
+
+  .mx-20\@small-phone {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+
+  .mx-20\.5\@small-phone {
+    margin-right: 10.25rem;
+    margin-left: 10.25rem;
+  }
+
+  .mx-21\@small-phone {
+    margin-right: 10.5rem;
+    margin-left: 10.5rem;
+  }
+
+  .mx-21\.5\@small-phone {
+    margin-right: 10.75rem;
+    margin-left: 10.75rem;
+  }
+
+  .mx-22\@small-phone {
+    margin-right: 11rem;
+    margin-left: 11rem;
+  }
+
+  .mx-22\.5\@small-phone {
+    margin-right: 11.25rem;
+    margin-left: 11.25rem;
+  }
+
+  .mx-23\@small-phone {
+    margin-right: 11.5rem;
+    margin-left: 11.5rem;
+  }
+
+  .mx-23\.5\@small-phone {
+    margin-right: 11.75rem;
+    margin-left: 11.75rem;
+  }
+
+  .mx-24\@small-phone {
+    margin-right: 12rem;
+    margin-left: 12rem;
+  }
+
+  .mx-24\.5\@small-phone {
+    margin-right: 12.25rem;
+    margin-left: 12.25rem;
+  }
+
+  .mx-25\@small-phone {
+    margin-right: 12.5rem;
+    margin-left: 12.5rem;
+  }
+
+  .mx-25\.5\@small-phone {
+    margin-right: 12.75rem;
+    margin-left: 12.75rem;
+  }
+
+  .mx-26\@small-phone {
+    margin-right: 13rem;
+    margin-left: 13rem;
+  }
+
+  .mx-26\.5\@small-phone {
+    margin-right: 13.25rem;
+    margin-left: 13.25rem;
+  }
+
+  .mx-27\@small-phone {
+    margin-right: 13.5rem;
+    margin-left: 13.5rem;
+  }
+
+  .mx-28\.5\@small-phone {
+    margin-right: 13.75rem;
+    margin-left: 13.75rem;
+  }
+
+  .mx-28\@small-phone {
+    margin-right: 14rem;
+    margin-left: 14rem;
+  }
+
+  .mx-28\.5\@small-phone {
+    margin-right: 14.25rem;
+    margin-left: 14.25rem;
+  }
+
+  .mx-29\@small-phone {
+    margin-right: 14.5rem;
+    margin-left: 14.5rem;
+  }
+
+  .mx-29\.5\@small-phone {
+    margin-right: 14.75rem;
+    margin-left: 14.75rem;
+  }
+
+  .mx-30\@small-phone {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+
+  .mx-auto\@small-phone {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .m-0\@tablet {
+    margin: 0;
+  }
+
+  .m-0\.5\@tablet {
+    margin: 0.25rem;
+  }
+
+  .m-1\@tablet {
+    margin: 0.5rem;
+  }
+
+  .m-1\.5\@tablet {
+    margin: 0.75rem;
+  }
+
+  .m-2\@tablet {
+    margin: 1rem;
+  }
+
+  .m-2\.5\@tablet {
+    margin: 1.25rem;
+  }
+
+  .m-3\@tablet {
+    margin: 1.5rem;
+  }
+
+  .m-3\.5\@tablet {
+    margin: 1.75rem;
+  }
+
+  .m-4\@tablet {
+    margin: 2rem;
+  }
+
+  .m-4\.5\@tablet {
+    margin: 2.25rem;
+  }
+
+  .m-5\@tablet {
+    margin: 2.5rem;
+  }
+
+  .m-5\.5\@tablet {
+    margin: 2.75rem;
+  }
+
+  .m-6\@tablet {
+    margin: 3rem;
+  }
+
+  .m-6\.5\@tablet {
+    margin: 3.25rem;
+  }
+
+  .m-7\@tablet {
+    margin: 3.5rem;
+  }
+
+  .m-7\.5\@tablet {
+    margin: 3.75rem;
+  }
+
+  .m-8\@tablet {
+    margin: 4rem;
+  }
+
+  .m-8\.5\@tablet {
+    margin: 4.25rem;
+  }
+
+  .m-9\@tablet {
+    margin: 4.5rem;
+  }
+
+  .m-9\.5\@tablet {
+    margin: 4.75rem;
+  }
+
+  .m-10\@tablet {
+    margin: 5rem;
+  }
+
+  .m-10\.5\@tablet {
+    margin: 5.25rem;
+  }
+
+  .m-11\@tablet {
+    margin: 5.5rem;
+  }
+
+  .m-11\.5\@tablet {
+    margin: 5.75rem;
+  }
+
+  .m-12\@tablet {
+    margin: 6rem;
+  }
+
+  .m-12\.5\@tablet {
+    margin: 6.25rem;
+  }
+
+  .m-13\@tablet {
+    margin: 6.5rem;
+  }
+
+  .m-13\.5\@tablet {
+    margin: 6.75rem;
+  }
+
+  .m-14\@tablet {
+    margin: 7rem;
+  }
+
+  .m-14\.5\@tablet {
+    margin: 7.25rem;
+  }
+
+  .m-15\@tablet {
+    margin: 7.5rem;
+  }
+
+  .m-15\.5\@tablet {
+    margin: 7.75rem;
+  }
+
+  .m-16\@tablet {
+    margin: 8rem;
+  }
+
+  .m-16\.5\@tablet {
+    margin: 8.25rem;
+  }
+
+  .m-17\@tablet {
+    margin: 8.5rem;
+  }
+
+  .m-17\.5\@tablet {
+    margin: 8.75rem;
+  }
+
+  .m-18\@tablet {
+    margin: 9rem;
+  }
+
+  .m-18\.5\@tablet {
+    margin: 9.25rem;
+  }
+
+  .m-19\@tablet {
+    margin: 9.5rem;
+  }
+
+  .m-19\.5\@tablet {
+    margin: 9.75rem;
+  }
+
+  .m-20\@tablet {
+    margin: 10rem;
+  }
+
+  .m-20\.5\@tablet {
+    margin: 10.25rem;
+  }
+
+  .m-21\@tablet {
+    margin: 10.5rem;
+  }
+
+  .m-21\.5\@tablet {
+    margin: 10.75rem;
+  }
+
+  .m-22\@tablet {
+    margin: 11rem;
+  }
+
+  .m-22\.5\@tablet {
+    margin: 11.25rem;
+  }
+
+  .m-23\@tablet {
+    margin-top: 11.5rem;
+  }
+
+  .m-23\.5\@tablet {
+    margin: 11.75rem;
+  }
+
+  .m-24\@tablet {
+    margin-top: 12rem;
+  }
+
+  .m-24\.5\@tablet {
+    margin: 12.25rem;
+  }
+
+  .m-25\@tablet {
+    margin: 12.5rem;
+  }
+
+  .m-25\.5\@tablet {
+    margin: 12.75rem;
+  }
+
+  .m-26\@tablet {
+    margin: 13rem;
+  }
+
+  .m-26\.5\@tablet {
+    margin: 13.25rem;
+  }
+
+  .m-27\@tablet {
+    margin: 13.5rem;
+  }
+
+  .m-27\.5\@tablet {
+    margin: 13.75rem;
+  }
+
+  .m-28\@tablet {
+    margin: 14rem;
+  }
+
+  .m-28\.5\@tablet {
+    margin: 14.25rem;
+  }
+
+  .m-29\@tablet {
+    margin: 14.5rem;
+  }
+
+  .m-29\.5\@tablet {
+    margin: 14.75rem;
+  }
+
+  .m-30\@tablet {
+    margin: 15rem;
+  }
+
+  .m-auto\@tablet {
+    margin: auto;
+  }
+
+  .mt-0\@tablet {
+    margin-top: 0;
+  }
+
+  .mt-0\.5\@tablet {
+    margin-top: 0.25rem;
+  }
+
+  .mt-1\@tablet {
+    margin-top: 0.5rem;
+  }
+
+  .mt-1\.5\@tablet {
+    margin-top: 0.75rem;
+  }
+
+  .mt-2\@tablet {
+    margin-top: 1rem;
+  }
+
+  .mt-2\.5\@tablet {
+    margin-top: 1.25rem;
+  }
+
+  .mt-3\@tablet {
+    margin-top: 1.5rem;
+  }
+
+  .mt-3\.5\@tablet {
+    margin-top: 1.75rem;
+  }
+
+  .mt-4\@tablet {
+    margin-top: 2rem;
+  }
+
+  .mt-4\.5\@tablet {
+    margin-top: 2.25rem;
+  }
+
+  .mt-5\@tablet {
+    margin-top: 2.5rem;
+  }
+
+  .mt-5\.5\@tablet {
+    margin-top: 2.75rem;
+  }
+
+  .mt-6\@tablet {
+    margin-top: 3rem;
+  }
+
+  .mt-6\.5\@tablet {
+    margin-top: 3.25rem;
+  }
+
+  .mt-7\@tablet {
+    margin-top: 3.5rem;
+  }
+
+  .mt-7\.5\@tablet {
+    margin-top: 3.75rem;
+  }
+
+  .mt-8\@tablet {
+    margin-top: 4rem;
+  }
+
+  .mt-8\.5\@tablet {
+    margin-top: 4.25rem;
+  }
+
+  .mt-9\@tablet {
+    margin-top: 4.5rem;
+  }
+
+  .mt-9\.5\@tablet {
+    margin-top: 4.75rem;
+  }
+
+  .mt-10\@tablet {
+    margin-top: 5rem;
+  }
+
+  .mt-10\.5\@tablet {
+    margin-top: 5.25rem;
+  }
+
+  .mt-11\@tablet {
+    margin-top: 5.5rem;
+  }
+
+  .mt-11\.5\@tablet {
+    margin-top: 5.75rem;
+  }
+
+  .mt-12\@tablet {
+    margin-top: 6rem;
+  }
+
+  .mt-12\.5\@tablet {
+    margin-top: 6.25rem;
+  }
+
+  .mt-13\@tablet {
+    margin-top: 6.5rem;
+  }
+
+  .mt-13\.5\@tablet {
+    margin-top: 6.75rem;
+  }
+
+  .mt-14\@tablet {
+    margin-top: 7rem;
+  }
+
+  .mt-14\.5\@tablet {
+    margin-top: 7.25rem;
+  }
+
+  .mt-15\@tablet {
+    margin-top: 7.5rem;
+  }
+
+  .mt-15\.5\@tablet {
+    margin-top: 7.75rem;
+  }
+
+  .mt-16\@tablet {
+    margin-top: 8rem;
+  }
+
+  .mt-16\.5\@tablet {
+    margin-top: 8.25rem;
+  }
+
+  .mt-17\@tablet {
+    margin-top: 8.5rem;
+  }
+
+  .mt-17\.5\@tablet {
+    margin-top: 8.75rem;
+  }
+
+  .mt-18\@tablet {
+    margin-top: 9rem;
+  }
+
+  .mt-18\.5\@tablet {
+    margin-top: 9.25rem;
+  }
+
+  .mt-19\@tablet {
+    margin-top: 9.5rem;
+  }
+
+  .mt-19\.5\@tablet {
+    margin-top: 9.75rem;
+  }
+
+  .mt-20\@tablet {
+    margin-top: 10rem;
+  }
+
+  .mt-20\.5\@tablet {
+    margin-top: 10.25rem;
+  }
+
+  .mt-21\@tablet {
+    margin-top: 10.5rem;
+  }
+
+  .mt-21\.5\@tablet {
+    margin-top: 10.75rem;
+  }
+
+  .mt-22\@tablet {
+    margin-top: 11rem;
+  }
+
+  .mt-22\.5\@tablet {
+    margin-top: 11.25rem;
+  }
+
+  .mt-23\@tablet {
+    margin-top: 11.5rem;
+  }
+
+  .mt-23\.5\@tablet {
+    margin-top: 11.75rem;
+  }
+
+  .mt-24\@tablet {
+    margin-top: 12rem;
+  }
+
+  .mt-24\.5\@tablet {
+    margin-top: 12.25rem;
+  }
+
+  .mt-25\@tablet {
+    margin-top: 12.5rem;
+  }
+
+  .mt-25\.5\@tablet {
+    margin-top: 12.75rem;
+  }
+
+  .mt-26\@tablet {
+    margin-top: 13rem;
+  }
+
+  .mt-26\.5\@tablet {
+    margin-top: 13.25rem;
+  }
+
+  .mt-27\@tablet {
+    margin-top: 13.5rem;
+  }
+
+  .mt-27\.5\@tablet {
+    margin-top: 13.75rem;
+  }
+
+  .mt-28\@tablet {
+    margin-top: 14rem;
+  }
+
+  .mt-28\.5\@tablet {
+    margin-top: 14.25rem;
+  }
+
+  .mt-29\@tablet {
+    margin-top: 14.5rem;
+  }
+
+  .mt-29\.5\@tablet {
+    margin-top: 14.75rem;
+  }
+
+  .mt-30\@tablet {
+    margin-top: 15rem;
+  }
+
+  .mt-auto\@tablet {
+    margin-top: auto;
+  }
+
+  .mr-0\@tablet {
+    margin-right: 0;
+  }
+
+  .mr-0\.5\@tablet {
+    margin-right: 0.25rem;
+  }
+
+  .mr-1\@tablet {
+    margin-right: 0.5rem;
+  }
+
+  .mr-1\.5\@tablet {
+    margin-right: 0.75rem;
+  }
+
+  .mr-2\@tablet {
+    margin-right: 1rem;
+  }
+
+  .mr-2\.5\@tablet {
+    margin-right: 1.25rem;
+  }
+
+  .mr-3\@tablet {
+    margin-right: 1.5rem;
+  }
+
+  .mr-3\.5\@tablet {
+    margin-right: 1.75rem;
+  }
+
+  .mr-4\@tablet {
+    margin-right: 2rem;
+  }
+
+  .mr-4\.5\@tablet {
+    margin-right: 2.25rem;
+  }
+
+  .mr-5\@tablet {
+    margin-right: 2.5rem;
+  }
+
+  .mr-5\.5\@tablet {
+    margin-right: 2.75rem;
+  }
+
+  .mr-6\@tablet {
+    margin-right: 3rem;
+  }
+
+  .mr-6\.5\@tablet {
+    margin-right: 3.25rem;
+  }
+
+  .mr-7\@tablet {
+    margin-right: 3.5rem;
+  }
+
+  .mr-7\.5\@tablet {
+    margin-right: 3.75rem;
+  }
+
+  .mr-8\@tablet {
+    margin-right: 4rem;
+  }
+
+  .mr-8\.5\@tablet {
+    margin-right: 4.25rem;
+  }
+
+  .mr-9\@tablet {
+    margin-right: 4.5rem;
+  }
+
+  .mr-9\.5\@tablet {
+    margin-right: 4.75rem;
+  }
+
+  .mr-10\@tablet {
+    margin-right: 5rem;
+  }
+
+  .mr-10\.5\@tablet {
+    margin-right: 5.25rem;
+  }
+
+  .mr-11\@tablet {
+    margin-right: 5.5rem;
+  }
+
+  .mr-11\.5\@tablet {
+    margin-right: 5.75rem;
+  }
+
+  .mr-12\@tablet {
+    margin-right: 6rem;
+  }
+
+  .mr-12\.5\@tablet {
+    margin-right: 6.25rem;
+  }
+
+  .mr-13\@tablet {
+    margin-right: 6.5rem;
+  }
+
+  .mr-13\.5\@tablet {
+    margin-right: 6.75rem;
+  }
+
+  .mr-14\@tablet {
+    margin-right: 7rem;
+  }
+
+  .mr-14\.5\@tablet {
+    margin-right: 7.25rem;
+  }
+
+  .mr-15\@tablet {
+    margin-right: 7.5rem;
+  }
+
+
+  .mr-15\.5\@tablet {
+    margin-right: 7.75rem;
+  }
+
+  .mr-16\@tablet {
+    margin-right: 8rem;
+  }
+
+  .mr-16\.5\@tablet {
+    margin-right: 8.25rem;
+  }
+
+  .mr-17\@tablet {
+    margin-right: 8.5rem;
+  }
+
+  .mr-17\.5\@tablet {
+    margin-right: 8.75rem;
+  }
+
+  .mr-18\@tablet {
+    margin-right: 9rem;
+  }
+
+  .mr-18\.5\@tablet {
+    margin-right: 9.25rem;
+  }
+
+  .mr-19\@tablet {
+    margin-right: 9.5rem;
+  }
+
+  .mr-19\.5\@tablet {
+    margin-right: 9.75rem;
+  }
+
+  .mr-20\@tablet {
+    margin-right: 10rem;
+  }
+
+  .mr-20\.5\@tablet {
+    margin-right: 10.25rem;
+  }
+
+  .mr-21\@tablet {
+    margin-right: 10.5rem;
+  }
+
+  .mr-21\.5\@tablet {
+    margin-right: 10.75rem;
+  }
+
+  .mr-22\@tablet {
+    margin-right: 11rem;
+  }
+
+  .mr-22\.5\@tablet {
+    margin-right: 11.25rem;
+  }
+
+  .mr-23\@tablet {
+    margin-right: 11.5rem;
+  }
+
+  .mr-23\.5\@tablet {
+    margin-right: 11.75rem;
+  }
+
+  .mr-24\@tablet {
+    margin-right: 12rem;
+  }
+
+  .mr-24\.5\@tablet {
+    margin-right: 12.25rem;
+  }
+
+  .mr-25\@tablet {
+    margin-right: 12.5rem;
+  }
+
+  .mr-25\.5\@tablet {
+    margin-right: 12.75rem;
+  }
+
+  .mr-26\@tablet {
+    margin-right: 13rem;
+  }
+
+  .mr-26\.5\@tablet {
+    margin-right: 13.25rem;
+  }
+
+  .mr-27\@tablet {
+    margin-right: 13.5rem;
+  }
+
+  .mr-27\.5\@tablet {
+    margin-right: 13.75rem;
+  }
+
+  .mr-28\@tablet {
+    margin-right: 14rem;
+  }
+
+  .mr-28\.5\@tablet {
+    margin-right: 14.25rem;
+  }
+
+  .mr-29\@tablet {
+    margin-right: 14.5rem;
+  }
+
+  .mr-29\.5\@tablet {
+    margin-right: 14.75rem;
+  }
+
+  .mr-30\@tablet {
+    margin-right: 15rem;
+  }
+  
+  .mr-auto\@tablet {
+    margin-right: auto;
+  }
+
+  .mb-0\@tablet {
+    margin-bottom: 0;
+  }
+
+  .mb-0\.5\@tablet {
+    margin-bottom: 0.25rem;
+  }
+
+  .mb-1\@tablet {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-1\.5\@tablet {
+    margin-bottom: 0.75rem;
+  }
+
+  .mb-2\@tablet {
+    margin-bottom: 1rem;
+  }
+
+  .mb-2\.5\@tablet {
+    margin-bottom: 1.25rem;
+  }
+
+  .mb-3\@tablet {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-3\.5\@tablet {
+    margin-bottom: 1.75rem;
+  }
+
+  .mb-4\@tablet {
+    margin-bottom: 2rem;
+  }
+
+  .mb-4\.5\@tablet {
+    margin-bottom: 2.25rem;
+  }
+
+  .mb-5\@tablet {
+    margin-bottom: 2.5rem;
+  }
+
+  .mb-5\.5\@tablet {
+    margin-bottom: 2.75rem;
+  }
+
+  .mb-6\@tablet {
+    margin-bottom: 3rem;
+  }
+
+  .mb-6\.5\@tablet {
+    margin-bottom: 3.25rem;
+  }
+
+  .mb-7\@tablet {
+    margin-bottom: 3.5rem;
+  }
+
+  .mb-7\.5\@tablet {
+    margin-bottom: 3.75rem;
+  }
+
+  .mb-8\@tablet {
+    margin-bottom: 4rem;
+  }
+
+  .mb-8\.5\@tablet {
+    margin-bottom: 4.25rem;
+  }
+
+  .mb-9\@tablet {
+    margin-bottom: 4.5rem;
+  }
+
+  .mb-9\.5\@tablet {
+    margin-bottom: 4.75rem;
+  }
+
+  .mb-10\@tablet {
+    margin-bottom: 5rem;
+  }
+
+  .mb-10\.5\@tablet {
+    margin-bottom: 5.25rem;
+  }
+
+  .mb-11\@tablet {
+    margin-bottom: 5.5rem;
+  }
+
+  .mb-11\.5\@tablet {
+    margin-bottom: 5.75rem;
+  }
+
+  .mb-12\@tablet {
+    margin-bottom: 6rem;
+  }
+
+  .mb-12\.5\@tablet {
+    margin-bottom: 6.25rem;
+  }
+
+  .mb-13\@tablet {
+    margin-bottom: 6.5rem;
+  }
+
+  .mb-13\.5\@tablet {
+    margin-bottom: 6.75rem;
+  }
+
+  .mb-14\@tablet {
+    margin-bottom: 7rem;
+  }
+
+  .mb-14\.5\@tablet {
+    margin-bottom: 7.25rem;
+  }
+
+  .mb-15\@tablet {
+    margin-bottom: 7.5rem;
+  }
+
+  .mb-15\.5\@tablet {
+    margin-bottom: 7.75rem;
+  }
+
+  .mb-16\@tablet {
+    margin-bottom: 8rem;
+  }
+
+  .mb-16\.5\@tablet {
+    margin-bottom: 8.25rem;
+  }
+
+  .mb-17\@tablet {
+    margin-bottom: 8.5rem;
+  }
+
+  .mb-17\.5\@tablet {
+    margin-bottom: 8.75rem;
+  }
+
+  .mb-18\@tablet {
+    margin-bottom: 9rem;
+  }
+
+  .mb-18\.5\@tablet {
+    margin-bottom: 9.25rem;
+  }
+
+  .mb-19\@tablet {
+    margin-bottom: 9.5rem;
+  }
+
+  .mb-19\.5\@tablet {
+    margin-bottom: 9.75rem;
+  }
+
+  .mb-20\@tablet {
+    margin-bottom: 10rem;
+  }
+
+  .mb-20\.5\@tablet {
+    margin-bottom: 10.25rem;
+  }
+
+  .mb-21\@tablet {
+    margin-bottom: 10.5rem;
+  }
+
+  .mb-21\.5\@tablet {
+    margin-bottom: 10.75rem;
+  }
+
+  .mb-22\@tablet {
+    margin-bottom: 11rem;
+  }
+
+  .mb-22\.5\@tablet {
+    margin-bottom: 11.25rem;
+  }
+
+  .mb-23\@tablet {
+    margin-bottom: 11.5rem;
+  }
+
+  .mb-23\.5\@tablet {
+    margin-bottom: 11.75rem;
+  }
+
+  .mb-24\@tablet {
+    margin-bottom: 12rem;
+  }
+
+  .mb-24\.5\@tablet {
+    margin-bottom: 12.25rem;
+  }
+
+  .mb-25\@tablet {
+    margin-bottom: 12.5rem;
+  }
+
+  .mb-25\.5\@tablet {
+    margin-bottom: 12.75rem;
+  }
+
+  .mb-26\@tablet {
+    margin-bottom: 13rem;
+  }
+
+  .mb-26\.5\@tablet {
+    margin-bottom: 13.25rem;
+  }
+
+  .mb-27\@tablet {
+    margin-bottom: 13.5rem;
+  }
+
+  .mb-27\.5\@tablet {
+    margin-bottom: 13.75rem;
+  }
+
+  .mb-28\@tablet {
+    margin-bottom: 14rem;
+  }
+
+  .mb-28\.5\@tablet {
+    margin-bottom: 14.25rem;
+  }
+
+  .mb-29\@tablet {
+    margin-bottom: 14.5rem;
+  }
+
+  .mb-29\.5\@tablet {
+    margin-bottom: 14.75rem;
+  }
+
+  .mb-30\@tablet {
+    margin-bottom: 15rem;
+  }
+
+  .mb-auto\@tablet {
+    margin-bottom: auto;
+  }
+
+  .ml-0\@tablet {
+    margin-left: 0;
+  }
+
+  .ml-0\.5\@tablet {
+    margin-left: 0.25rem;
+  }
+
+  .ml-1\@tablet {
+    margin-left: 0.5rem;
+  }
+
+  .ml-1\.5\@tablet {
+    margin-left: 0.75rem;
+  }
+
+  .ml-2\@tablet {
+    margin-left: 1rem;
+  }
+
+  .ml-2\.5\@tablet {
+    margin-left: 1.25rem;
+  }
+
+  .ml-3\@tablet {
+    margin-left: 1.5rem;
+  }
+
+  .ml-3\.5\@tablet {
+    margin-left: 1.75rem;
+  }
+
+  .ml-4\@tablet {
+    margin-left: 2rem;
+  }
+
+  .ml-4\.5\@tablet {
+    margin-left: 2.25rem;
+  }
+
+  .ml-5\@tablet {
+    margin-left: 2.5rem;
+  }
+
+  .ml-5\.5\@tablet {
+    margin-left: 2.75rem;
+  }
+
+  .ml-6\@tablet {
+    margin-left: 3rem;
+  }
+
+  .ml-6\.5\@tablet {
+    margin-left: 3.25rem;
+  }
+
+  .ml-7\@tablet {
+    margin-left: 3.5rem;
+  }
+
+  .ml-7\.5\@tablet {
+    margin-left: 3.75rem;
+  }
+
+  .ml-8\@tablet {
+    margin-left: 4rem;
+  }
+
+  .ml-8\.5\@tablet {
+    margin-left: 4.25rem;
+  }
+
+  .ml-9\@tablet {
+    margin-left: 4.5rem;
+  }
+
+  .ml-9\.5\@tablet {
+    margin-left: 4.75rem;
+  }
+
+  .ml-10\@tablet {
+    margin-left: 5rem;
+  }
+
+  .ml-10\.5\@tablet {
+    margin-left: 5.25rem;
+  }
+
+  .ml-11\@tablet {
+    margin-left: 5.5rem;
+  }
+
+  .ml-11\.5\@tablet {
+    margin-left: 5.75rem;
+  }
+
+  .ml-12\@tablet {
+    margin-left: 6rem;
+  }
+
+  .ml-12\.5\@tablet {
+    margin-left: 6.25rem;
+  }
+
+  .ml-13\@tablet {
+    margin-left: 6.5rem;
+  }
+
+  .ml-13\.5\@tablet {
+    margin-left: 6.75rem;
+  }
+
+  .ml-14\@tablet {
+    margin-left: 7rem;
+  }
+
+  .ml-14\.5\@tablet {
+    margin-left: 7.25rem;
+  }
+
+  .ml-15\@tablet {
+    margin-left: 7.5rem;
+  }
+
+  .ml-15\.5\@tablet {
+    margin-left: 7.75rem;
+  }
+
+  .ml-16\@tablet {
+    margin-left: 8rem;
+  }
+
+  .ml-16\.5\@tablet {
+    margin-left: 8.25rem;
+  }
+
+  .ml-17\@tablet {
+    margin-left: 8.5rem;
+  }
+
+  .ml-17\.5\@tablet {
+    margin-left: 8.75rem;
+  }
+
+  .ml-18\@tablet {
+    margin-left: 9rem;
+  }
+
+  .ml-18\.5\@tablet {
+    margin-left: 9.25rem;
+  }
+
+  .ml-19\@tablet {
+    margin-left: 9.5rem;
+  }
+
+  .ml-19\.5\@tablet {
+    margin-left: 9.75rem;
+  }
+
+  .ml-20\@tablet {
+    margin-left: 10rem;
+  }
+
+  .ml-20\.5\@tablet {
+    margin-left: 10.25rem;
+  }
+
+  .ml-21\@tablet {
+    margin-left: 10.5rem;
+  }
+
+  .ml-21\.5\@tablet {
+    margin-left: 10.75rem;
+  }
+
+  .ml-22\@tablet {
+    margin-left: 11rem;
+  }
+
+  .ml-22\.5\@tablet {
+    margin-left: 11.25rem;
+  }
+
+  .ml-23\@tablet {
+    margin-left: 11.5rem;
+  }
+
+  .ml-23\.5\@tablet {
+    margin-left: 11.75rem;
+  }
+
+  .ml-24\@tablet {
+    margin-left: 12rem;
+  }
+
+  .ml-24\.5\@tablet {
+    margin-left: 12.25rem;
+  }
+
+  .ml-25\@tablet {
+    margin-left: 12.5rem;
+  }
+
+  .ml-25\.5\@tablet {
+    margin-left: 12.75rem;
+  }
+
+  .ml-26\@tablet {
+    margin-left: 13rem;
+  }
+
+  .ml-26\.5\@tablet {
+    margin-left: 13.25rem;
+  }
+
+  .ml-27\@tablet {
+    margin-left: 13.5rem;
+  }
+
+  .ml-27\.5\@tablet {
+    margin-left: 13.75rem;
+  }
+
+  .ml-28\@tablet {
+    margin-left: 14rem;
+  }
+
+  .ml-28\.5\@tablet {
+    margin-left: 14.25rem;
+  }
+
+  .ml-29\@tablet {
+    margin-left: 14.5rem;
+  }
+
+  .ml-29\.5\@tablet {
+    margin-left: 14.75rem;
+  }
+
+  .ml-30\@tablet {
+    margin-left: 15rem;
+  }
+  
+  .ml-auto\@tablet {
+    margin-left: auto;
+  }
+
+  .my-0\@tablet {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .my-0\.5\@tablet {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .my-1\@tablet {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .my-1\.5\@tablet {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .my-2\@tablet {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .my-2\.5\@tablet {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .my-3\@tablet {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .my-3\.5\@tablet {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .my-4\@tablet {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .my-4\.5\@tablet {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .my-5\@tablet {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .my-5\.5\@tablet {
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .my-6\@tablet {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .my-6\.5\@tablet {
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
+  }
+
+  .my-7\@tablet {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .my-7\.5\@tablet {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+  }
+
+  .my-8\@tablet {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .my-8\.5\@tablet {
+    margin-top: 4.25rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .my-9\@tablet {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .my-9\.5\@tablet {
+    margin-top: 4.75rem;
+    margin-bottom: 4.75rem;
+  }
+
+  .my-10\@tablet {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .my-10\.5\@tablet {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .my-11\@tablet {
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .my-11\.5\@tablet {
+    margin-top: 5.75rem;
+    margin-bottom: 5.75rem;
+  }
+
+  .my-12\@tablet {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .my-12\.5\@tablet {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
+
+  .my-13\@tablet {
+    margin-top: 6.55rem;
+    margin-bottom: 6.55rem;
+  }
+
+  .my-13\.5\@tablet {
+    margin-top: 6.75rem;
+    margin-bottom: 6.75rem;
+  }
+
+  .my-14\@tablet {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .my-14\.5\@tablet {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\@tablet {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\.5\@tablet {
+    margin-top: 7.75rem;
+    margin-bottom: 7.75rem;
+  }
+
+  .my-16\@tablet {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .my-16\.5\@tablet {
+    margin-top: 8.25rem;
+    margin-bottom: 8.25rem;
+  }
+
+  .my-17\@tablet {
+    margin-top: 8.5rem;
+    margin-bottom: 8.5rem;
+  }
+
+  .my-17\.5\@tablet {
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+  }
+
+  .my-18\@tablet {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .my-18\.5\@tablet {
+    margin-top: 9.25rem;
+    margin-bottom: 9.25rem;
+  }
+
+  .my-19\@tablet {
+    margin-top: 9.5rem;
+    margin-bottom: 9.5rem;
+  }
+
+  .my-19\.5\@tablet {
+    margin-top: 9.75rem;
+    margin-bottom: 9.75rem;
+  }
+
+  .my-20\@tablet {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .my-20\.5\@tablet {
+    margin-top: 10.25rem;
+    margin-bottom: 10.25rem;
+  }
+
+  .my-21\@tablet {
+    margin-top: 10.5rem;
+    margin-bottom: 10.5rem;
+  }
+
+  .my-21\.5\@tablet {
+    margin-top: 10.75rem;
+    margin-bottom: 10.75rem;
+  }
+
+  .my-22\@tablet {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
+
+  .my-22\.5\@tablet {
+    margin-top: 11.25rem;
+    margin-bottom: 11.25rem;
+  }
+
+  .my-23\@tablet {
+    margin-top: 11.5rem;
+    margin-bottom: 11.5rem;
+  }
+
+  .my-23\.5\@tablet {
+    margin-top: 11.75rem;
+    margin-bottom: 11.75rem;
+  }
+
+  .my-24\@tablet {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .my-24\.5\@tablet {
+    margin-top: 12.25rem;
+    margin-bottom: 12.25rem;
+  }
+
+  .my-25\@tablet {
+    margin-top: 12.5rem;
+    margin-bottom: 12.5rem;
+  }
+
+  .my-25\.5\@tablet {
+    margin-top: 12.75rem;
+    margin-bottom: 12.75rem;
+  }
+
+  .my-26\@tablet {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
+
+  .my-26\.5\@tablet {
+    margin-top: 13.25rem;
+    margin-bottom: 13.25rem;
+  }
+
+  .my-27\@tablet {
+    margin-top: 13.5rem;
+    margin-bottom: 13.5rem;
+  }
+
+  .my-28\.5\@tablet {
+    margin-top: 13.75rem;
+    margin-bottom: 13.75rem;
+  }
+
+  .my-28\@tablet {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .my-28\.5\@tablet {
+    margin-top: 14.25rem;
+    margin-bottom: 14.25rem;
+  }
+
+  .my-29\@tablet {
+    margin-top: 14.5rem;
+    margin-bottom: 14.5rem;
+  }
+
+  .my-29\.5\@tablet {
+    margin-top: 14.75rem;
+    margin-bottom: 14.75rem;
+  }
+
+  .my-30\@tablet {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+
+  .my-auto\@tablet {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .mx-0\@tablet {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mx-0\.5\@tablet {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .mx-1\@tablet {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .mx-1\.5\@tablet {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  .mx-2\@tablet {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .mx-2\.5\@tablet {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+  }
+
+  .mx-3\@tablet {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .mx-3\.5\@tablet {
+    margin-right: 1.75rem;
+    margin-left: 1.75rem;
+  }
+
+  .mx-4\@tablet {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .mx-4\.5\@tablet {
+    margin-right: 2.25rem;
+    margin-left: 2.25rem;
+  }
+
+  .mx-5\@tablet {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .mx-5\.5\@tablet {
+    margin-right: 2.75rem;
+    margin-left: 2.75rem;
+  }
+
+  .mx-6\@tablet {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .mx-6\.5\@tablet {
+    margin-right: 3.25rem;
+    margin-left: 3.25rem;
+  }
+
+  .mx-7\@tablet {
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+  }
+
+  .mx-7\.5\@tablet {
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
+  }
+
+  .mx-8\@tablet {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .mx-8\.5\@tablet {
+    margin-right: 4.25rem;
+    margin-left: 4.25rem;
+  }
+
+  .mx-9\@tablet {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .mx-9\.5\@tablet {
+    margin-right: 4.75rem;
+    margin-left: 4.75rem;
+  }
+
+  .mx-10\@tablet {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .mx-10\.5\@tablet {
+    margin-right: 5.25rem;
+    margin-left: 5.25rem;
+  }
+
+  .mx-11\@tablet {
+    margin-right: 5.5rem;
+    margin-left: 5.5rem;
+  }
+
+  .mx-11\.5\@tablet {
+    margin-right: 5.75rem;
+    margin-left: 5.75rem;
+  }
+
+  .mx-12\@tablet {
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+
+  .mx-12\.5\@tablet {
+    margin-right: 6.25rem;
+    margin-left: 6.25rem;
+  }
+
+  .mx-13\@tablet {
+    margin-right: 6.55rem;
+    margin-left: 6.55rem;
+  }
+
+  .mx-13\.5\@tablet {
+    margin-right: 6.75rem;
+    margin-left: 6.75rem;
+  }
+
+  .mx-14\@tablet {
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+
+  .mx-14\.5\@tablet {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\@tablet {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\.5\@tablet {
+    margin-right: 7.75rem;
+    margin-left: 7.75rem;
+  }
+
+  .mx-16\@tablet {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+
+  .mx-16\.5\@tablet {
+    margin-right: 8.25rem;
+    margin-left: 8.25rem;
+  }
+
+  .mx-17\@tablet {
+    margin-right: 8.5rem;
+    margin-left: 8.5rem;
+  }
+
+  .mx-17\.5\@tablet {
+    margin-right: 8.75rem;
+    margin-left: 8.75rem;
+  }
+
+  .mx-18\@tablet {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+
+  .mx-18\.5\@tablet {
+    margin-right: 9.25rem;
+    margin-left: 9.25rem;
+  }
+
+  .mx-19\@tablet {
+    margin-right: 9.5rem;
+    margin-left: 9.5rem;
+  }
+
+  .mx-19\.5\@tablet {
+    margin-right: 9.75rem;
+    margin-left: 9.75rem;
+  }
+
+  .mx-20\@tablet {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+
+  .mx-20\.5\@tablet {
+    margin-right: 10.25rem;
+    margin-left: 10.25rem;
+  }
+
+  .mx-21\@tablet {
+    margin-right: 10.5rem;
+    margin-left: 10.5rem;
+  }
+
+  .mx-21\.5\@tablet {
+    margin-right: 10.75rem;
+    margin-left: 10.75rem;
+  }
+
+  .mx-22\@tablet {
+    margin-right: 11rem;
+    margin-left: 11rem;
+  }
+
+  .mx-22\.5\@tablet {
+    margin-right: 11.25rem;
+    margin-left: 11.25rem;
+  }
+
+  .mx-23\@tablet {
+    margin-right: 11.5rem;
+    margin-left: 11.5rem;
+  }
+
+  .mx-23\.5\@tablet {
+    margin-right: 11.75rem;
+    margin-left: 11.75rem;
+  }
+
+  .mx-24\@tablet {
+    margin-right: 12rem;
+    margin-left: 12rem;
+  }
+
+  .mx-24\.5\@tablet {
+    margin-right: 12.25rem;
+    margin-left: 12.25rem;
+  }
+
+  .mx-25\@tablet {
+    margin-right: 12.5rem;
+    margin-left: 12.5rem;
+  }
+
+  .mx-25\.5\@tablet {
+    margin-right: 12.75rem;
+    margin-left: 12.75rem;
+  }
+
+  .mx-26\@tablet {
+    margin-right: 13rem;
+    margin-left: 13rem;
+  }
+
+  .mx-26\.5\@tablet {
+    margin-right: 13.25rem;
+    margin-left: 13.25rem;
+  }
+
+  .mx-27\@tablet {
+    margin-right: 13.5rem;
+    margin-left: 13.5rem;
+  }
+
+  .mx-28\.5\@tablet {
+    margin-right: 13.75rem;
+    margin-left: 13.75rem;
+  }
+
+  .mx-28\@tablet {
+    margin-right: 14rem;
+    margin-left: 14rem;
+  }
+
+  .mx-28\.5\@tablet {
+    margin-right: 14.25rem;
+    margin-left: 14.25rem;
+  }
+
+  .mx-29\@tablet {
+    margin-right: 14.5rem;
+    margin-left: 14.5rem;
+  }
+
+  .mx-29\.5\@tablet {
+    margin-right: 14.75rem;
+    margin-left: 14.75rem;
+  }
+
+  .mx-30\@tablet {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+
+  .mx-auto\@tablet {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media (min-width: $laptop-min-width) {
+  .m-0\@laptop {
+    margin: 0;
+  }
+
+  .m-0\.5\@laptop {
+    margin: 0.25rem;
+  }
+
+  .m-1\@laptop {
+    margin: 0.5rem;
+  }
+
+  .m-1\.5\@laptop {
+    margin: 0.75rem;
+  }
+
+  .m-2\@laptop {
+    margin: 1rem;
+  }
+
+  .m-2\.5\@laptop {
+    margin: 1.25rem;
+  }
+
+  .m-3\@laptop {
+    margin: 1.5rem;
+  }
+
+  .m-3\.5\@laptop {
+    margin: 1.75rem;
+  }
+
+  .m-4\@laptop {
+    margin: 2rem;
+  }
+
+  .m-4\.5\@laptop {
+    margin: 2.25rem;
+  }
+
+  .m-5\@laptop {
+    margin: 2.5rem;
+  }
+
+  .m-5\.5\@laptop {
+    margin: 2.75rem;
+  }
+
+  .m-6\@laptop {
+    margin: 3rem;
+  }
+
+  .m-6\.5\@laptop {
+    margin: 3.25rem;
+  }
+
+  .m-7\@laptop {
+    margin: 3.5rem;
+  }
+
+  .m-7\.5\@laptop {
+    margin: 3.75rem;
+  }
+
+  .m-8\@laptop {
+    margin: 4rem;
+  }
+
+  .m-8\.5\@laptop {
+    margin: 4.25rem;
+  }
+
+  .m-9\@laptop {
+    margin: 4.5rem;
+  }
+
+  .m-9\.5\@laptop {
+    margin: 4.75rem;
+  }
+
+  .m-10\@laptop {
+    margin: 5rem;
+  }
+
+  .m-10\.5\@laptop {
+    margin: 5.25rem;
+  }
+
+  .m-11\@laptop {
+    margin: 5.5rem;
+  }
+
+  .m-11\.5\@laptop {
+    margin: 5.75rem;
+  }
+
+  .m-12\@laptop {
+    margin: 6rem;
+  }
+
+  .m-12\.5\@laptop {
+    margin: 6.25rem;
+  }
+
+  .m-13\@laptop {
+    margin: 6.5rem;
+  }
+
+  .m-13\.5\@laptop {
+    margin: 6.75rem;
+  }
+
+  .m-14\@laptop {
+    margin: 7rem;
+  }
+
+  .m-14\.5\@laptop {
+    margin: 7.25rem;
+  }
+
+  .m-15\@laptop {
+    margin: 7.5rem;
+  }
+
+ .m-15\.5\@laptop {
+    margin: 7.75rem;
+  }
+
+  .m-16\@laptop {
+    margin: 8rem;
+  }
+
+  .m-16\.5\@laptop {
+    margin: 8.25rem;
+  }
+
+  .m-17\@laptop {
+    margin: 8.5rem;
+  }
+
+  .m-17\.5\@laptop {
+    margin: 8.75rem;
+  }
+
+  .m-18\@laptop {
+    margin: 9rem;
+  }
+
+  .m-18\.5\@laptop {
+    margin: 9.25rem;
+  }
+
+  .m-19\@laptop {
+    margin: 9.5rem;
+  }
+
+  .m-19\.5\@laptop {
+    margin: 9.75rem;
+  }
+
+  .m-20\@laptop {
+    margin: 10rem;
+  }
+
+  .m-20\.5\@laptop {
+    margin: 10.25rem;
+  }
+
+  .m-21\@laptop {
+    margin: 10.5rem;
+  }
+
+  .m-21\.5\@laptop {
+    margin: 10.75rem;
+  }
+
+  .m-22\@laptop {
+    margin: 11rem;
+  }
+
+  .m-22\.5\@laptop {
+    margin: 11.25rem;
+  }
+
+  .m-23\@laptop {
+    margin-top: 11.5rem;
+  }
+
+  .m-23\.5\@laptop {
+    margin: 11.75rem;
+  }
+
+  .m-24\@laptop {
+    margin-top: 12rem;
+  }
+
+  .m-24\.5\@laptop {
+    margin: 12.25rem;
+  }
+
+  .m-25\@laptop {
+    margin: 12.5rem;
+  }
+
+  .m-25\.5\@laptop {
+    margin: 12.75rem;
+  }
+
+  .m-26\@laptop {
+    margin: 13rem;
+  }
+
+  .m-26\.5\@laptop {
+    margin: 13.25rem;
+  }
+
+  .m-27\@laptop {
+    margin: 13.5rem;
+  }
+
+  .m-27\.5\@laptop {
+    margin: 13.75rem;
+  }
+
+  .m-28\@laptop {
+    margin: 14rem;
+  }
+
+  .m-28\.5\@laptop {
+    margin: 14.25rem;
+  }
+
+  .m-29\@laptop {
+    margin: 14.5rem;
+  }
+
+  .m-29\.5\@laptop {
+    margin: 14.75rem;
+  }
+
+  .m-30\@laptop {
+    margin: 15rem;
+  }
+
+  .m-auto\@laptop {
+    margin: auto;
+  }
+
+  .mt-0\@laptop {
+    margin-top: 0;
+  }
+
+  .mt-0\.5\@laptop {
+    margin-top: 0.25rem;
+  }
+
+  .mt-1\@laptop {
+    margin-top: 0.5rem;
+  }
+
+  .mt-1\.5\@laptop {
+    margin-top: 0.75rem;
+  }
+
+  .mt-2\@laptop {
+    margin-top: 1rem;
+  }
+
+  .mt-2\.5\@laptop {
+    margin-top: 1.25rem;
+  }
+
+  .mt-3\@laptop {
+    margin-top: 1.5rem;
+  }
+
+  .mt-3\.5\@laptop {
+    margin-top: 1.75rem;
+  }
+
+  .mt-4\@laptop {
+    margin-top: 2rem;
+  }
+
+  .mt-4\.5\@laptop {
+    margin-top: 2.25rem;
+  }
+
+  .mt-5\@laptop {
+    margin-top: 2.5rem;
+  }
+
+  .mt-5\.5\@laptop {
+    margin-top: 2.75rem;
+  }
+
+  .mt-6\@laptop {
+    margin-top: 3rem;
+  }
+
+  .mt-6\.5\@laptop {
+    margin-top: 3.25rem;
+  }
+
+  .mt-7\@laptop {
+    margin-top: 3.5rem;
+  }
+
+  .mt-7\.5\@laptop {
+    margin-top: 3.75rem;
+  }
+
+  .mt-8\@laptop {
+    margin-top: 4rem;
+  }
+
+  .mt-8\.5\@laptop {
+    margin-top: 4.25rem;
+  }
+
+  .mt-9\@laptop {
+    margin-top: 4.5rem;
+  }
+
+  .mt-9\.5\@laptop {
+    margin-top: 4.75rem;
+  }
+
+  .mt-10\@laptop {
+    margin-top: 5rem;
+  }
+
+  .mt-10\.5\@laptop {
+    margin-top: 5.25rem;
+  }
+
+  .mt-11\@laptop {
+    margin-top: 5.5rem;
+  }
+
+  .mt-11\.5\@laptop {
+    margin-top: 5.75rem;
+  }
+
+  .mt-12\@laptop {
+    margin-top: 6rem;
+  }
+
+  .mt-12\.5\@laptop {
+    margin-top: 6.25rem;
+  }
+
+  .mt-13\@laptop {
+    margin-top: 6.5rem;
+  }
+
+  .mt-13\.5\@laptop {
+    margin-top: 6.75rem;
+  }
+
+  .mt-14\@laptop {
+    margin-top: 7rem;
+  }
+
+  .mt-14\.5\@laptop {
+    margin-top: 7.25rem;
+  }
+
+  .mt-15\@laptop {
+    margin-top: 7.5rem;
+  }
+
+  .mt-15\.5\@laptop {
+    margin-top: 7.75rem;
+  }
+
+  .mt-16\@laptop {
+    margin-top: 8rem;
+  }
+
+  .mt-16\.5\@laptop {
+    margin-top: 8.25rem;
+  }
+
+  .mt-17\@laptop {
+    margin-top: 8.5rem;
+  }
+
+  .mt-17\.5\@laptop {
+    margin-top: 8.75rem;
+  }
+
+  .mt-18\@laptop {
+    margin-top: 9rem;
+  }
+
+  .mt-18\.5\@laptop {
+    margin-top: 9.25rem;
+  }
+
+  .mt-19\@laptop {
+    margin-top: 9.5rem;
+  }
+
+  .mt-19\.5\@laptop {
+    margin-top: 9.75rem;
+  }
+
+  .mt-20\@laptop {
+    margin-top: 10rem;
+  }
+
+  .mt-20\.5\@laptop {
+    margin-top: 10.25rem;
+  }
+
+  .mt-21\@laptop {
+    margin-top: 10.5rem;
+  }
+
+  .mt-21\.5\@laptop {
+    margin-top: 10.75rem;
+  }
+
+  .mt-22\@laptop {
+    margin-top: 11rem;
+  }
+
+  .mt-22\.5\@laptop {
+    margin-top: 11.25rem;
+  }
+
+  .mt-23\@laptop {
+    margin-top: 11.5rem;
+  }
+
+  .mt-23\.5\@laptop {
+    margin-top: 11.75rem;
+  }
+
+  .mt-24\@laptop {
+    margin-top: 12rem;
+  }
+
+  .mt-24\.5\@laptop {
+    margin-top: 12.25rem;
+  }
+
+  .mt-25\@laptop {
+    margin-top: 12.5rem;
+  }
+
+  .mt-25\.5\@laptop {
+    margin-top: 12.75rem;
+  }
+
+  .mt-26\@laptop {
+    margin-top: 13rem;
+  }
+
+  .mt-26\.5\@laptop {
+    margin-top: 13.25rem;
+  }
+
+  .mt-27\@laptop {
+    margin-top: 13.5rem;
+  }
+
+  .mt-27\.5\@laptop {
+    margin-top: 13.75rem;
+  }
+
+  .mt-28\@laptop {
+    margin-top: 14rem;
+  }
+
+  .mt-28\.5\@laptop {
+    margin-top: 14.25rem;
+  }
+
+  .mt-29\@laptop {
+    margin-top: 14.5rem;
+  }
+
+  .mt-29\.5\@laptop {
+    margin-top: 14.75rem;
+  }
+
+  .mt-30\@laptop {
+    margin-top: 15rem;
+  }
+
+  .mt-auto\@laptop {
+    margin-top: auto;
+  }
+
+  .mr-0\@laptop {
+    margin-right: 0;
+  }
+
+  .mr-0\.5\@laptop {
+    margin-right: 0.25rem;
+  }
+
+  .mr-1\@laptop {
+    margin-right: 0.5rem;
+  }
+
+  .mr-1\.5\@laptop {
+    margin-right: 0.75rem;
+  }
+
+  .mr-2\@laptop {
+    margin-right: 1rem;
+  }
+
+  .mr-2\.5\@laptop {
+    margin-right: 1.25rem;
+  }
+
+  .mr-3\@laptop {
+    margin-right: 1.5rem;
+  }
+
+  .mr-3\.5\@laptop {
+    margin-right: 1.75rem;
+  }
+
+  .mr-4\@laptop {
+    margin-right: 2rem;
+  }
+
+  .mr-4\.5\@laptop {
+    margin-right: 2.25rem;
+  }
+
+  .mr-5\@laptop {
+    margin-right: 2.5rem;
+  }
+
+  .mr-5\.5\@laptop {
+    margin-right: 2.75rem;
+  }
+
+  .mr-6\@laptop {
+    margin-right: 3rem;
+  }
+
+  .mr-6\.5\@laptop {
+    margin-right: 3.25rem;
+  }
+
+  .mr-7\@laptop {
+    margin-right: 3.5rem;
+  }
+
+  .mr-7\.5\@laptop {
+    margin-right: 3.75rem;
+  }
+
+  .mr-8\@laptop {
+    margin-right: 4rem;
+  }
+
+  .mr-8\.5\@laptop {
+    margin-right: 4.25rem;
+  }
+
+  .mr-9\@laptop {
+    margin-right: 4.5rem;
+  }
+
+  .mr-9\.5\@laptop {
+    margin-right: 4.75rem;
+  }
+
+  .mr-10\@laptop {
+    margin-right: 5rem;
+  }
+
+  .mr-10\.5\@laptop {
+    margin-right: 5.25rem;
+  }
+
+  .mr-11\@laptop {
+    margin-right: 5.5rem;
+  }
+
+  .mr-11\.5\@laptop {
+    margin-right: 5.75rem;
+  }
+
+  .mr-12\@laptop {
+    margin-right: 6rem;
+  }
+
+  .mr-12\.5\@laptop {
+    margin-right: 6.25rem;
+  }
+
+  .mr-13\@laptop {
+    margin-right: 6.5rem;
+  }
+
+  .mr-13\.5\@laptop {
+    margin-right: 6.75rem;
+  }
+
+  .mr-14\@laptop {
+    margin-right: 7rem;
+  }
+
+  .mr-14\.5\@laptop {
+    margin-right: 7.25rem;
+  }
+
+  .mr-15\@laptop {
+    margin-right: 7.5rem;
+  }
+
+  .mr-15\.5\@laptop {
+    margin-right: 7.75rem;
+  }
+
+  .mr-16\@laptop {
+    margin-right: 8rem;
+  }
+
+  .mr-16\.5\@laptop {
+    margin-right: 8.25rem;
+  }
+
+  .mr-17\@laptop {
+    margin-right: 8.5rem;
+  }
+
+  .mr-17\.5\@laptop {
+    margin-right: 8.75rem;
+  }
+
+  .mr-18\@laptop {
+    margin-right: 9rem;
+  }
+
+  .mr-18\.5\@laptop {
+    margin-right: 9.25rem;
+  }
+
+  .mr-19\@laptop {
+    margin-right: 9.5rem;
+  }
+
+  .mr-19\.5\@laptop {
+    margin-right: 9.75rem;
+  }
+
+  .mr-20\@laptop {
+    margin-right: 10rem;
+  }
+
+  .mr-20\.5\@laptop {
+    margin-right: 10.25rem;
+  }
+
+  .mr-21\@laptop {
+    margin-right: 10.5rem;
+  }
+
+  .mr-21\.5\@laptop {
+    margin-right: 10.75rem;
+  }
+
+  .mr-22\@laptop {
+    margin-right: 11rem;
+  }
+
+  .mr-22\.5\@laptop {
+    margin-right: 11.25rem;
+  }
+
+  .mr-23\@laptop {
+    margin-right: 11.5rem;
+  }
+
+  .mr-23\.5\@laptop {
+    margin-right: 11.75rem;
+  }
+
+  .mr-24\@laptop {
+    margin-right: 12rem;
+  }
+
+  .mr-24\.5\@laptop {
+    margin-right: 12.25rem;
+  }
+
+  .mr-25\@laptop {
+    margin-right: 12.5rem;
+  }
+
+  .mr-25\.5\@laptop {
+    margin-right: 12.75rem;
+  }
+
+  .mr-26\@laptop {
+    margin-right: 13rem;
+  }
+
+  .mr-26\.5\@laptop {
+    margin-right: 13.25rem;
+  }
+
+  .mr-27\@laptop {
+    margin-right: 13.5rem;
+  }
+
+  .mr-27\.5\@laptop {
+    margin-right: 13.75rem;
+  }
+
+  .mr-28\@laptop {
+    margin-right: 14rem;
+  }
+
+  .mr-28\.5\@laptop {
+    margin-right: 14.25rem;
+  }
+
+  .mr-29\@laptop {
+    margin-right: 14.5rem;
+  }
+
+  .mr-29\.5\@laptop {
+    margin-right: 14.75rem;
+  }
+
+  .mr-30\@laptop {
+    margin-right: 15rem;
+  }
+
+  .mr-auto\@laptop {
+    margin-right: auto;
+  }
+
+  .mb-0\@laptop {
+    margin-bottom: 0;
+  }
+
+  .mb-0\.5\@laptop {
+    margin-bottom: 0.25rem;
+  }
+
+  .mb-1\@laptop {
+    margin-bottom: 0.5rem;
+  }
+
+  .mb-1\.5\@laptop {
+    margin-bottom: 0.75rem;
+  }
+
+  .mb-2\@laptop {
+    margin-bottom: 1rem;
+  }
+
+  .mb-2\.5\@laptop {
+    margin-bottom: 1.25rem;
+  }
+
+  .mb-3\@laptop {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-3\.5\@laptop {
+    margin-bottom: 1.75rem;
+  }
+
+  .mb-4\@laptop {
+    margin-bottom: 2rem;
+  }
+
+  .mb-4\.5\@laptop {
+    margin-bottom: 2.25rem;
+  }
+
+  .mb-5\@laptop {
+    margin-bottom: 2.5rem;
+  }
+
+  .mb-5\.5\@laptop {
+    margin-bottom: 2.75rem;
+  }
+
+  .mb-6\@laptop {
+    margin-bottom: 3rem;
+  }
+
+  .mb-6\.5\@laptop {
+    margin-bottom: 3.25rem;
+  }
+
+  .mb-7\@laptop {
+    margin-bottom: 3.5rem;
+  }
+
+  .mb-7\.5\@laptop {
+    margin-bottom: 3.75rem;
+  }
+
+  .mb-8\@laptop {
+    margin-bottom: 4rem;
+  }
+
+  .mb-8\.5\@laptop {
+    margin-bottom: 4.25rem;
+  }
+
+  .mb-9\@laptop {
+    margin-bottom: 4.5rem;
+  }
+
+  .mb-9\.5\@laptop {
+    margin-bottom: 4.75rem;
+  }
+
+  .mb-10\@laptop {
+    margin-bottom: 5rem;
+  }
+
+  .mb-10\.5\@laptop {
+    margin-bottom: 5.25rem;
+  }
+
+  .mb-11\@laptop {
+    margin-bottom: 5.5rem;
+  }
+
+  .mb-11\.5\@laptop {
+    margin-bottom: 5.75rem;
+  }
+
+  .mb-12\@laptop {
+    margin-bottom: 6rem;
+  }
+
+  .mb-12\.5\@laptop {
+    margin-bottom: 6.25rem;
+  }
+
+  .mb-13\@laptop {
+    margin-bottom: 6.5rem;
+  }
+
+  .mb-13\.5\@laptop {
+    margin-bottom: 6.75rem;
+  }
+
+  .mb-14\@laptop {
+    margin-bottom: 7rem;
+  }
+
+  .mb-14\.5\@laptop {
+    margin-bottom: 7.25rem;
+  }
+
+  .mb-15\@laptop {
+    margin-bottom: 7.5rem;
+  }
+
+ .mb-15\.5\@tablet {
+    margin-bottom: 7.75rem;
+  }
+
+  .mb-16\@laptop {
+    margin-bottom: 8rem;
+  }
+
+  .mb-16\.5\@laptop {
+    margin-bottom: 8.25rem;
+  }
+
+  .mb-17\@laptop {
+    margin-bottom: 8.5rem;
+  }
+
+  .mb-17\.5\@laptop {
+    margin-bottom: 8.75rem;
+  }
+
+  .mb-18\@laptop {
+    margin-bottom: 9rem;
+  }
+
+  .mb-18\.5\@laptop {
+    margin-bottom: 9.25rem;
+  }
+
+  .mb-19\@laptop {
+    margin-bottom: 9.5rem;
+  }
+
+  .mb-19\.5\@laptop {
+    margin-bottom: 9.75rem;
+  }
+
+  .mb-20\@laptop {
+    margin-bottom: 10rem;
+  }
+
+  .mb-20\.5\@laptop {
+    margin-bottom: 10.25rem;
+  }
+
+  .mb-21\@laptop {
+    margin-bottom: 10.5rem;
+  }
+
+  .mb-21\.5\@laptop {
+    margin-bottom: 10.75rem;
+  }
+
+  .mb-22\@laptop {
+    margin-bottom: 11rem;
+  }
+
+  .mb-22\.5\@laptop {
+    margin-bottom: 11.25rem;
+  }
+
+  .mb-23\@laptop {
+    margin-bottom: 11.5rem;
+  }
+
+  .mb-23\.5\@laptop {
+    margin-bottom: 11.75rem;
+  }
+
+  .mb-24\@laptop {
+    margin-bottom: 12rem;
+  }
+
+  .mb-24\.5\@laptop {
+    margin-bottom: 12.25rem;
+  }
+
+  .mb-25\@laptop {
+    margin-bottom: 12.5rem;
+  }
+
+  .mb-25\.5\@laptop {
+    margin-bottom: 12.75rem;
+  }
+
+  .mb-26\@laptop {
+    margin-bottom: 13rem;
+  }
+
+  .mb-26\.5\@laptop {
+    margin-bottom: 13.25rem;
+  }
+
+  .mb-27\@laptop {
+    margin-bottom: 13.5rem;
+  }
+
+  .mb-27\.5\@laptop {
+    margin-bottom: 13.75rem;
+  }
+
+  .mb-28\@laptop {
+    margin-bottom: 14rem;
+  }
+
+  .mb-28\.5\@laptop {
+    margin-bottom: 14.25rem;
+  }
+
+  .mb-29\@laptop {
+    margin-bottom: 14.5rem;
+  }
+
+  .mb-29\.5\@laptop {
+    margin-bottom: 14.75rem;
+  }
+
+  .mb-30\@laptop {
+    margin-bottom: 15rem;
+  }
+
+  .mb-auto\@laptop {
+    margin-bottom: auto;
+  }
+
+  .ml-0\@laptop {
+    margin-left: 0;
+  }
+
+  .ml-0\.5\@laptop {
+    margin-left: 0.25rem;
+  }
+
+  .ml-1\@laptop {
+    margin-left: 0.5rem;
+  }
+
+  .ml-1\.5\@laptop {
+    margin-left: 0.75rem;
+  }
+
+  .ml-2\@laptop {
+    margin-left: 1rem;
+  }
+
+  .ml-2\.5\@laptop {
+    margin-left: 1.25rem;
+  }
+
+  .ml-3\@laptop {
+    margin-left: 1.5rem;
+  }
+
+  .ml-3\.5\@laptop {
+    margin-left: 1.75rem;
+  }
+
+  .ml-4\@laptop {
+    margin-left: 2rem;
+  }
+
+  .ml-4\.5\@laptop {
+    margin-left: 2.25rem;
+  }
+
+  .ml-5\@laptop {
+    margin-left: 2.5rem;
+  }
+
+  .ml-5\.5\@laptop {
+    margin-left: 2.75rem;
+  }
+
+  .ml-6\@laptop {
+    margin-left: 3rem;
+  }
+
+  .ml-6\.5\@laptop {
+    margin-left: 3.25rem;
+  }
+
+  .ml-7\@laptop {
+    margin-left: 3.5rem;
+  }
+
+  .ml-7\.5\@laptop {
+    margin-left: 3.75rem;
+  }
+
+  .ml-8\@laptop {
+    margin-left: 4rem;
+  }
+
+  .ml-8\.5\@laptop {
+    margin-left: 4.25rem;
+  }
+
+  .ml-9\@laptop {
+    margin-left: 4.5rem;
+  }
+
+  .ml-9\.5\@laptop {
+    margin-left: 4.75rem;
+  }
+
+  .ml-10\@laptop {
+    margin-left: 5rem;
+  }
+
+  .ml-10\.5\@laptop {
+    margin-left: 5.25rem;
+  }
+
+  .ml-11\@laptop {
+    margin-left: 5.5rem;
+  }
+
+  .ml-11\.5\@laptop {
+    margin-left: 5.75rem;
+  }
+
+  .ml-12\@laptop {
+    margin-left: 6rem;
+  }
+
+  .ml-12\.5\@laptop {
+    margin-left: 6.25rem;
+  }
+
+  .ml-13\@laptop {
+    margin-left: 6.5rem;
+  }
+
+  .ml-13\.5\@laptop {
+    margin-left: 6.75rem;
+  }
+
+  .ml-14\@laptop {
+    margin-left: 7rem;
+  }
+
+  .ml-14\.5\@laptop {
+    margin-left: 7.25rem;
+  }
+
+  .ml-15\@laptop {
+    margin-left: 7.5rem;
+  }
+
+  .ml-15\.5\@laptop {
+    margin-left: 7.75rem;
+  }
+
+  .ml-16\@laptop {
+    margin-left: 8rem;
+  }
+
+  .ml-16\.5\@laptop {
+    margin-left: 8.25rem;
+  }
+
+  .ml-17\@laptop {
+    margin-left: 8.5rem;
+  }
+
+  .ml-17\.5\@laptop {
+    margin-left: 8.75rem;
+  }
+
+  .ml-18\@laptop {
+    margin-left: 9rem;
+  }
+
+  .ml-18\.5\@laptop {
+    margin-left: 9.25rem;
+  }
+
+  .ml-19\@laptop {
+    margin-left: 9.5rem;
+  }
+
+  .ml-19\.5\@laptop {
+    margin-left: 9.75rem;
+  }
+
+  .ml-20\@laptop {
+    margin-left: 10rem;
+  }
+
+  .ml-20\.5\@laptop {
+    margin-left: 10.25rem;
+  }
+
+  .ml-21\@laptop {
+    margin-left: 10.5rem;
+  }
+
+  .ml-21\.5\@laptop {
+    margin-left: 10.75rem;
+  }
+
+  .ml-22\@laptop {
+    margin-left: 11rem;
+  }
+
+  .ml-22\.5\@laptop {
+    margin-left: 11.25rem;
+  }
+
+  .ml-23\@laptop {
+    margin-left: 11.5rem;
+  }
+
+  .ml-23\.5\@laptop {
+    margin-left: 11.75rem;
+  }
+
+  .ml-24\@tablet {
+    margin-left: 12rem;
+  }
+
+  .ml-24\.5\@tablet {
+    margin-left: 12.25rem;
+  }
+
+  .ml-25\@tablet {
+    margin-left: 12.5rem;
+  }
+
+  .ml-25\.5\@laptop {
+    margin-left: 12.75rem;
+  }
+
+  .ml-26\@laptop {
+    margin-left: 13rem;
+  }
+
+  .ml-26\.5\@laptop {
+    margin-left: 13.25rem;
+  }
+
+  .ml-27\@laptop {
+    margin-left: 13.5rem;
+  }
+
+  .ml-27\.5\@laptop {
+    margin-left: 13.75rem;
+  }
+
+  .ml-28\@laptop {
+    margin-left: 14rem;
+  }
+
+  .ml-28\.5\@laptop {
+    margin-left: 14.25rem;
+  }
+
+  .ml-29\@laptop {
+    margin-left: 14.5rem;
+  }
+
+  .ml-29\.5\@laptop {
+    margin-left: 14.75rem;
+  }
+
+  .ml-30\@laptop {
+    margin-left: 15rem;
+  }
+
+  .ml-auto\@laptop {
+    margin-left: auto;
+  }
+
+  .my-0\@laptop {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .my-0\.5\@laptop {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .my-1\@laptop {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .my-1\.5\@laptop {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .my-2\@laptop {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .my-2\.5\@laptop {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .my-3\@laptop {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .my-3\.5\@laptop {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .my-4\@laptop {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .my-4\.5\@laptop {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .my-5\@laptop {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .my-5\.5\@laptop {
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .my-6\@laptop {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .my-6\.5\@laptop {
+    margin-top: 3.25rem;
+    margin-bottom: 3.25rem;
+  }
+
+  .my-7\@laptop {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .my-7\.5\@laptop {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+  }
+
+  .my-8\@laptop {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .my-8\.5\@laptop {
+    margin-top: 4.25rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .my-9\@laptop {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .my-9\.5\@laptop {
+    margin-top: 4.75rem;
+    margin-bottom: 4.75rem;
+  }
+
+  .my-10\@laptop {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .my-10\.5\@laptop {
+    margin-top: 5.25rem;
+    margin-bottom: 5.25rem;
+  }
+
+  .my-11\@laptop {
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .my-11\.5\@laptop {
+    margin-top: 5.75rem;
+    margin-bottom: 5.75rem;
+  }
+
+  .my-12\@laptop {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .my-12\.5\@laptop {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+  }
+
+  .my-13\@laptop {
+    margin-top: 6.55rem;
+    margin-bottom: 6.55rem;
+  }
+
+  .my-13\.5\@laptop {
+    margin-top: 6.75rem;
+    margin-bottom: 6.75rem;
+  }
+
+  .my-14\@laptop {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
+  .my-14\.5\@laptop {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\@laptop {
+    margin-top: 7.25rem;
+    margin-bottom: 7.25rem;
+  }
+
+  .my-15\.5\@laptop {
+    margin-top: 7.75rem;
+    margin-bottom: 7.75rem;
+  }
+
+  .my-16\@laptop {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .my-16\.5\@laptop {
+    margin-top: 8.25rem;
+    margin-bottom: 8.25rem;
+  }
+
+  .my-17\@laptop {
+    margin-top: 8.5rem;
+    margin-bottom: 8.5rem;
+  }
+
+  .my-17\.5\@laptop {
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+  }
+
+  .my-18\@laptop {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .my-18\.5\@laptop {
+    margin-top: 9.25rem;
+    margin-bottom: 9.25rem;
+  }
+
+  .my-19\@laptop {
+    margin-top: 9.5rem;
+    margin-bottom: 9.5rem;
+  }
+
+  .my-19\.5\@laptop {
+    margin-top: 9.75rem;
+    margin-bottom: 9.75rem;
+  }
+
+  .my-20\@laptop {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .my-20\.5\@laptop {
+    margin-top: 10.25rem;
+    margin-bottom: 10.25rem;
+  }
+
+  .my-21\@laptop {
+    margin-top: 10.5rem;
+    margin-bottom: 10.5rem;
+  }
+
+  .my-21\.5\@laptop {
+    margin-top: 10.75rem;
+    margin-bottom: 10.75rem;
+  }
+
+  .my-22\@laptop {
+    margin-top: 11rem;
+    margin-bottom: 11rem;
+  }
+
+  .my-22\.5\@laptop {
+    margin-top: 11.25rem;
+    margin-bottom: 11.25rem;
+  }
+
+  .my-23\@laptop {
+    margin-top: 11.5rem;
+    margin-bottom: 11.5rem;
+  }
+
+  .my-23\.5\@laptop {
+    margin-top: 11.75rem;
+    margin-bottom: 11.75rem;
+  }
+
+  .my-24\@laptop {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .my-24\.5\@laptop {
+    margin-top: 12.25rem;
+    margin-bottom: 12.25rem;
+  }
+
+  .my-25\@laptop {
+    margin-top: 12.5rem;
+    margin-bottom: 12.5rem;
+  }
+
+  .my-25\.5\@laptop {
+    margin-top: 12.75rem;
+    margin-bottom: 12.75rem;
+  }
+
+  .my-26\@laptop {
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
+
+  .my-26\.5\@laptop {
+    margin-top: 13.25rem;
+    margin-bottom: 13.25rem;
+  }
+
+  .my-27\@laptop {
+    margin-top: 13.5rem;
+    margin-bottom: 13.5rem;
+  }
+
+  .my-28\.5\@laptop {
+    margin-top: 13.75rem;
+    margin-bottom: 13.75rem;
+  }
+
+  .my-28\@laptop {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .my-28\.5\@laptop {
+    margin-top: 14.25rem;
+    margin-bottom: 14.25rem;
+  }
+
+  .my-29\@laptop {
+    margin-top: 14.5rem;
+    margin-bottom: 14.5rem;
+  }
+
+  .my-29\.5\@laptop {
+    margin-top: 14.75rem;
+    margin-bottom: 14.75rem;
+  }
+
+  .my-30\@laptop {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+
+  .my-auto\@laptop {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .mx-0\@laptop {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .mx-0\.5\@laptop {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+  }
+
+  .mx-1\@laptop {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .mx-1\.5\@laptop {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  .mx-2\@laptop {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .mx-2\.5\@laptop {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+  }
+
+  .mx-3\@laptop {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .mx-3\.5\@laptop {
+    margin-right: 1.75rem;
+    margin-left: 1.75rem;
+  }
+
+  .mx-4\@laptop {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .mx-4\.5\@laptop {
+    margin-right: 2.25rem;
+    margin-left: 2.25rem;
+  }
+
+  .mx-5\@laptop {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+  }
+
+  .mx-5\.5\@laptop {
+    margin-right: 2.75rem;
+    margin-left: 2.75rem;
+  }
+
+  .mx-6\@laptop {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .mx-6\.5\@laptop {
+    margin-right: 3.25rem;
+    margin-left: 3.25rem;
+  }
+
+  .mx-7\@laptop {
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+  }
+
+  .mx-7\.5\@laptop {
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
+  }
+
+  .mx-8\@laptop {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+  .mx-8\.5\@laptop {
+    margin-right: 4.25rem;
+    margin-left: 4.25rem;
+  }
+
+  .mx-9\@laptop {
+    margin-right: 4.5rem;
+    margin-left: 4.5rem;
+  }
+
+  .mx-9\.5\@laptop {
+    margin-right: 4.75rem;
+    margin-left: 4.75rem;
+  }
+
+  .mx-10\@laptop {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  .mx-10\.5\@laptop {
+    margin-right: 5.25rem;
+    margin-left: 5.25rem;
+  }
+
+  .mx-11\@laptop {
+    margin-right: 5.5rem;
+    margin-left: 5.5rem;
+  }
+
+  .mx-11\.5\@laptop {
+    margin-right: 5.75rem;
+    margin-left: 5.75rem;
+  }
+
+  .mx-12\@laptop {
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+
+  .mx-12\.5\@laptop {
+    margin-right: 6.25rem;
+    margin-left: 6.25rem;
+  }
+
+  .mx-13\@laptop {
+    margin-right: 6.55rem;
+    margin-left: 6.55rem;
+  }
+
+  .mx-13\.5\@laptop {
+    margin-right: 6.75rem;
+    margin-left: 6.75rem;
+  }
+
+  .mx-14\@laptop {
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+
+  .mx-14\.5\@laptop {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\@laptop {
+    margin-right: 7.25rem;
+    margin-left: 7.25rem;
+  }
+
+  .mx-15\.5\@laptop {
+    margin-right: 7.75rem;
+    margin-left: 7.75rem;
+  }
+
+  .mx-16\@laptop {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+
+  .mx-16\.5\@laptop {
+    margin-right: 8.25rem;
+    margin-left: 8.25rem;
+  }
+
+  .mx-17\@laptop {
+    margin-right: 8.5rem;
+    margin-left: 8.5rem;
+  }
+
+  .mx-17\.5\@laptop {
+    margin-right: 8.75rem;
+    margin-left: 8.75rem;
+  }
+
+  .mx-18\@laptop {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+
+  .mx-18\.5\@laptop {
+    margin-right: 9.25rem;
+    margin-left: 9.25rem;
+  }
+
+  .mx-19\@laptop {
+    margin-right: 9.5rem;
+    margin-left: 9.5rem;
+  }
+
+  .mx-19\.5\@laptop {
+    margin-right: 9.75rem;
+    margin-left: 9.75rem;
+  }
+
+  .mx-20\@laptop {
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+
+  .mx-20\.5\@laptop {
+    margin-right: 10.25rem;
+    margin-left: 10.25rem;
+  }
+
+  .mx-21\@laptop {
+    margin-right: 10.5rem;
+    margin-left: 10.5rem;
+  }
+
+  .mx-21\.5\@laptop {
+    margin-right: 10.75rem;
+    margin-left: 10.75rem;
+  }
+
+  .mx-22\@laptop {
+    margin-right: 11rem;
+    margin-left: 11rem;
+  }
+
+  .mx-22\.5\@laptop {
+    margin-right: 11.25rem;
+    margin-left: 11.25rem;
+  }
+
+  .mx-23\@laptop {
+    margin-right: 11.5rem;
+    margin-left: 11.5rem;
+  }
+
+  .mx-23\.5\@laptop {
+    margin-right: 11.75rem;
+    margin-left: 11.75rem;
+  }
+
+  .mx-24\@laptop {
+    margin-right: 12rem;
+    margin-left: 12rem;
+  }
+
+  .mx-24\.5\@laptop {
+    margin-right: 12.25rem;
+    margin-left: 12.25rem;
+  }
+
+  .mx-25\@laptop {
+    margin-right: 12.5rem;
+    margin-left: 12.5rem;
+  }
+
+  .mx-25\.5\@laptop {
+    margin-right: 12.75rem;
+    margin-left: 12.75rem;
+  }
+
+  .mx-26\@laptop {
+    margin-right: 13rem;
+    margin-left: 13rem;
+  }
+
+  .mx-26\.5\@laptop {
+    margin-right: 13.25rem;
+    margin-left: 13.25rem;
+  }
+
+  .mx-27\@laptop {
+    margin-right: 13.5rem;
+    margin-left: 13.5rem;
+  }
+
+  .mx-28\.5\@laptop {
+    margin-right: 13.75rem;
+    margin-left: 13.75rem;
+  }
+
+  .mx-28\@laptop {
+    margin-right: 14rem;
+    margin-left: 14rem;
+  }
+
+  .mx-28\.5\@laptop {
+    margin-right: 14.25rem;
+    margin-left: 14.25rem;
+  }
+
+  .mx-29\@laptop {
+    margin-right: 14.5rem;
+    margin-left: 14.5rem;
+  }
+
+  .mx-29\.5\@laptop {
+    margin-right: 14.75rem;
+    margin-left: 14.75rem;
+  }
+
+  .mx-30\@laptop {
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+  
+  .mx-auto\@laptop {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

@@ -1,0 +1,33 @@
+ul.pagination {
+  box-shadow: none;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+
+  li.pagination-item {
+    cursor: pointer;
+    
+    * {
+      margin: 0
+     }
+  }
+
+  li.pagination-item.active {
+    background-color: var(--pendeza-primary);
+  }
+
+  li.pagination-item.muted {
+    background-color: var(--pendeza-muted);
+    color: var(--pendeza-light);
+    cursor: not-allowed;
+  }
+
+  li.pagination-item.muted {
+    color: var(--pendeza-light);
+  }
+
+  .pagination-button.dark {
+    color: var(--pendeza-light);
+  }
+}

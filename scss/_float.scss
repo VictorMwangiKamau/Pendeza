@@ -1,0 +1,73 @@
+.float-left,
+.float-left\@phone {
+  float: left;
+}
+
+.float-right,
+.float-right\@phone {
+  float: right;
+}
+
+.float-none,
+.float-none\@phone {
+  float: none;
+}
+
+.clearfix,
+.clearfix\@phone {
+  clear: both;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .float-left\@small-phone {
+    float: left;
+  }
+
+  .float-right\@small-phone {
+    float: right;
+  }
+
+  .float-none\@small-phone {
+    float: none;
+  }
+
+  .clearfix\@small-phone {
+    clear: both;
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .float-left\@tablet {
+    float: left;
+  }
+
+  .float-right\@tablet {
+    float: right;
+  }
+
+  .float-none\@tablet {
+    float: none;
+  }
+
+  .clearfix\@tablet {
+    clear: both;
+  }
+}
+
+@media (min-width: $laptop-min-width) {
+  .float-left\@laptop {
+    float: left;
+  }
+
+  .float-right\@laptop {
+    float: right;
+  }
+
+  .float-none\@laptop {
+    float: none;
+  }
+
+  .clearfix\@laptop {
+    clear: both;
+  }
+}

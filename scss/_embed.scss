@@ -1,0 +1,18 @@
+@mixin responsive {
+  width: 100%;
+  height: auto;
+}
+
+.responsive,
+.image-responsive,
+.video-responsive {
+  @include responsive;
+}
+
+.image-circle, .video-cricle, .circle {
+  border-radius: 50%;
+}
+
+.image-oval, .video-oval, .oval {
+  border-radius: 35%;
+}

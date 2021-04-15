@@ -1,0 +1,199 @@
+.tooltip {
+  position: absolute;
+  display: none;
+  bottom: 110%;
+  padding: 0.8rem;
+  background-color: lighten(black, 15%);
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.tooltip:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 5%;
+  border-top: 5px solid;
+  border-top-color: lighten(black, 15%);
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+.tooltip.primary {
+  background-color: var(--pendeza-primary);
+}
+
+.tooltip.primary:after {
+  border-top-color: var(--pendeza-primary);
+}
+
+.tooltip.secondary {
+  background-color: var(--pendeza-secondary);
+}
+
+.tooltip.secondary:after {
+  border-top-color: var(--pendeza-secondary);
+}
+
+.tooltip.success {
+  background-color: var(--pendeza-success);
+}
+
+.tooltip.success:after {
+  border-top-color: var(--pendeza-success);
+}
+
+.tooltip.danger {
+  background-color: var(--pendeza-danger);
+}
+
+.tooltip.danger:after {
+  border-top-color: var(--pendeza-danger);
+}
+
+.tooltip.warning {
+  background-color: var(--pendeza-warning);
+}
+
+.tooltip.warning:after {
+  border-top-color: var(--pendeza-warning);
+}
+
+.tooltip.muted {
+  background-color: var(--pendeza-muted);
+}
+
+.tooltip.muted:after {
+  border-top-color: var(--pendeza-muted);
+}
+
+.tooltip.dark {
+  background-color: var(--pendeza-dark);
+}
+
+.tooltip.dark:after {
+  border-top-color: var(--pendeza-dark);
+}
+
+.tooltip.light {
+  background-color: var(--pendeza-light);
+  color: var(--pendeza-black);
+}
+
+.tooltip.light:after {
+  border-top-color: var(--pendeza-light);
+}
+
+.tooltip.blue {
+  background-color: var(--pendeza-blue);
+}
+
+.tooltip.blue:after {
+  border-top-color: var(--pendeza-blue);
+}
+
+.tooltip.green {
+  background-color: var(--pendeza-green);
+}
+
+.tooltip.green:after {
+  border-top-color: var(--pendeza-green);
+}
+
+.tooltip.yellow {
+  background-color: var(--pendeza-yellow);
+}
+
+.tooltip.yellow:after {
+  border-top-color: var(--pendeza-yellow);
+}
+
+.tooltip.orange {
+  background-color: var(--pendeza-orange);
+}
+
+.tooltip.orange:after {
+  border-top-color: var(--pendeza-orange);
+}
+
+.tooltip.pink {
+  background-color: var(--pendeza-pink);
+}
+
+.tooltip.pink:after {
+  border-top-color: var(--pendeza-pink);
+}
+
+.tooltip.red {
+  background-color: var(--pendeza-red);
+}
+
+.tooltip.red:after {
+  border-top-color: var(--pendeza-red);
+}
+
+.tooltip.purple {
+  background-color: var(--pendeza-purple);
+}
+
+.tooltip.purple:after {
+  border-top-color: var(--pendeza-purple);
+}
+
+.tooltip.teal {
+  background-color: var(--pendeza-teal);
+}
+
+.tooltip.teal:after {
+  border-top-color: var(--pendeza-teal);
+}
+
+.tooltip.indigo {
+  background-color: var(--pendeza-indigo);
+}
+
+.tooltip.indigo:after {
+  border-top-color: var(--pendeza-indigo);
+}
+
+.tooltip.brown {
+  background-color: var(--pendeza-brown);
+}
+
+.tooltip.brown:after {
+  border-top-color: var(--pendeza-brown);
+}
+
+.tooltip.violet {
+  background-color: var(--pendeza-violet);
+}
+
+.tooltip.violet:after {
+  border-top-color: var(--pendeza-violet);
+}
+
+.tooltip.grey {
+  background-color: var(--pendeza-grey);
+}
+
+.tooltip.grey:after {
+  border-top-color: var(--pendeza-grey);
+}
+
+.tooltip.black {
+  background-color: var(--pendeza-black);
+}
+
+.tooltip.black:after {
+  border-top-color: var(--pendeza-black);
+}
+
+*:hover > .tooltip {
+  display: block;
+}
+
+.tooltip.tooltip-show {
+  display: block;
+}

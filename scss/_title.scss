@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 250;
+  font-family: var(--pendeza-helvetica);
+}
+
+h1,
+.h1,
+.title {
+  font-size: var(--pendeza-h1);
+}
+
+h2,
+.h2,
+.subtitle {
+  font-size: var(--pendeza-h2);
+}
+
+h3,
+.h3 {
+  font-size: var(--pendeza-h3);
+}
+
+h4,
+.h4 {
+  font-size: var(--pendeza-h4);
+}
+
+h5,
+.h5 {
+  font-size: var(--pendeza-h5);
+}
+
+h6,
+.h6 {
+  font-size: var(--pendeza-h6);
+}
+
+@media only screen and (max-width: 45rem) {
+  h1,
+  .h1 {
+    font-size: calc(var(--pendeza-h1) - 0.5rem);
+  }
+
+  h2,
+  .h2 {
+    font-size: calc(var(--pendeza-h2) - 0.5rem);
+  }
+
+  h3,
+  .h3 {
+    font-size: calc(var(--pendeza-h3) - 0.5rem);
+  }
+
+  h4,
+  .h4 {
+    font-size: calc(var(--pendeza-h4) - 0.3rem);
+  }
+
+  h5,
+  .h5 {
+    font-size: calc(var(--pendeza-h5) - 0.3rem);
+  }
+
+  h6,
+  .h6 {
+    font-size: calc(var(--pendeza-h6) - 0.2rem);
+  }
+}

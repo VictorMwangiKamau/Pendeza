@@ -1,0 +1,264 @@
+:root {
+  --pendeza-h1: 2.5rem;
+
+  --pendeza-h2: 2.25rem;
+
+  --pendeza-h3: 2rem;
+
+  --pendeza-h4: 1.75rem;
+
+  --pendeza-h5: 1.5rem;
+
+  --pendeza-h6: 1.35rem;
+
+  --pendeza-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  --pendeza-serif: Georgia, Times, "Times New Roman", serif;
+
+  --pendeza-helvetica: Arial, Helvetica, sans-serif;
+
+  --pendeza-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+
+  --pendeza-primary: #1779ba;
+
+  --pendeza-secondary: #126195;
+
+  --pendeza-success: #3adb76;
+
+  --pendeza-danger: #a53b2a;
+
+  --pendeza-warning: #cc8b00;
+
+  --pendeza-muted: #535353;
+
+  --pendeza-dark: #2f3640;
+
+  --pendeza-light: ghostwhite;
+
+  --pendeza-jumbotron: ghostwhite;
+
+  --pendeza-blue: #0000fc;
+
+  --pendeza-green: #007d00;
+
+  --pendeza-yellow: #fcfc00;
+
+  --pendeza-orange: #fca300;
+
+  --pendeza-pink: #ffbdc9;
+
+  --pendeza-red: #fc0000;
+
+  --pendeza-purple: #7d007d;
+
+  --pendeza-teal: #007d7d;
+
+  --pendeza-indigo: #4a007f;
+
+  --pendeza-brown: #a32929;
+
+  --pendeza-violet: #ee80ee;
+
+  --pendeza-grey: #7f7f7f;
+
+  --pendeza-black: rgb(0,0,0);
+
+  --pendeza-primary: #1779ba;
+  --pendeza-primary-lighten-1: #1a88d1;
+  --pendeza-primary-lighten-2: #2196e3;
+  --pendeza-primary-lighten-3: #37a0e6;
+  --pendeza-primary-lighten-4: #4eabe9;
+  --pendeza-primary-darken-1: #146aa3;
+  --pendeza-primary-darken-2: #115b8d;
+  --pendeza-primary-darken-3: #0f4d76;
+  --pendeza-primary-darken-4: #0c3e5f;
+
+  --pendeza-secondary-lighten-1: #1570ac;
+  --pendeza-secondary-lighten-2: #177fc3;
+  --pendeza-secondary-lighten-3: #1a8dd9;
+  --pendeza-secondary-lighten-4: #289ae5;
+  --pendeza-secondary-darken-1: #0f527e;
+  --pendeza-secondary-darken-2: #0d4367;
+  --pendeza-secondary-darken-3: #0a3551;
+  --pendeza-secondary-darken-4: #07263a;
+
+  --pendeza-success-lighten-1: #50df85;
+  --pendeza-success-lighten-2: #65e394;
+  --pendeza-success-lighten-3: #7be7a3;
+  --pendeza-success-lighten-4: #90ebb2;
+  --pendeza-success-darken-1: #27d568;
+  --pendeza-success-darken-2: #23bf5d;
+  --pendeza-success-darken-3: #1faa53;
+  --pendeza-success-darken-4: #1b9448;
+
+  --pendeza-danger-lighten-1: #b9422f;
+  --pendeza-danger-lighten-2: #cc4b36;
+  --pendeza-danger-lighten-3: #d15d4a;
+  --pendeza-danger-lighten-4: #d66f5f;
+  --pendeza-danger-darken-1: #913425;
+  --pendeza-danger-darken-2: #7c2c20;
+  --pendeza-danger-darken-3: #68251a;
+  --pendeza-danger-darken-4: #541e15;
+
+  --pendeza-warning-lighten-1: #e69c00;
+  --pendeza-warning-lighten-2: #ffae00;
+  --pendeza-warning-lighten-3: #ffb61a;
+  --pendeza-warning-lighten-4: #ffbe33;
+  --pendeza-warning-darken-1: #b37a00;
+  --pendeza-warning-darken-2: #996800;
+  --pendeza-warning-darken-3: #805700;
+  --pendeza-warning-darken-4: #664600;
+
+  --pendeza-muted-lighten-1: #606060;
+  --pendeza-muted-lighten-2: #6d6d6d;
+  --pendeza-muted-lighten-3: #797979;
+  --pendeza-muted-lighten-4: #868686;
+  --pendeza-muted-darken-1: #464646;
+  --pendeza-muted-darken-2: #3a3a3a;
+  --pendeza-muted-darken-3: #2d2d2d;
+  --pendeza-muted-darken-4: #202020;
+
+  --pendeza-dark-lighten-1: #3a424f;
+  --pendeza-dark-lighten-2: #454f5d;
+  --pendeza-dark-lighten-3: #4f5b6c;
+  --pendeza-dark-lighten-4: #5a687b;
+  --pendeza-dark-darken-1: #242a31;
+  --pendeza-dark-darken-2: #191d23;
+  --pendeza-dark-darken-3: #0f1114;
+  --pendeza-dark-darken-4: #040405;
+
+  --pendeza-light-lighten-1: white;
+  --pendeza-light-lighten-2: white;
+  --pendeza-light-lighten-3: white;
+  --pendeza-light-lighten-4: white;
+  --pendeza-light-darken-1: #dfdfff;
+  --pendeza-light-darken-2: #c5c5ff;
+  --pendeza-light-darken-3: #acacff;
+  --pendeza-light-darken-4: #9292ff;
+
+  --pendeza-blue-lighten-1: #1717ff;
+  --pendeza-blue-lighten-2: #3030ff;
+  --pendeza-blue-lighten-3: #4a4aff;
+  --pendeza-blue-lighten-4: #6363ff;
+  --pendeza-blue-darken-1: #0000e3;
+  --pendeza-blue-darken-2: #0000c9;
+  --pendeza-blue-darken-3: #0000b0;
+  --pendeza-blue-darken-4: #000096;
+
+  --pendeza-green-lighten-1: #009700;
+  --pendeza-green-lighten-2: #00b000;
+  --pendeza-green-lighten-3: #00ca00;
+  --pendeza-green-lighten-4: #00e300;
+  --pendeza-green-darken-1: darkgreen;
+  --pendeza-green-darken-2: #004a00;
+  --pendeza-green-darken-3: #003100;
+  --pendeza-green-darken-4: #001700;
+
+  --pendeza-yellow-lighten-1: #ffff17;
+  --pendeza-yellow-lighten-2: #ffff30;
+  --pendeza-yellow-lighten-3: #ffff4a;
+  --pendeza-yellow-lighten-4: #ffff63;
+  --pendeza-yellow-darken-1: #e3e300;
+  --pendeza-yellow-darken-2: #c9c900;
+  --pendeza-yellow-darken-3: #b0b000;
+  --pendeza-yellow-darken-4: #969600;
+
+  --pendeza-orange-lighten-1: #ffad17;
+  --pendeza-orange-lighten-2: #ffb630;
+  --pendeza-orange-lighten-3: #ffbf4a;
+  --pendeza-orange-lighten-4: #ffc863;
+  --pendeza-orange-darken-1: #e39300;
+  --pendeza-orange-darken-2: #c98200;
+  --pendeza-orange-darken-3: #b07200;
+  --pendeza-orange-darken-4: #966100;
+
+  --pendeza-pink-lighten-1: #ffd7de;
+  --pendeza-pink-lighten-2: #fff0f3;
+  --pendeza-pink-lighten-3: white;
+  --pendeza-pink-lighten-4: white;
+  --pendeza-pink-darken-1: #ffa4b4;
+  --pendeza-pink-darken-2: #ff8a9f;
+  --pendeza-pink-darken-3: #ff718a;
+  --pendeza-pink-darken-4: #ff5776;
+
+  --pendeza-red-lighten-1: #ff1717;
+  --pendeza-red-lighten-2: #ff3030;
+  --pendeza-red-lighten-3: #ff4a4a;
+  --pendeza-red-lighten-4: #ff6363;
+  --pendeza-red-darken-1: #e30000;
+  --pendeza-red-darken-2: #c90000;
+  --pendeza-red-darken-3: #b00000;
+  --pendeza-red-darken-4: #960000;
+
+  --pendeza-purple-lighten-1: #970097;
+  --pendeza-purple-lighten-2: #b000b0;
+  --pendeza-purple-lighten-3: #ca00ca;
+  --pendeza-purple-lighten-4: #e300e3;
+  --pendeza-purple-darken-1: #640064;
+  --pendeza-purple-darken-2: #4a004a;
+  --pendeza-purple-darken-3: #310031;
+  --pendeza-purple-darken-4: #170017;
+
+  --pendeza-teal-lighten-1: #009797;
+  --pendeza-teal-lighten-2: #00b0b0;
+  --pendeza-teal-lighten-3: #00caca;
+  --pendeza-teal-lighten-4: #00e3e3;
+  --pendeza-teal-darken-1: #006464;
+  --pendeza-teal-darken-2: #004a4a;
+  --pendeza-teal-darken-3: #003131;
+  --pendeza-teal-darken-4: #001717;
+
+  --pendeza-indigo-lighten-1: #590099;
+  --pendeza-indigo-lighten-2: #6800b2;
+  --pendeza-indigo-lighten-3: #7700cc;
+  --pendeza-indigo-lighten-4: #8500e5;
+  --pendeza-indigo-darken-1: #3b0066;
+  --pendeza-indigo-darken-2: #2c004c;
+  --pendeza-indigo-darken-3: #1d0033;
+  --pendeza-indigo-darken-4: #0f0019;
+
+  --pendeza-brown-lighten-1: #b72e2e;
+  --pendeza-brown-lighten-2: #cc3333;
+  --pendeza-brown-lighten-3: #d14848;
+  --pendeza-brown-lighten-4: #d65c5c;
+  --pendeza-brown-darken-1: #8f2424;
+  --pendeza-brown-darken-2: #7a1f1f;
+  --pendeza-brown-darken-3: #661a1a;
+  --pendeza-brown-darken-4: #521515;
+
+  --pendeza-violet-lighten-1: #f196f1;
+  --pendeza-violet-lighten-2: #f4adf4;
+  --pendeza-violet-lighten-3: #f7c3f7;
+  --pendeza-violet-lighten-4: #fadafa;
+  --pendeza-violet-darken-1: #eb6aeb;
+  --pendeza-violet-darken-2: #e853e8;
+  --pendeza-violet-darken-3: #e853e8;
+  --pendeza-violet-darken-4: #e226e2;
+
+  --pendeza-grey-lighten-1: #8c8c8c;
+  --pendeza-grey-lighten-2: #999999;
+  --pendeza-grey-lighten-3: #a5a5a5;
+  --pendeza-grey-lighten-4: #b2b2b2;
+  --pendeza-grey-darken-1: #727272;
+  --pendeza-grey-darken-2: #666666;
+  --pendeza-grey-darken-3: #595959;
+  --pendeza-grey-darken-4: #4c4c4c;
+
+  --pendeza-black-lighten-1: #0d0d0d;
+  --pendeza-black-lighten-2: #1a1a1a;
+  --pendeza-black-lighten-3: #262626;
+  --pendeza-black-lighten-4: #333333;
+  --pendeza-black-darken-1: black;
+  --pendeza-black-darken-2: black;
+  --pendeza-black-darken-3: black;
+  --pendeza-black-darken-4: black;
+
+  --pendeza-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --pendeza-shadow-1: 0 0.12rem 0.2rem rgba(0, 0, 0, 0.1);
+  --pendeza-shadow-2: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  --pendeza-shadow-3: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  --pendeza-shadow-4: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.4);
+  --pendeza-shadow-5: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+
+  --pendeza-margin-bottom: 1rem;
+}

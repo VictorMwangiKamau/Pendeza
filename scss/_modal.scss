@@ -1,0 +1,61 @@
+.modal {
+  position: absolute;
+  top: 2rem;
+  left: 30%;
+  width: 20rem;
+  display: none;
+  z-index: 1500;
+  min-height: 6rem;
+  background-color: white;
+  transition: display 0.5s ease-in;
+
+  .modal-body {
+    padding: 1rem 0.8rem;
+    padding-top: 1rem;
+    border-bottom: 2px solid lightgrey;
+
+    .modal-title {
+      font-weight: inherit;
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .modal-subtitle {
+      font-weight: inherit;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .modal-text {
+      font-size: inherit;
+      margin-bottom: 0.5rem;
+    }
+
+    .modal-toggler {
+      position: absolute;
+      font-weight: 900;
+      font-size: 120%;
+      right: 10px;
+      top: 7px;
+      cursor: pointer;
+      content: "x";
+      color: lighten(black, 15%);
+    }
+
+    .modal-toggler:hover {
+      color: darken(red, 40);
+    }
+  }
+}
+
+.modal.modal-show {
+  display: block;
+}
+
+.modal.muted {
+  color: var(--pendeza-light);
+}
+
+.modal.dark {
+  color: var(--pendeza-light);
+}

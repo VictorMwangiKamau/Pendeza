@@ -1,0 +1,141 @@
+.dis-block,
+.dis-block\@phone {
+  display: block !important;
+}
+
+.dis-none,
+.dis-none\@phone {
+  display: none !important;
+}
+
+.dis-flex,
+.dis-flex\@phone {
+  display: flex !important;
+}
+
+.dis-grid,
+.dis-grid\@phone {
+  display: grid !important;
+}
+
+.dis-inline,
+.dis-inline\@phone {
+  display: inline !important;
+}
+
+.dis-inline-block,
+.dis-inline-block\@phone {
+  display: inline-block !important;
+}
+
+.dis-inline-flex,
+.dis-inline-flex\@phone {
+  display: inline-flex !important;
+}
+
+.dis-table,
+.dis-table\@phone {
+  display: table !important;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .dis-block\@small-phone {
+    display: block !important;
+  }
+
+  .dis-none\@small-phone {
+    display: none !important;
+  }
+
+  .dis-flex\@small-phone {
+    display: flex !important;
+  }
+
+  .dis-grid\@small-phone {
+    display: grid !important;
+  }
+
+  .dis-inline\@small-phone {
+    display: inline !important;
+  }
+
+  .dis-inline-block\@small-phone {
+    display: inline-block !important;
+  }
+
+  .dis-inline-flex\@small-phone {
+    display: inline-flex !important;
+  }
+
+  .dis-table\@small-phone {
+    display: table !important;
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .dis-block\@tablet {
+    display: block !important;
+  }
+
+  .dis-none\@tablet {
+    display: none !important;
+  }
+
+  .dis-flex\@tablet {
+    display: flex !important;
+  }
+
+  .dis-grid\@tablet {
+    display: grid !important;
+  }
+
+  .dis-inline\@tablet {
+    display: inline !important;
+  }
+
+  .dis-inline-block\@tablet {
+    display: inline-block !important;
+  }
+
+  .dis-inline-flex\@tablet {
+    display: inline-flex !important;
+  }
+
+  .dis-table\@tablet {
+    display: table !important;
+  }
+}
+
+@media (min-width: $laptop-min-width) {
+  .dis-block\@laptop {
+    display: block !important;
+  }
+
+  .dis-none\@laptop {
+    display: none !important;
+  }
+
+  .dis-flex\@laptop {
+    display: flex !important;
+  }
+
+  .dis-grid\@laptop {
+    display: grid !important;
+  }
+
+  .dis-inline\@tablet {
+    display: inline !important;
+  }
+
+  .dis-inline-block\@laptop {
+    display: inline-block !important;
+  }
+
+  .dis-inline-flex\@laptop {
+    display: inline-flex !important;
+  }
+
+  .dis-table\@laptop {
+    display: table !important;
+  }
+}

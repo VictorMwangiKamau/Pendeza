@@ -1,0 +1,197 @@
+.pos-relative,
+.pos-relative\@phone 
+.relative,
+.relative\@phone {
+  position: relative !important;
+}
+
+.pos-absolute,
+.pos-absolute\@phone
+.absolute,
+.absolute\@phone {
+  position: absolute !important;
+}
+
+.pos-fixed,
+.pos-fixed\@phone {
+  position: fixed !important;
+}
+
+.pos-sticky,
+.pos-sticky\@phone {
+  position: sticky !important;
+}
+
+.pos-static,
+.pos-static\@phone,
+.static, 
+.static\@phone {
+  position: static !important;
+}
+
+.sticky-top,
+.sticky-top\@phone {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+
+.sticky-bottom,
+.sticky-bottom\@phone {
+  position: sticky;
+  z-index: 1000;
+  bottom: 0;
+}
+
+.fixed-top,
+.fixed-top\@phone {
+  position: fixed;
+  top: 0;
+}
+
+.fixed-bottom,
+.fixed-bottom\@phone {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-width: $small-phone-max-width) {
+  .pos-relative\@small-phone,
+  .relative\@small-phone {
+    position: relative !important;
+  }
+
+  .pos-absolute\@small-phone,
+  .absolute\@small-phone {
+    position: absolute !important;
+  }
+
+  .pos-fixed\@small-phone {
+    position: fixed !important;
+  }
+
+  .pos-sticky\@small-phone {
+    position: sticky !important;
+  }
+
+  .pos-static\@small-phone,
+  .static\@small-phone {
+    position: static !important;
+  }
+
+  .sticky-top\@small-phone {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+  }
+
+  .sticky-bottom\@small-phone {
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+  }
+
+  .fixed-top\@small-phone {
+    position: fixed;
+    top: 0;
+  }
+
+  .fixed-bottom\@small-phone {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+  .pos-relative\@tablet,
+  .relative\@tablet {
+    position: relative !important;
+  }
+
+  .pos-absolute\@tablet,
+  .absolute\@tablet {
+    position: absolute !important;
+  }
+
+  .pos-fixed\@tablet {
+    position: fixed !important;
+  }
+
+  .pos-sticky\@tablet {
+    position: sticky !important;
+  }
+
+  .pos-static\@tablet,
+  .static\@tablet {
+    position: static !important;
+  }
+
+  .sticky-top\@tablet {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+  }
+
+  .sticky-bottom\@tablet {
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+  }
+
+  .fixed-top\@tablet {
+    position: fixed;
+    top: 0;
+  }
+
+  .fixed-bottom\@tablet {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $laptop-min-width) {
+  .pos-relative\@laptop,
+  .relative\@laptop {
+    position: relative !important;
+  }
+
+  .pos-absolute\@laptop,
+  .absolute\@laptop {
+    position: absolute !important;
+  }
+
+  .pos-fixed\@laptop {
+    position: fixed !important;
+  }
+
+  .pos-sticky\@laptop {
+    position: sticky !important;
+  }
+
+  .pos-static\@laptop,
+  .static\@laptop {
+    position: static !important;
+  }
+
+  .sticky-top\@laptop {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+  }
+
+  .sticky-bottom\@laptop {
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
+  }
+
+  .fixed-top\@laptop {
+    position: fixed;
+    top: 0;
+  }
+
+  .fixed-bottom\@laptop {
+    position: fixed;
+    bottom: 0;
+  }
+}

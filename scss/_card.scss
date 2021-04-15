@@ -1,0 +1,51 @@
+.card {
+  width: 100%;
+  min-height: 3rem;
+
+  .card-body {
+    padding: 1rem .8rem;
+
+    .card-title {
+      font-weight: inherit;
+      font-size: 1.3rem;
+    }
+
+    .card-subtitle {
+      font-weight: inherit;
+      font-size: 1.2rem;
+    }
+
+    .card-text {
+      font-size: inherit;
+    }
+
+    .card-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-video {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  position: relative;
+
+  .card-group-item {
+    margin: 0;
+  }
+}
+
+.card.muted {
+  color: var(--pendeza-light);
+}
+
+.card.dark {
+  color: var(--pendeza-light);
+}
