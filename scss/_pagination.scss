@@ -17,17 +17,8 @@ ul.pagination {
     background-color: var(--pendeza-primary);
   }
 
-  li.pagination-item.muted {
+  li.pagination-item.disabled {
     background-color: var(--pendeza-muted);
-    color: var(--pendeza-light);
     cursor: not-allowed;
-  }
-
-  li.pagination-item.muted {
-    color: var(--pendeza-light);
-  }
-
-  .pagination-button.dark {
-    color: var(--pendeza-light);
   }
 }

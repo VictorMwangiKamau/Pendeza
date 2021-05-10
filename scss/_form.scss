@@ -7,56 +7,50 @@
   border: 2px solid lighten(black, 15%);
   border-radius: 5px;
   padding: 8px;
-}
-
-.dorminant-input {
-  display: block;
-  width: 100%;
+  transition: border-color 0.5s ease-in;
 }
 
 .input-success {
-  border: 2px solid var(--pendeza-success);
-}
-
-.input-error {
-  border: 2px solid var(--pendeza-danger);
+  border-color: var(--pendeza-success);
 }
 
 .input-warning {
-  border: 2px solid var(--pendeza-warning);
+  border-color: var(--pendeza-warning);
+}
+
+.input-danger {
+  border-color: var(--pendeza-danger);
+}
+
+.input.active {
+  border-color: var(--pendeza-primary);
+}
+
+.input.disabled {
+  border-color: var(--pendeza-muted);
+  cursor: not-allowed;
+}
+
+.message-success, .message-error, .message-warning {
+  position: absolute;
+  display: none;
+  visibility: hidden;
 }
 
 .message-success {
-  position: absolute;
-  display: none;
   color: var(--pendeza-success);
-  visibility: hidden;
 }
 
 .message-error {
-  position: absolute;
-  display: none;
   color: var(--pendeza-danger-lighten-2);
-  visibility: hidden;
 }
 
 .message-warning {
-  position: absolute;
-  display: none;
   color: var(--pendeza-warning);
-  visibility: hidden;
 }
 
-.message-success.message-success-show {
-  display: block;
-  visibility: visible;
-}
-
-.message-success.message-error-show {
-  display: block;
-  visibility: visible;
-}
-
+.message-success.message-success-show,
+.message-error.message-error-show,
 .message-warning.message-warning-show {
   display: block;
   visibility: visible;

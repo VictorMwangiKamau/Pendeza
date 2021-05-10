@@ -11,87 +11,17 @@
   }
 }
 
-.spin-clockwise {
-  animation: spin-clockwise-animation 2s linear infinite;
+.spin {
+  animation: spin 2s linear infinite;
   position: absolute;
 }
 
-@keyframes spin-clockwise-animation {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-.spin-anticlockwise {
-  animation: spin-anticlockwise-animation 2s linear infinite;
-  position: absolute;
-}
-
-@keyframes spin-anticlockwise-animation {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
-
-.slide-up {
-  animation: slide-up-animation 2.5s linear;
-  position: absolute;
-}
-
-@keyframes slide-up-animation {
-  from {
-    transform: translateY(80rem);
-  }
-  to {
-    transform: translateY(5rem);
-  }
-}
-
-.slide-down {
-  animation: slide-down-animation 2.5s linear;
-  position: absolute;
-}
-
-@keyframes slide-down-animation {
-  from {
-    transform: translateY(5rem);
-  }
-  to {
-    transform: translateY(80rem);
-  }
-}
-
-.slide-left {
-  animation: slide-left-animation 2.5s linear;
-  position: absolute;
-}
-
-@keyframes slide-left-animation {
-  from {
-    transform: translateX(5rem);
-  }
-  to {
-    transform: translateX(60rem);
-  }
-}
-
-.slide-right {
-  animation: slide-right-animation 2.5s linear;
-  position: absolute;
-}
-
-@keyframes slide-right-animation {
-  from {
-    transform: translateX(60rem);
-  }
-  to {
-    transform: translateX(5rem);
   }
 }
 
@@ -144,52 +74,4 @@
 
 .infinite {
   animation-iteration-count: infinite;
-}
-
-.last-1s {
-  animation-duration: 1s;
-}
-
-.last-2s {
-  animation-duration: 2s;
-}
-
-.last-3s {
-  animation-duration: 2s;
-}
-
-.last-4s {
-  animation-duration: 2s;
-}
-
-.last-5s {
-  animation-duration: 2s;
-}
-
-.last-6s {
-  animation-duration: 2s;
-}
-
-.delay-1s {
-  animation-delay: 1s;
-}
-
-.delay-2s {
-  animation-delay: 2s;
-}
-
-.delay-3s {
-  animation-delay: 2s;
-}
-
-.delay-4s {
-  animation-delay: 2s;
-}
-
-.delay-5s {
-  animation-delay: 2s;
-}
-
-.delay-6s {
-  animation-delay: 2s;
 }

@@ -12,18 +12,16 @@
   margin: 0;
 }
 
-html {
+html, body {
   font-size: 100%;
   line-height: 1.15;
   font-family: sans-serif;
+  text-rendering: optimizeLegibility;
   word-break: break-word;
   scroll-behavior: smooth;
 }
 
 body {
-  text-rendering: optimizeLegibility;
-  line-height: 1.15;
-  font-family: sans-serif;
   min-height: 100vh;
 }
 

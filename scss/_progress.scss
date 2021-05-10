@@ -17,286 +17,71 @@
   }
 }
 
-.progress-bar.primary {
-  background-color: var(--pendeza-primary);
-}
-
-.progress-bar.secondary {
-  background-color: var(--pendeza-secondary);
-}
-
-.progress-bar.success {
-  background-color: var(--pendeza-success);
-}
-
-.progress-bar.danger {
-  background-color: var(--pendeza-danger);
-}
-
-.progress-bar.warning {
-  background-color: var(--pendeza-warning);
-}
-
-.progress-bar.muted {
-  background-color: var(--pendeza-muted);
-}
-
-.progress-bar.dark {
-  background-color: var(--pendeza-dark);
-}
-
-.progress-bar.light {
-  background-color: var(--pendeza-light);
-}
-
-.progress-bar.blue {
-  background-color: var(--pendeza-blue);
-}
-
-.progress-bar.green {
-  background-color: var(--pendeza-green);
-}
-
-.progress-bar.yellow {
-  background-color: var(--pendeza-yellow);
-}
-
-.progress-bar.orange {
-  background-color: var(--pendeza-orange);
-}
-
-.progress-bar.pink {
-  background-color: var(--pendeza-pink);
-}
-
-.progress-bar.red {
-  background-color: var(--pendeza-red);
-}
-
-.progress-bar.purple {
-  background-color: var(--pendeza-purple);
-}
-
-.progress-bar.teal {
-  background-color: var(--pendeza-teal);
-}
-
-.progress-bar.indigo {
-  background-color: var(--pendeza-indigo);
-}
-
-.progress-bar.brown {
-  background-color: var(--pendeza-brown);
-}
-
-.progress-bar.violet {
-  background-color: var(--pendeza-violet);
-}
-
-.progress-bar.grey {
-  background-color: var(--pendeza-grey);
-}
-
-.progress-bar.black {
-  background-color: var(--pendeza-black);
-}
-
-.progress-bar {
-  .progress-bar-meter.primary {
-    background-color: var(--pendeza-primary);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.secondary {
-    background-color: var(--pendeza-secondary);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.success {
-    background-color: var(--pendeza-success);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.danger {
-    background-color: var(--pendeza-danger);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.warning {
-    background-color: var(--pendeza-warning);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.muted {
-    background-color: var(--pendeza-muted);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.dark {
-    background-color: var(--pendeza-dark);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.light {
-    background-color: var(--pendeza-light);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.blue {
-    background-color: var(--pendeza-blue);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.green {
-    background-color: var(--pendeza-green);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.yellow {
-    background-color: var(--pendeza-yellow);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.orange {
-    background-color: var(--pendeza-orange);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.pink {
-    background-color: var(--pendeza-pink);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.red {
-    background-color: var(--pendeza-red);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.purple {
-    background-color: var(--pendeza-purple);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.teal {
-    background-color: var(--pendeza-teal);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.indigo {
-    background-color: var(--pendeza-indigo);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.brown {
-    background-color: var(--pendeza-brown);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.violet {
-    background-color: var(--pendeza-violet);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.grey {
-    background-color: var(--pendeza-grey);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.black {
-    background-color: var(--pendeza-black);
-  }
-}
-
-.progress-bar {
-  .progress-bar-meter.muted,
-  .progress-bar-meter.dark {
-    color: var(--pendeza-light);
-  }
-}
-
-.progress-bar.filled-10\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-10\% {
     width: 10%;
   }
-}
 
-.progress-bar.filled-20\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-20\% {
     width: 20%;
   }
-}
 
-.progress-bar.filled-30\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-30\% {
     width: 30%;
   }
-}
 
-.progress-bar.filled-40\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-40\% {
     width: 40%;
   }
-}
 
-.progress-bar.filled-50\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-50\% {
     width: 50%;
   }
-}
 
-.progress-bar.filled-60\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-60\% {
     width: 60%;
   }
-}
 
-.progress-bar.filled-70\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-70\% {
     width: 70%;
   }
-}
 
-.progress-bar.filled-80\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-80\% {
     width: 80%;
   }
-}
 
-.progress-bar.filled-90\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-90\% {
     width: 90%;
   }
-}
 
-.progress-bar.filled-100\% {
-  .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-100\% {
     width: 100%;
   }
+
+.progress-bar .progress-bar-meter.fill-bar {
+  width: 100%;
+  animation: fill-bar-animation 3s linear;
 }
 
-.progress-bar.fill-bar > .progress-bar-meter {
+.progress-bar .progress-bar-meter.fill-bar.slow {
   width: 100%;
   animation: fill-bar-animation 4s linear;
+}
+
+
+.progress-bar .progress-bar-meter.fill-bar.fast {
+  width: 100%;
+  animation: fill-bar-animation 2s linear;
+}
+
+
+.progress-bar .progress-bar-meter.fill-bar.slower {
+  width: 100%;
+  animation: fill-bar-animation 5s linear;
+}
+
+.progress-bar .progress-bar-meter.fill-bar.faster {
+  width: 100%;
+  animation: fill-bar-animation 1s linear;
 }
 
 @keyframes fill-bar-animation {

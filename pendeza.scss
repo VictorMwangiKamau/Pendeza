@@ -6,13 +6,11 @@
     * Copyright (c) 2020 Victor Mwangi Kamau
 ***************************************************************************/
 
-@charset "UTF-8";
-
 @import "scss/variables";
 @import "scss/root";
+@import "scss/wrapper";
 @import "scss/title";
 @import "scss/text";
-@import "scss/wrapper";
 @import "scss/background";
 @import "scss/float";
 @import "scss/list";
@@ -21,7 +19,6 @@
 @import "scss/navbar";
 @import "scss/footer";
 @import "scss/card";
-@import "scss/jumbotron";
 @import "scss/notepad";
 @import "scss/notification";
 @import "scss/alert";
@@ -32,7 +29,6 @@
 @import "scss/carousel";
 @import "scss/progress";
 @import "scss/table";
-@import "scss/outlined";
 @import "scss/form";
 @import "scss/display";
 @import "scss/position";

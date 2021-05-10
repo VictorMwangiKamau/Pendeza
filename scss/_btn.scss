@@ -14,13 +14,13 @@
   text-decoration: underline;
 }
 
-.btn.muted {
-  color: var(--pendeza-light);
-  cursor: not-allowed;
+.btn.active {
+  background-color: var(--pendeza-primary);
 }
 
-.btn.dark {
-  color: var(--pendeza-light);
+.btn.disabled {
+  background-color: var(--pendeza-muted);
+  cursor: not-allowed;
 }
 
 .btn-xxs {

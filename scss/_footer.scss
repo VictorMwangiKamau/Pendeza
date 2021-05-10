@@ -21,14 +21,6 @@
       opacity: 90%;
     }
 
-    .footer-button.muted {
-      color: var(--pendeza-light);
-    }
-
-    .footer-button.dark {
-      color: var(--pendeza-light);
-    }
-
     .footer-input {
       margin-bottom: 0;
       border-color: lighten(black, 15%);
@@ -49,12 +41,4 @@
       }
     }
   }
-}
-
-.footer.muted {
-  color: var(--pendeza-light);
-}
-
-.footer.dark {
-  color: var(--pendeza-light);
 }
