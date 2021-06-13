@@ -1,99 +1,124 @@
 .shadow {
   box-shadow: var(--pendeza-shadow);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xs {
   box-shadow: var(--pendeza-shadow-1);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-sm {
   box-shadow: var(--pendeza-shadow-2);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-md {
   box-shadow: var(--pendeza-shadow-3);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-lg {
   box-shadow: var(--pendeza-shadow-4);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xl {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xxl {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-none {
   box-shadow: none !important;
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow\:hover:hover {
   box-shadow: var(--pendeza-shadow);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xs\:hover:hover {
   box-shadow: var(--pendeza-shadow-1);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-sm\:hover:hover {
   box-shadow: var(--pendeza-shadow-2);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-md\:hover:hover {
   box-shadow: var(--pendeza-shadow-3);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-lg\:hover:hover {
   box-shadow: var(--pendeza-shadow-4);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xl\:hover:hover {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xxl\:hover:hover {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-none\:hover:hover {
   box-shadow: none !important;
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow\:focus:focus {
   box-shadow: var(--pendeza-shadow);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xxs\:focus:focus {
   box-shadow: var(--pendeza-shadow-1);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xs\:focus:focus {
   box-shadow: var(--pendeza-shadow-1);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-sm\:focus:focus {
   box-shadow: var(--pendeza-shadow-2);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-md\:focus:focus {
   box-shadow: var(--pendeza-shadow-3);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-lg\:focus:focus {
   box-shadow: var(--pendeza-shadow-4);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xl\:focus:focus {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-xxl\:focus:focus {
   box-shadow: var(--pendeza-shadow-5);
+  transition: box-shadow 1000ms linear;
 }
 
 .shadow-none\:focus:focus {
   box-shadow: none !important;
+  transition: box-shadow 1000ms linear;
 }

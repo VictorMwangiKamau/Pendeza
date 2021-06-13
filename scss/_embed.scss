@@ -4,15 +4,15 @@
 }
 
 .responsive,
-.image-responsive,
+.img-responsive,
 .video-responsive {
   @include responsive;
 }
 
-.image-circle, .video-cricle, .circle {
+.img-circle, .video-cricle, .circle {
   border-radius: 50%;
 }
 
-.image-oval, .video-oval, .oval {
+.img-oval, .video-oval, .oval {
   border-radius: 35%;
 }
