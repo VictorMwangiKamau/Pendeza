@@ -112,6 +112,10 @@ p,
   text-decoration: line-through;
 }
 
+.text-link {
+  cursor: pointer;
+}
+
 .text-link:hover {
   text-decoration: underline;
   transition: text-decoration 0.5s ease;

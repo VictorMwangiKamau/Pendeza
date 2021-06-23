@@ -10,8 +10,12 @@
   transition: opacity 500ms ease-out;
 }
 
-.btn-link:hover {
+.btn.btn-link:hover {
   text-decoration: underline;
+  -webkit-transition: -webkit-text-decoration 0.5s ease;
+  transition: -webkit-text-decoration 0.5s ease;
+  transition: text-decoration 0.5s ease;
+  transition: text-decoration 0.5s ease, -webkit-text-decoration 0.5s ease;
 }
 
 .btn.active {
@@ -23,31 +27,31 @@
   cursor: not-allowed;
 }
 
-.btn-xxs {
+.btn.btn-xxs {
   font-size: 0.7rem;
 }
 
-.btn-xs {
+.btn.btn-xs {
   font-size: 0.8rem;
 }
 
-.btn-sm {
+.btn.btn-sm {
   font-size: 0.9rem;
 }
 
-.btn-md {
+.btn.btn-md {
   font-size: 1rem;
 }
 
-.btn-lg {
+.btn.btn-lg {
   font-size: 1.1rem;
 }
 
-.btn-xl {
+.btn.btn-xl {
   font-size: 1.2rem;
 }
 
-.btn-xxl {
+.btn.btn-xxl {
   font-size: 1.3rem;
 }
 
@@ -58,7 +62,7 @@
   position: relative;
   overflow: hidden;
 
-  .btn-group-item {
+  .btn.btn-group-item {
     margin: 0;
   }
 }
