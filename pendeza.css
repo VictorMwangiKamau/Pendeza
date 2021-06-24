@@ -25212,95 +25212,95 @@ textarea,
 .img-oval, .video-oval, .oval {
   border-radius: 35%; }
 
-.opacity-10\% {
-  opacity: 10%; }
+.opacity-0\.1 {
+  opacity: 0.1; }
 
-.opacity-20\% {
-  opacity: 20%; }
+.opacity-0\.2 {
+  opacity: 0.2; }
 
-.opacity-30\% {
-  opacity: 30%; }
+.opacity-0\.3 {
+  opacity: 0.3; }
 
-.opacity-40\% {
-  opacity: 40%; }
+.opacity-0\.4 {
+  opacity: 0.4; }
 
-.opacity-50\% {
-  opacity: 50%; }
+.opacity-0\.5 {
+  opacity: 0.5; }
 
-.opacity-60\% {
-  opacity: 60%; }
+.opacity-0\.6 {
+  opacity: 0.6; }
 
-.opacity-70\% {
-  opacity: 70%; }
+.opacity-0\.7 {
+  opacity: 0.7; }
 
-.opacity-80\% {
-  opacity: 80%; }
+.opacity-0\.8 {
+  opacity: 0.8; }
 
-.opacity-90\% {
-  opacity: 90%; }
+.opacity-0\.9 {
+  opacity: 0.9; }
 
-.opacity-100\% {
-  opacity: 100%; }
+.opacity-1 {
+  opacity: 1; }
 
-.opacity-10\%\:hover:hover {
-  opacity: 10%; }
+.opacity-0\.1\:hover:hover {
+  opacity: 0.1; }
 
-.opacity-20\%\:hover:hover {
-  opacity: 20%; }
+.opacity-0\.2\:hover:hover {
+  opacity: 0.2; }
 
-.opacity-30\%\:hover:hover {
-  opacity: 30%; }
+.opacity-0\.3\:hover:hover {
+  opacity: 0.3; }
 
-.opacity-40\%\:hover:hover {
-  opacity: 40%; }
+.opacity-0\.4\:hover:hover {
+  opacity: 0.4; }
 
-.opacity-50\%\:hover:hover {
-  opacity: 50%; }
+.opacity-0\.5\:hover:hover {
+  opacity: 0.5; }
 
-.opacity-60\%\:hover:hover {
-  opacity: 60%; }
+.opacity-0\.6\:hover:hover {
+  opacity: 0.6; }
 
-.opacity-70\%\:hover:hover {
-  opacity: 70%; }
+.opacity-0\.7\:hover:hover {
+  opacity: 0.7; }
 
-.opacity-80\%\:hover:hover {
-  opacity: 80%; }
+.opacity-0\.8\:hover:hover {
+  opacity: 0.8; }
 
-.opacity-90\%\:hover:hover {
-  opacity: 90%; }
+.opacity-0\.9\:hover:hover {
+  opacity: 0.9; }
 
-.opacity-100\%\:hover:hover {
-  opacity: 100%; }
+.opacity-1\:hover:hover {
+  opacity: 1; }
 
-.opacity-10\%\:focus:focus {
-  opacity: 10%; }
+.opacity-0\.1\:focus:focus {
+  opacity: 0.1; }
 
-.opacity-20\%\:focus:focus {
-  opacity: 20%; }
+.opacity-0\.2\:focus:focus {
+  opacity: 0.2; }
 
-.opacity-30\%\:focus:focus {
-  opacity: 30%; }
+.opacity-0\.3\:focus:focus {
+  opacity: 0.3; }
 
-.opacity-40\%\:focus:focus {
-  opacity: 40%; }
+.opacity-0\.4\:focus:focus {
+  opacity: 0.4; }
 
-.opacity-50\%\:focus:focus {
-  opacity: 50%; }
+.opacity-0\.5\:focus:focus {
+  opacity: 0.5; }
 
-.opacity-60\%\:focus:focus {
-  opacity: 60%; }
+.opacity-0\.6\:focus:focus {
+  opacity: 0.6; }
 
-.opacity-70\%\:focus:focus {
-  opacity: 70%; }
+.opacity-0\.7\:focus:focus {
+  opacity: 0.7; }
 
-.opacity-80\%\:focus:focus {
-  opacity: 80%; }
+.opacity-0\.8\:focus:focus {
+  opacity: 0.8; }
 
-.opacity-90\%\:focus:focus {
-  opacity: 90%; }
+.opacity-0\.9\:focus:focus {
+  opacity: 0.9; }
 
-.opacity-100\%\:focus:focus {
-  opacity: 100%; }
+.opacity-1\:focus:focus {
+  opacity: 1; }
 
 .cursor-wait {
   cursor: wait; }
