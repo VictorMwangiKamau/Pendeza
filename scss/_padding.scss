@@ -303,11 +303,6 @@
   padding: 15rem;
 }
 
-.p-auto,
-.p-auto\@phone {
-  padding: auto;
-}
-
 .pt-0,
 .pt-0\@phone {
   padding-top: 0;
@@ -611,11 +606,6 @@
 .pt-30,
 .pt-30\@phone {
   padding-top: 15rem;
-}
-
-.pt-auto,
-.pt-auto\@phone {
-  padding-top: auto;
 }
 
 .pr-0,
@@ -923,11 +913,6 @@
   padding-right: 15rem;
 }
 
-.pr-auto,
-.pr-auto\@phone {
-  padding-right: auto;
-}
-
 .pb-0,
 .pb-0\@phone {
   padding-bottom: 0;
@@ -1233,11 +1218,6 @@
   padding-bottom: 15rem;
 }
 
-.pb-auto,
-.pb-auto\@phone {
-  padding-bottom: auto;
-}
-
 .pl-0,
 .pl-0\@phone {
   padding-left: 0;
@@ -1541,11 +1521,6 @@
 .pl-30,
 .pl-30\@phone {
   padding-left: 15rem;
-}
-
-.pl-auto,
-.pl-auto\@phone {
-  padding-left: auto;
 }
 
 .py-0,
@@ -1918,14 +1893,6 @@
   padding-bottom: 15rem;
 }
 
-.py-auto,
-.py-auto\@phone {
-  padding-top: auto;
-  padding-bottom: auto;
-}
-
-
-
 .px-0,
 .px-0\@phone {
   padding-right: 0;
@@ -2295,14 +2262,7 @@
   padding-left: 15rem;
 }
 
-.px-auto,
-.px-auto\@phone {
-  padding-right: auto;
-  padding-left: auto;
-}
-
 @media (max-width: $small-phone-max-width) {
-
   .p-0\@small-phone {
     padding: 0;
   }
@@ -2545,10 +2505,6 @@
 
   .p-30\@small-phone {
     padding: 15rem;
-  }
-
-  .p-auto\@small-phone {
-    padding: auto;
   }
 
   .pt-0\@small-phone {
@@ -2795,10 +2751,6 @@
     padding-top: 15rem;
   }
 
-  .pt-auto\@small-phone {
-    padding-top: auto;
-  }
-
   .pr-0\@small-phone {
     padding-right: 0;
   }
@@ -3041,10 +2993,6 @@
 
   .pr-30\@small-phone {
     padding-right: 15rem;
-  }
-
-  .pr-auto\@small-phone {
-    padding-right: auto;
   }
 
   .pb-0\@small-small-phone {
@@ -3291,10 +3239,6 @@
     padding-bottom: 15rem;
   }
 
-  .pb-auto\@small-phone {
-    padding-bottom: auto;
-  }
-
   .pl-0\@small-phone {
     padding-left: 0;
   }
@@ -3537,10 +3481,6 @@
 
   .pl-30\@small-phone {
     padding-left: 15rem;
-  }
-
-  .pl-auto\@small-phone {
-    padding-left: auto;
   }
 
   .py-0\@small-phone {
@@ -3848,11 +3788,6 @@
     padding-bottom: 15rem;
   }
 
-  .py-auto\@small-phone {
-    padding-top: auto;
-    padding-bottom: auto;
-  }
-
   .px-0\@small-phone {
     padding-right: 0;
     padding-left: 0;
@@ -4157,11 +4092,6 @@
     padding-right: 15rem;
     padding-left: 15rem;
   }
-
-  .px-auto\@small-phone {
-    padding-right: auto;
-    padding-left: auto;
-  }
 }
 
 @media (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
@@ -4409,10 +4339,6 @@
     padding: 15rem;
   }
 
-  .p-auto\@tablet {
-    padding: auto;
-  }
-
   .pt-0\@tablet {
     padding-top: 0;
   }
@@ -4657,10 +4583,6 @@
     padding-top: 15rem;
   }
 
-  .pt-auto\@tablet {
-    padding-top: auto;
-  }
-
   .pr-0\@tablet {
     padding-right: 0;
   }
@@ -4903,10 +4825,6 @@
 
   .pr-30\@tablet {
     padding-right: 15rem;
-  }
-  
-  .pr-auto\@tablet {
-    padding-right: auto;
   }
 
   .pb-0\@tablet {
@@ -5153,10 +5071,6 @@
     padding-bottom: 15rem;
   }
 
-  .pb-auto\@tablet {
-    padding-bottom: auto;
-  }
-
   .pl-0\@tablet {
     padding-left: 0;
   }
@@ -5400,10 +5314,7 @@
   .pl-30\@tablet {
     padding-left: 15rem;
   }
-  
-  .pl-auto\@tablet {
-    padding-left: auto;
-  }
+
   .py-0\@tablet {
     padding-top: 0;
     padding-bottom: 0;
@@ -5707,11 +5618,6 @@
   .py-30\@tablet {
     padding-top: 15rem;
     padding-bottom: 15rem;
-  }
-
-  .py-auto\@tablet {
-    padding-top: auto;
-    padding-bottom: auto;
   }
 
   .px-0\@tablet {
@@ -6018,12 +5924,6 @@
     padding-right: 15rem;
     padding-left: 15rem;
   }
-
-  .px-auto\@tablet {
-    padding-right: auto;
-    padding-left: auto;
-  }
-
 }
 
 @media (min-width: $laptop-min-width) {
@@ -6271,10 +6171,6 @@
     padding: 15rem;
   }
 
-  .p-auto\@laptop {
-    padding: auto;
-  }
-
   .pt-0\@laptop {
     padding-top: 0;
   }
@@ -6519,10 +6415,6 @@
     padding-top: 15rem;
   }
 
-  .pt-auto\@laptop {
-    padding-top: auto;
-  }
-
   .pr-0\@laptop {
     padding-right: 0;
   }
@@ -6765,10 +6657,6 @@
 
   .pr-30\@laptop {
     padding-right: 15rem;
-  }
-  
-  .pr-auto\@laptop {
-    padding-right: auto;
   }
 
   .pb-0\@laptop {
@@ -7015,10 +6903,6 @@
     padding-bottom: 15rem;
   }
 
-  .pb-auto\@laptop {
-    padding-bottom: auto;
-  }
-
   .pl-0\@laptop {
     padding-left: 0;
   }
@@ -7261,10 +7145,6 @@
 
   .pl-30\@laptop {
     padding-left: 15rem;
-  }
-  
-  .pl-auto\@laptop {
-    padding-left: auto;
   }
 
   .py-0\@laptop {
@@ -7572,10 +7452,6 @@
     padding-bottom: 15rem;
   }
 
-  .py-auto\@laptop {
-    padding-top: auto;
-    padding-bottom: auto;
-  }
   .px-0\@laptop {
     padding-right: 0;
     padding-left: 0;
@@ -7880,11 +7756,4 @@
     padding-right: 15rem;
     padding-left: 15rem;
   }
-  
-
-  .px-auto\@laptop {
-    padding-right: auto;
-    padding-left: auto;
-  }
-
 }

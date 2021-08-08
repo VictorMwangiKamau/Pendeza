@@ -15,22 +15,17 @@
 
 .flex-wrap-reverse,
 .flex-wrap-reverse\@phone {
-  flex-wrap: wrap reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .flex-row-reverse,
 .flex-row-reverse\@phone {
-  flex-direction: row reverse;
+  flex-direction: row-reverse;
 }
 
 .flex-column-reverse,
 .flex-column-reverse\@phone {
-  flex-direction: column reverse;
-}
-
-.justify-content-auto,
-.justify-content-auto\@phone {
-  justify-content: space-auto;
+  flex-direction: column-reverse;
 }
 
 .justify-content-start,
@@ -162,22 +157,18 @@
   }
 
   .flex-wrap-reverse\@small-phone {
-    flex-wrap: wrap reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .flex-row-reverse\@small-phone {
-    flex-direction: row reverse;
+    flex-direction: row-reverse;
   }
 
   .flex-column-reverse\@small-phone {
-    flex-direction: column reverse;
+    flex-direction: column-reverse;
   }
 
-  .justify-content-auto\@small-phone {
-    justify-content: space-auto;
-  }
-
-  .justify-content-start\@small-phone {
+   .justify-content-start\@small-phone {
     justify-content: flex-start;
   }
 
@@ -284,22 +275,18 @@
   }
 
   .flex-wrap-reverse\@tablet {
-    flex-wrap: wrap reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .flex-row-reverse\@tablet {
-    flex-direction: row reverse;
+    flex-direction: row-reverse;
   }
 
   .flex-column-reverse\@tablet {
-    flex-direction: column reverse;
+    flex-direction: column-reverse;
   }
 
-  .justify-content-auto\@tablet {
-    justify-content: space-auto;
-  }
-
-  .justify-content-start\@tablet {
+   .justify-content-start\@tablet {
     justify-content: flex-start;
   }
 
@@ -406,22 +393,18 @@
   }
 
   .flex-wrap-reverse\@laptop {
-    flex-wrap: wrap reverse;
+    flex-wrap: wrap-reverse;
   }
 
   .flex-row-reverse\@laptop {
-    flex-direction: row reverse;
+    flex-direction: row-reverse;
   }
 
   .flex-column-reverse\@laptop {
-    flex-direction: column reverse;
+    flex-direction: column-reverse;
   }
 
-  .justify-content-auto\@laptop {
-    justify-content: space-auto;
-  }
-
-  .justify-content-start\@laptop {
+   .justify-content-start\@laptop {
     justify-content: flex-start;
   }
 
